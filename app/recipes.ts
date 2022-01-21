@@ -1,26 +1,25 @@
-import path from "path";
-import fs from "fs/promises";
 import scrape from "~/lib/scraper/scraper";
 import { SuccessResult } from "open-graph-scraper";
 
 export type Recipe = SuccessResult["result"];
 
-// relative to the server output not the source!
-const postsPath = path.join(__dirname, "../..", "content", "recipes.txt");
+const recipes = [
+  "https://njam.tv/recepten/pasta-met-scampi-in-tomatenroomsaus/",
+  "https://chloekookt.be/risotto-met-pesto-courgette-en-halloumi/",
+  "https://www.libelle-lekker.be/bekijk-recept/16877/farfalle-met-haloumi/",
+  "https://www.leukerecepten.nl/recepten/vegetarische-groentelasagne/",
+  "https://www.lekkerensimpel.com/aardappel-ovenschotel-met-linzen-en-kikkererwten/",
+  "https://chloekookt.be/parelcouscous-met-kerstomaatjes-en-halloumi/",
+];
 
 export async function getRecipes() {
-  const file = await fs.readFile(postsPath);
   const data = await Promise.all(
-    file
-      .toString()
-      .trim()
-      .split("\n")
-      .map(async (url) => {
-        try {
-          const data = await scrape(url);
-          return data;
-        } catch {}
-      })
+    recipes.map(async (url) => {
+      try {
+        const data = await scrape(url);
+        return data;
+      } catch {}
+    })
   );
   return data.filter((d) => d);
 }
