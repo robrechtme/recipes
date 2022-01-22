@@ -10,6 +10,13 @@ const recipes = [
   "https://www.leukerecepten.nl/recepten/vegetarische-groentelasagne/",
   "https://www.lekkerensimpel.com/aardappel-ovenschotel-met-linzen-en-kikkererwten/",
   "https://chloekookt.be/parelcouscous-met-kerstomaatjes-en-halloumi/",
+  "https://dagelijksekost.een.be/gerechten/pastitsio/",
+  "https://www.ah.be/allerhande/recept/R-R657508/ovenpasta-met-gehakt-en-courgette/",
+  "https://dagelijksekost.een.be/gerechten/lasagne-met-gegrilde-groenten/",
+  "https://15gram.be/recepten/ovenschotel-met-veggie-gehakt-en-broccoli/",
+  "http://lovemyfood.nl/lovemyfood.nl/ovenschotel-kip-en-italiaanse-groenten/",
+  "https://www.leukerecepten.nl/recepten/zalm-spinazie-lasagne/",
+  "https://www.colruyt.be/nl/lekker-koken/italiaanse-mini-croques/"
 ];
 
 export async function getRecipes() {
