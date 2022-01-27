@@ -506,10 +506,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-.relative {
-  position: relative;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -530,16 +526,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 4rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -554,32 +546,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   aspect-ratio: 16 / 9;
 }
 
-.aspect-square {
-  aspect-ratio: 1 / 1;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
 }
 
-.w-5 {
-  width: 1.25rem;
-}
-
 .min-w-full {
   min-width: 100%;
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-1 {
@@ -617,31 +589,13 @@ Ensure the default browser behavior of the `hidden` attribute.
      object-fit: cover;
 }
 
-.p-48 {
-  padding: 12rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-justify {
-  text-align: justify;
 }
 
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .text-4xl {
@@ -661,29 +615,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-transform: capitalize;
 }
 
-.text-gray-700 {
+.text-secondary-500 {
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-gray-800 {
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
+  color: rgb(111 113 126 / var(--tw-text-opacity));
 }
 
 .text-secondary-900 {
   --tw-text-opacity: 1;
   color: rgb(4 19 57 / var(--tw-text-opacity));
-}
-
-.text-secondary-500 {
-  --tw-text-opacity: 1;
-  color: rgb(111 113 126 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -716,20 +655,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
-  .sm\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 768px) {
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }

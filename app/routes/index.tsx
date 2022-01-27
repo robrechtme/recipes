@@ -1,10 +1,8 @@
 import { useLoaderData } from "remix";
 import RecipeCard from "~/components/RecipeCard";
-import { getRecipes, Recipe } from "~/recipes";
+import { getRecipes, Recipe } from "~/lib/recipes";
 
-export const loader = () => {
-  return getRecipes();
-};
+export const loader = getRecipes;
 
 export default function Index() {
   const recipes = useLoaderData<Recipe[]>();
@@ -19,7 +17,7 @@ export default function Index() {
         </h2>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8">
           {recipes.map((recipe) => (
-            <RecipeCard recipe={recipe} key={recipe.ogUrl} />
+            <RecipeCard key={recipe.ogUrl} recipe={recipe} />
           ))}
         </div>
       </div>

@@ -1,4 +1,4 @@
-import scrape from "~/lib/scraper/scraper";
+import scrape from "./scraper/scraper";
 import { SuccessResult } from "open-graph-scraper";
 
 export type Recipe = SuccessResult["result"];
@@ -16,7 +16,7 @@ const recipes = [
   "https://15gram.be/recepten/ovenschotel-met-veggie-gehakt-en-broccoli/",
   "http://lovemyfood.nl/lovemyfood.nl/ovenschotel-kip-en-italiaanse-groenten/",
   "https://www.leukerecepten.nl/recepten/zalm-spinazie-lasagne/",
-  "https://www.colruyt.be/nl/lekker-koken/italiaanse-mini-croques/"
+  "https://www.colruyt.be/nl/lekker-koken/italiaanse-mini-croques/",
 ];
 
 export async function getRecipes() {
