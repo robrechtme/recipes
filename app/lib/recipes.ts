@@ -17,6 +17,7 @@ const recipes = [
   "http://lovemyfood.nl/lovemyfood.nl/ovenschotel-kip-en-italiaanse-groenten/",
   "https://www.leukerecepten.nl/recepten/zalm-spinazie-lasagne/",
   "https://www.colruyt.be/nl/lekker-koken/italiaanse-mini-croques/",
+  "https://mustbeyummie.com/ovenschotel-met-gehakt-en-bloemkool/",
 ];
 
 export async function getRecipes() {
