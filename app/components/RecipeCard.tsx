@@ -43,9 +43,13 @@ const RecipeCard = ({ recipe }: Props) => (
   <a
     href={recipe.ogUrl}
     target="_blank"
-    className="flex flex-col bg-white shadow-lg hover:shadow-xl transition-all rounded-lg overflow-hidden"
+    className="flex flex-col bg-white shadow-lg shadow-primary-600 hover:shadow-xl transition-all rounded-lg overflow-hidden"
   >
-    <img src={getImage(recipe)} className="aspect-video object-cover" />
+    <img
+      src={getImage(recipe)}
+      className="aspect-video object-cover"
+      loading="lazy"
+    />
     <div className="mx-4 my-2">
       <p className="text-secondary-500 text-sm">{getSiteName(recipe)}</p>
       <p className="font-bold text-secondary-900">{getTitle(recipe)}</p>
