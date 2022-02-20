@@ -1,5 +1,6 @@
-import { Recipe } from "~/lib/recipes";
-import { capitalize, hostNameFromUrl } from "~/util/string";
+/* eslint-disable @next/next/no-img-element */
+import { Recipe } from "@lib/recipes";
+import { capitalize, hostNameFromUrl } from "@util/string";
 
 type Props = {
   recipe: Recipe;
@@ -30,7 +31,7 @@ const getSiteName = (recipe: Recipe) => {
 
 const getImage = (recipe: Recipe) => {
   if (recipe.ogImageURL) {
-    return recipe.ogImage;
+    return recipe.ogImage as string;
   }
   if (recipe.ogImage) {
     // @ts-ignore types incorrect
@@ -44,11 +45,13 @@ const RecipeCard = ({ recipe }: Props) => (
     href={recipe.url}
     target="_blank"
     className="flex flex-col bg-white shadow-lg shadow-primary-600 hover:shadow-xl transition-all rounded-lg overflow-hidden"
+    rel="noreferrer"
   >
     <img
       src={getImage(recipe)}
       className="aspect-video object-cover"
       loading="lazy"
+      alt={getTitle(recipe)}
     />
     <div className="mx-4 my-2">
       <p className="text-secondary-500 text-sm">{getSiteName(recipe)}</p>
