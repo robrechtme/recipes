@@ -41,7 +41,7 @@ const getImage = (recipe: Recipe) => {
 
 const RecipeCard = ({ recipe }: Props) => (
   <a
-    href={recipe.ogUrl}
+    href={recipe.url}
     target="_blank"
     className="flex flex-col bg-white shadow-lg shadow-primary-600 hover:shadow-xl transition-all rounded-lg overflow-hidden"
   >
