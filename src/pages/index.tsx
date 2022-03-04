@@ -1,11 +1,23 @@
-import { useLoaderData } from "remix";
-import RecipeCard from "~/components/RecipeCard";
-import { getRecipes, Recipe } from "~/lib/recipes";
+import type { GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
 
-export const loader = getRecipes;
+import RecipeCard from "@components/RecipeCard";
+import { getRecipes, Recipe } from "@lib/recipes";
 
-export default function Index() {
-  const recipes = useLoaderData<Recipe[]>();
+export const getStaticProps: GetStaticProps = async () => {
+  const recipes = await getRecipes();
+  return {
+    props: {
+      recipes,
+    },
+    revalidate: 60,
+  };
+};
+
+interface Props {
+  recipes: Recipe[];
+}
+
+const Home: NextPage<Props> = ({ recipes }) => {
   return (
     <div className="bg-primary-500">
       <div className="container mx-auto my-16">
@@ -17,10 +29,12 @@ export default function Index() {
         </h2>
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8">
           {recipes.map((recipe) => (
-            <RecipeCard key={recipe.ogUrl} recipe={recipe} />
+            <RecipeCard key={recipe.url} recipe={recipe} />
           ))}
         </div>
       </div>
     </div>
   );
-}
+};
+
+export default Home;
