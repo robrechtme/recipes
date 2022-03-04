@@ -25,14 +25,14 @@ A collection of my favorite recipes
 
 ## How it works
 
-1. I have a Google Sheet with URL's to recipes
-2. The server side parses the Google Sheet and visits the websites
-3. The scraper looks for [Open Graph](https://ogp.me/) data on the recipe website and sends it to the client side
-4. Tailwind makes it pretty
+1. I have a Google Sheet with URL's to recipes.
+2. The server side parses the Google Sheet and visits the websites.
+3. The scraper looks for [Open Graph](https://ogp.me/) data on the recipe website and sends it to the client side.
+4. Tailwind makes it pretty.
 
 ## License
 
-This repo is lincensed under [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/). See [LICENSE.md](/LICENSE.md) for more information.
+This repo is lincensed under [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/). See [LICENSE](/LICENSE) for more information.
 
 ## Contact
 
