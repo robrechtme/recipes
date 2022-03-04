@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <br />
+  <img src="public/favicon-32x32.png" height="32">
+  <br />
+  <h3 align="center">recipes</h3>
+  <p align="center">
 
-## Getting Started
+A collection of my favorite recipes
+<br />
+    <a href="https://kookboek.robrecht.me">» View Live</a>
 
-First, run the development server:
+<br />
+    <a href="https://github.com/robrechtme/recipes/issues">Report bug</a>
+·
+<a href="https://github.com/robrechtme/recipes/issues">Request feature</a>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+  </p>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [csv-parse](https://www.npmjs.com/package/csv-parse)
+- [open-graph-scraper](https://www.npmjs.com/package/open-graph-scraper)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## How it works
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. I have a Google Sheet with URL's to recipes
+2. The server side parses the Google Sheet and visits the websites
+3. The scraper looks for [Open Graph](https://ogp.me/) data on the recipe website and sends it to the client side
+4. Tailwind makes it pretty
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-## Learn More
+This repo is lincensed under [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/). See [LICENSE.md](/LICENSE.md) for more information.
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Robrecht Meersman - [@robrechtme](https://twitter.com/robrechtme) - hello@robrecht.me
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
