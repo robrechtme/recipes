@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html lang="nl">
       <Head>
-        <title>Tweede kookboek van Robrecht</title>
         <meta name="title" content="Tweede kookboek van Robrecht" />
         <meta
           name="description"
