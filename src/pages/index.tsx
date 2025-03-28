@@ -2,7 +2,9 @@ import type { GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 
 import RecipeCard from "@components/RecipeCard";
-import { getRecipes, Recipe } from "@lib/recipes";
+import { mockRecipes } from "@lib/data";
+import { getRecipes } from "@lib/recipes";
+import { Recipe } from "@lib/types";
 
 export const getStaticProps: GetStaticProps = async () => {
   const recipes = await getRecipes();
@@ -33,8 +35,8 @@ const Home: NextPage<Props> = ({ recipes }) => {
             Een collectie van lekkere recepten, deze keer niet van mezelf
           </h2>
           <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8">
-            {recipes.map((recipe) => (
-              <RecipeCard key={recipe.url} recipe={recipe} />
+            {recipes.map((recipe, i) => (
+              <RecipeCard key={i} id={i} recipe={recipe} />
             ))}
           </div>
         </div>

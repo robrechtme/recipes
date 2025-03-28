@@ -1,10 +1,7 @@
 // eslint-disable-next-line import/no-unresolved
 import { parse } from "csv-parse/sync";
-import { SuccessResult } from "open-graph-scraper";
 
-import scrape from "./ogScraper";
-
-export type Recipe = SuccessResult["result"] & { url: string };
+import { Recipe } from "./types";
 
 export async function getRecipes() {
   const rawData = await fetch(process.env.RECIPES_URL!).then((b) => b.text());
@@ -13,9 +10,10 @@ export async function getRecipes() {
   const data = await Promise.all(
     recipes.map(async (row: string[]) => {
       try {
-        const url = row[0];
-        const data = await scrape(url);
-        return { ...data, url } as Recipe;
+        const string = row[1];
+
+        const data = JSON.parse(string) as Recipe;
+        return data;
       } catch {}
     })
   );
