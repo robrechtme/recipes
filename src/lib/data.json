@@ -1,0 +1,775 @@
+[
+  {
+    "name": "Kip Tikka Masala",
+    "image": "https://cdn.dagelijksekost.tv/recipes/q3Hq9x253fk6bAwrIgWY/landscape/1727274592377_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=g8K8OcrcdoIL7tHMABGCanOW3jdCfUaLB9q%2B0h7OJ73nuB85ih8mJy8Pf%2FOhXkzvhNG85zbLZMOJCmDDHpvg%2BhMJ%2BR74SbhZkpucI4Y8keqqGPzOr5BIddmbfH33WYwB1XVyn2%2Bn228w8yj0tU8K1P%2Fvi03hnZOCxxL%2FqARcijbkRrQ2aaFUSYD30KVnzd22Dwo0xuhSXQx2eqsRrhDufH4wAmufS2qUJxb7w5zQCXvlSHawa%2Bll6Bwz%2Bm%2FMEXjbRfywSGSslHNGJfZraY3V71sd4L%2FgCJsWGf%2FliGwegkq0sVi2g71zjN%2FFvAhfKqQEDn%2BFWi0LALpZ%2FpESKxuE%2FA%3D%3D",
+    "source": "https://dagelijksekost.vrt.be/gerechten/kip-tikka-masala",
+    "description": "Kip 'Tikka Masala' is een wereldberoemd Indiaas gerecht. Jeroen marineert de kip in een kruidige en romige saus op basis van yoghurt en kokosmelk. Serveer het gerecht met een portie geurige basmatirijst.",
+    "author": { "name": "Dagelijkse kost" },
+    "datePublished": "2011-01-01",
+    "recipeCategory": "Hoofdgerecht",
+    "recipeCuisine": "Indiaas",
+    "keywords": "kip, tikka masala, Indiaas, curry",
+    "recipeYield": 4,
+    "prepTime": "PT30M",
+    "cookTime": "PT20M",
+    "totalTime": "PT2H30M",
+    "recipeIngredient": [
+      { "name": "Kipfilets", "amount": 4 },
+      { "name": "Yoghurt", "amount": 100, "unit": "ml" },
+      { "name": "Kokosmelk", "amount": 400, "unit": "ml" },
+      { "name": "Tomatenstukjes", "amount": 400, "unit": "g" },
+      { "name": "Gember", "amount": 40, "unit": "g" },
+      { "name": "Rode uien", "amount": 2 },
+      { "name": "Chilipeper", "amount": 1 },
+      { "name": "Lookteentjes", "amount": 3 },
+      { "name": "Limoen", "amount": 1 },
+      { "name": "Koriander", "amount": 0.5, "unit": "bosje" },
+      { "name": "Kurkumapoeder", "amount": 0.5, "unit": "el" },
+      { "name": "Garam masala", "amount": 0.5, "unit": "el" },
+      { "name": "Tandoori-pasta", "amount": 1, "unit": "el" },
+      { "name": "Currypoeder", "amount": 1, "unit": "el" },
+      { "name": "Amandelschilfers", "amount": 4, "unit": "el" },
+      { "name": "Arachideolie", "amount": 2, "unit": "scheutjes" },
+      { "name": "Peper", "amount": 1, "unit": "snufje" },
+      { "name": "Zout", "amount": 1, "unit": "snufje" },
+      { "name": "Basmatirijst", "amount": 200, "unit": "g" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Snijd de kipfilets in brede repen en doe ze in een ruime mengschaal."
+      },
+      {
+        "text": "Voeg de yoghurt, garam masala, tandoori-pasta, currypoeder, kurkumapoeder, limoenzeste en het sap van een halve limoen toe. Meng alles goed en laat de kip marineren."
+      },
+      {
+        "text": "Pel de lookteentjes, snipper de chilipeper en schil de gember. Mix deze samen met de koriandersteeltjes fijn in een blender."
+      },
+      {
+        "text": "Rooster de amandelschilfers in een hete pan tot ze lichtbruin zijn. Zet opzij."
+      },
+      {
+        "text": "Verhit een scheutje arachideolie in de pan. Haal de kip uit de marinade en bak de stukken kort aan beide zijden. Haal de kip uit de pan en zet opzij."
+      },
+      {
+        "text": "Pel en snipper de rode uien fijn. Stoof ze aan in dezelfde pan met een extra scheutje arachideolie."
+      },
+      {
+        "text": "Voeg het gemixte kruidenmengsel toe aan de uien en roer goed door."
+      },
+      {
+        "text": "Schenk de tomatenstukjes en de kokosmelk in de pan. Roer tot een egale saus."
+      },
+      {
+        "text": "Voeg de gebakken kip toe aan de saus en laat het geheel nog 20 minuten zachtjes sudderen."
+      },
+      {
+        "text": "Kook ondertussen de basmatirijst volgens de aanwijzingen op de verpakking."
+      },
+      {
+        "text": "Serveer de kip tikka masala met de basmatirijst en werk af met de geroosterde amandelschilfers en verse korianderblaadjes."
+      }
+    ]
+  },
+  {
+    "name": "Risotto met Pesto, Courgette en Halloumi",
+    "image": "https://chloekookt.be/wp-content/uploads/2020/08/5.jpg",
+    "source": "https://chloekookt.be/risotto-met-pesto-courgette-en-halloumi/",
+    "description": "Een smaakvolle risotto gecombineerd met groene pesto, gebakken courgette en krokant gebakken halloumi, afgewerkt met verse basilicum.",
+    "author": { "name": "Chloé Kookt" },
+    "datePublished": "2019-08-15",
+    "recipeCategory": "Hoofdgerecht",
+    "recipeCuisine": "Italiaans",
+    "keywords": "risotto, pesto, courgette, halloumi, vegetarisch",
+    "recipeYield": 2,
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      { "name": "Risottorijst", "amount": 125, "unit": "g" },
+      { "name": "Bouillonblokje", "amount": 1 },
+      { "name": "Halloumi", "amount": 150, "unit": "g" },
+      { "name": "Courgette", "amount": 1 },
+      { "name": "Ui", "amount": 1 },
+      { "name": "Lookteentjes", "amount": 2 },
+      { "name": "Pesto", "amount": 1.5, "unit": "el" },
+      { "name": "Parmezaanse kaas", "amount": 30, "unit": "g" },
+      { "name": "Heet water", "amount": 500, "unit": "ml" },
+      { "name": "Olijfolie", "amount": 2, "unit": "el" },
+      { "name": "Peper", "amount": 1, "unit": "snufje" },
+      { "name": "Zout", "amount": 1, "unit": "snufje" },
+      { "name": "Basilicum", "amount": 1, "unit": "handvol" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Verhit een pot op het vuur en voeg een scheut olijfolie toe."
+      },
+      {
+        "text": "Stoof de fijngehakte look samen met de risottorijst tot de rijst glazig wordt."
+      },
+      {
+        "text": "Voeg beetje bij beetje heet water toe en los het bouillonblokje erin op. Blijf roeren en voeg water toe tot de rijst gaar is (ongeveer 15-20 minuten)."
+      },
+      {
+        "text": "Snijd de courgette en ui in stukjes en bak ze in een beetje olijfolie. Kruid met peper en zout."
+      },
+      {
+        "text": "Meng de helft van de gebakken groenten onder de risotto; bewaar de rest voor de garnering."
+      },
+      {
+        "text": "Roer de pesto en Parmezaanse kaas door de risotto en breng op smaak met peper en zout."
+      },
+      {
+        "text": "Snijd de halloumi in plakjes en bak ze zonder vetstof tot ze een krokant korstje hebben."
+      },
+      {
+        "text": "Serveer de risotto met de overgebleven groenten, de gebakken halloumi en werk af met verse basilicum."
+      }
+    ]
+  },
+  {
+    "name": "Pasta met scampi in tomatenroomsaus",
+    "image": "https://images-5.schellywood.be/thumbnail/full/23273/pasta-met-scampi.jpg",
+    "source": "https://njam.tv/recepten/pasta-met-scampi-in-tomatenroomsaus",
+    "description": "Een heerlijk pastagerecht met scampi's in een romige tomatensaus.",
+    "author": { "name": "Stephanie Bex" },
+    "recipeCategory": "Hoofdgerecht",
+    "recipeCuisine": "Italiaans",
+    "keywords": "pasta, scampi, tomatenroomsaus",
+    "recipeYield": 4,
+    "prepTime": "PT10M",
+    "cookTime": "PT10M",
+    "totalTime": "PT20M",
+    "recipeIngredient": [
+      { "name": "pasta", "amount": 400, "unit": "g" },
+      { "name": "scampi's", "amount": 24 },
+      { "name": "look", "amount": 1, "unit": "teentje" },
+      { "name": "rode ui", "amount": 1 },
+      { "name": "Boursin", "amount": 150, "unit": "g" },
+      { "name": "tomatenpuree", "amount": 70, "unit": "g" },
+      { "name": "room", "amount": 200, "unit": "ml" },
+      { "name": "kersomaatjes", "amount": 250, "unit": "g" },
+      { "name": "bieslook", "amount": 1, "unit": "handvol" },
+      { "name": "peper", "amount": 1, "unit": "snufje" },
+      { "name": "zout", "amount": 1, "unit": "snufje" },
+      { "name": "cayennepeper", "amount": 1, "unit": "snufje" }
+    ],
+    "recipeInstructions": [
+      { "text": "Kook de pasta al dente." },
+      {
+        "text": "Bak de look, rode ui en scampi's in een pan tot ze goudkleurig zijn."
+      },
+      { "text": "Voeg de Boursin toe en laat smelten." },
+      {
+        "text": "Doe de tomatenpuree, room en kerstomaatjes erbij. Voeg indien nodig een scheutje water toe als de saus te dik is."
+      },
+      {
+        "text": "Kruid met peper, zout en cayennepeper en meng de pasta onder de saus."
+      },
+      { "text": "Werk af met bieslook." }
+    ]
+  },
+  {
+    "name": "Aardappel-ovenschotel met linzen en kikkererwten",
+    "image": "https://www.lekkerensimpel.com/wp-content/uploads/2016/10/IMG_3792.jpg",
+    "source": "https://www.lekkerensimpel.com/aardappel-ovenschotel-met-linzen-en-kikkererwten/",
+    "description": "Een smakelijke ovenschotel met (zoete) aardappels, linzen en kikkererwten.",
+    "recipeCategory": "Hoofdgerecht",
+    "author": { "name": "Lekker en Simpel" },
+    "recipeYield": 2,
+    "prepTime": "PT20M",
+    "cookTime": "PT15M",
+    "totalTime": "PT35M",
+    "recipeIngredient": [
+      { "name": "(zoete) aardappels", "amount": 500, "unit": "g" },
+      { "name": "linzen uit blik", "amount": 150, "unit": "g" },
+      { "name": "kikkererwten uit blik", "amount": 150, "unit": "g" },
+      { "name": "tomatenblokjes", "amount": 200, "unit": "g" },
+      { "name": "paprika", "amount": 1 },
+      { "name": "ui", "amount": 1 },
+      { "name": "knoflook", "amount": 1, "unit": "teen" },
+      { "name": "ras el hanout kruiden", "amount": 1, "unit": "tl" },
+      { "name": "geraspte kaas", "amount": 1, "unit": "handje" },
+      { "name": "zout", "amount": 1, "unit": "snufje" },
+      { "name": "peper", "amount": 1, "unit": "snufje" }
+    ],
+    "recipeInstructions": [
+      { "text": "Verwarm de oven voor op 200 graden." },
+      {
+        "text": "Schil de aardappels en snijd ze in plakjes. Kook de plakjes ongeveer 10 minuten tot ze zacht zijn."
+      },
+      {
+        "text": "Snipper de ui en snijd de knoflook fijn. Bak deze in een pan met een scheutje olie."
+      },
+      {
+        "text": "Voeg na 2-3 minuten de in stukjes gesneden paprika toe en bak enkele minuten mee."
+      },
+      {
+        "text": "Voeg de kikkererwten, linzen en ras el hanout kruiden toe en bak kort mee."
+      },
+      {
+        "text": "Voeg de tomatenblokjes toe en laat het geheel ongeveer 10 minuten zachtjes pruttelen."
+      },
+      {
+        "text": "Verdeel de helft van de aardappelschijfjes over de bodem van een ingevette ovenschaal."
+      },
+      {
+        "text": "Schep de helft van de saus over de aardappels. Leg hierop de rest van de aardappelschijfjes en vervolgens de resterende saus."
+      },
+      { "text": "Strooi de geraspte kaas over de ovenschotel." },
+      {
+        "text": "Bak de ovenschotel ongeveer 15 minuten in de oven tot de kaas gesmolten is."
+      }
+    ],
+    "recipeCuisine": "Mediterraans"
+  },
+  {
+    "name": "Creamy Pasta met Kerstomatensaus en Ricotta",
+    "image": "https://chloekookt.be/wp-content/uploads/2020/08/7.jpg",
+    "source": "https://chloekookt.be/creamy-pasta-met-kerstomatensaus-en-ricotta/",
+    "description": "Een romige pasta met zoete kerstomaatjes en ricotta. De combinatie van verse tomaten, ricotta en parmezaan zorgt voor een heerlijke smaak, terwijl de chilipoeder een subtiele pittige toets geeft. Een perfect vegetarisch gerecht dat snel op tafel staat.",
+    "author": { "name": "Chloe Kookt" },
+    "datePublished": "2020-08-04T16:45:58+00:00",
+    "recipeYield": 2,
+    "recipeIngredient": [
+      { "name": "pasta", "amount": 150, "unit": "g" },
+      { "name": "kerstomaatjes", "amount": 200, "unit": "g" },
+      { "name": "rode paprika", "amount": 1, "unit": "stuk" },
+      { "name": "lookteentjes", "amount": 2, "unit": "stuk" },
+      { "name": "ui", "amount": 1, "unit": "stuk" },
+      { "name": "tomatensaus", "amount": 0.5, "unit": "pot" },
+      { "name": "ricotta", "amount": 100, "unit": "g" },
+      { "name": "parmezaan", "amount": 40, "unit": "g" },
+      { "name": "light room", "amount": 5, "unit": "cl" },
+      { "name": "chilipoeder", "amount": 1, "unit": "tl" },
+      { "name": "basilicum", "amount": 1, "unit": "handvol" }
+    ],
+    "recipeInstructions": [
+      { "text": "Kook de pasta in gezout water" },
+      {
+        "text": "Snijd de groenten en look en stoof deze in olijfolie met wat peper en zout"
+      },
+      { "text": "Blus met de tomatensaus en voeg de chilipoeder toe" },
+      { "text": "Laat de saus even sudderen op een laag vuurtje" },
+      {
+        "text": "Voeg de basilicumblaadjes toe, de ricotta, scheutje room en de parmezaanse kaas"
+      },
+      { "text": "Meng de pasta onder de saus" },
+      { "text": "Werk eventueel af met wat ricotta en verse basilicum" }
+    ],
+    "recipeCuisine": "Italiaans"
+  },
+  {
+    "name": "Parelcouscous met Kerstomaatjes en Halloumi",
+    "image": "https://chloekookt.be/wp-content/uploads/2020/08/7-1.jpg",
+    "source": "https://chloekookt.be/parelcouscous-met-kerstomaatjes-en-halloumi/",
+    "description": "Ingrediënten:(voor 2 personen)– 200g halloumi– 100g parelcouscous– 200g honing/ kerstomaten– 1 rode paprika– 1 ui– 2 lookteentjes– 1dl light room– 1 blokje groentenbouillon– peterselie ter afwerking",
+    "author": { "name": "Chloe Kookt" },
+    "datePublished": "2020-08-04T16:09:43+00:00",
+    "recipeYield": 2,
+    "recipeIngredient": [
+      { "name": "halloumi", "amount": 200, "unit": "g" },
+      { "name": "parelcouscous", "amount": 100, "unit": "g" },
+      { "name": "kerstomaten", "amount": 200, "unit": "g" },
+      { "name": "rode paprika", "amount": 1 },
+      { "name": "ui", "amount": 1 },
+      { "name": "lookteentjes", "amount": 2 },
+      { "name": "light room", "amount": 1, "unit": "dl" },
+      { "name": "groentenbouillon", "amount": 1, "unit": "blokje" },
+      { "name": "peterselie", "amount": 1, "unit": "handvol" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Zet de kerstomaten eerst in de oven voor 15-20 min tot deze zacht zijn met wat olijfolie, peper en zout (je kan ze ook stoven in de pan)"
+      },
+      { "text": "Kook de parelcouscous" },
+      {
+        "text": "Snijd de paprika, halloumi, ui en look – stoof deze in een beetje olijfolie met peper en klein beetje zout (halloumi is al heel zout)"
+      },
+      { "text": "Bak tot de halloumi een krokant korstje krijgt" },
+      {
+        "text": "Meng de warme tomaatjes door de couscous en voeg de room en het groentenbouillonblokje toe zodat je een smeuïg geheel krijgt"
+      },
+      {
+        "text": "Verdeel de couscous over de borden en leg de gebakken groenten en halloumi er boven op"
+      },
+      { "text": "Werk eventueel af met peterselie" }
+    ],
+    "recipeCuisine": "Mediterraans"
+  },
+  {
+    "name": "Pastitsio",
+    "image": "https://cdn.dagelijksekost.tv/recipes/LaZLOcbfpq4PvyKoSjXL/landscape/1727274378439_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=n6q2CFYi%2FtrMTNRclwV7l3YiyS9eFkNSppTmU6NxOf9iQoljbceK0jjQTL%2FF5Iif04HX99s44wyPy0JM22ptuPQZ%2F%2FHiSz7EK3cHqdQ1MmHqj78MJz9w0aEKIUQjJs4F0FGxRtTLG%2FI4lp2Jg%2B11bNutJ68qkXSlvjsE%2FwRlbazsORRfBo1toQt1MVrWfo1eYVTn%2BDPcVrJrmziD4cZxaJwUseD4fVfJZPkzCBfxgwGdRBReFAQxfr7uA4fDa6uqpQo1jRKMPle98zahbmvmCRMK6etjBokk52aB%2FPylR8BTBGcktLjyo9nNMT7Ap0TH0caA%2FTpQ3UVeWKh9oyzjkQ%3D%3D",
+    "source": "https://dagelijksekost.vrt.be/gerechten/pastitsio",
+    "description": "Pastitsio is een pastaschotel met gehakt en bucatini (holle pasta) afkomstig uit Griekenland. De ovenschotel is opgebouwd uit laagjes pasta, een laagje gehaktsaus en een laagje bechamelsaus. Deze schotel maak je makkelijk op voorhand klaar.",
+    "author": { "name": "Dagelijkse kost" },
+    "recipeYield": 4,
+    "recipeIngredient": [
+      { "name": "zout", "amount": 1, "unit": "snufje" },
+      { "name": "boter", "amount": 40, "unit": "g" },
+      { "name": "gehakt", "amount": 1000, "unit": "g" },
+      { "name": "ajuin", "amount": 4 },
+      { "name": "look", "amount": 3, "unit": "teentje" },
+      { "name": "oregano", "amount": 1, "unit": "snufje" },
+      { "name": "kaneel", "amount": 1, "unit": "snufje" },
+      { "name": "laurierblaadjes", "amount": 2 },
+      { "name": "kaneelstokje", "amount": 1 },
+      { "name": "kruidnagels", "amount": 2 },
+      { "name": "tomatenpuree", "amount": 1, "unit": "el" },
+      { "name": "rode wijn", "amount": 1, "unit": "scheutje" },
+      { "name": "bucatini", "amount": 500, "unit": "g" },
+      { "name": "bloem", "amount": 60, "unit": "g" },
+      { "name": "tomatenblokjes", "amount": 2, "unit": "blik" },
+      { "name": "tomaten passata", "amount": 690, "unit": "g" },
+      { "name": "melk", "amount": 0.6, "unit": "l" },
+      { "name": "parmezaanse kaas", "amount": 100, "unit": "g" },
+      { "name": "olijfolie", "amount": 1, "unit": "scheutje" },
+      { "name": "feta", "amount": 100, "unit": "g" },
+      { "name": "rozemarijn", "amount": 1, "unit": "snufje" },
+      { "name": "nootmuskaat", "amount": 1, "unit": "snufje" },
+      { "name": "peper", "amount": 1, "unit": "snufje" },
+      { "name": "panko", "amount": 50, "unit": "g" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Verwarm de oven voor op 200°C. Breng een pot gezouten water aan de kook en zet een pan op het vuur."
+      },
+      { "text": "Laat een flinke klont boter heet worden in een kookpot." },
+      {
+        "text": "Leg het gehakt in grote stukken in de pan met de boter. Duw het gehakt vervolgens plat in de pan en laat het rustig verder bakken."
+      },
+      { "text": "Pel de ui en snijd ze in stukjes." },
+      { "text": "Pel en snijd de teentjes look fijn." },
+      {
+        "text": "Kruid de stovende groenten met een flinke snuif oregano, een snuif kaneel, enkele laurierblaadjes, een kaneelstokje, een flinke snuif tijm en de kruidnagels."
+      },
+      {
+        "text": "Haal het vlees van het vuur en laat even uitlekken. Voeg vervolgens toe aan de stovende groenten en meng onder elkaar."
+      },
+      { "text": "Doe er de tomatenpuree bij en laat even meebakken." },
+      { "text": "Giet er de rode wijn over en laat deze inkoken." },
+      {
+        "text": "Kook de pasta 1 minuut minder als vermeld staat op de verpakking."
+      },
+      {
+        "text": "Laat de boter smelten in een pot en voeg er de bloem aan toe. Meng het geheel tot een stevige roux en laat even drogen op het vuur."
+      },
+      {
+        "text": "Doe de tomatenblokjes en de passata bij de saus en meng het geheel onder elkaar."
+      },
+      {
+        "text": "Blus de roux met de melk. Blijf geduldig doorroeren met een garde tot de saus pruttelt en bindt tot een gladde bechamelsaus."
+      },
+      { "text": "Rasp de parmezaan in een kom en zet even aan de kant." },
+      { "text": "Neem de ovenschalen en giet er een scheutje olijfolie in." },
+      {
+        "text": "Giet de pasta af en verdeel de helft van de pasta over de twee ovenschalen. Lepel er wat van de saus over. Verdeel ook de andere helft van de pasta over de ovenschalen."
+      },
+      {
+        "text": "Doe een deel van de feta met de geraspte Parmezaanse kaas bij de bechamelsaus en meng het geheel onder elkaar."
+      },
+      {
+        "text": "Breng de saus verder op smaak met een snuifje rozemarijn, een snuifje nootmuskaat, een snuifje zout en wat peper van de molen."
+      },
+      {
+        "text": "Verdeel de bechamelsaus over de ovenschotels. Verbrokkel er de rest van de feta over en werk af met wat panko en een scheutje olijfolie."
+      },
+      { "text": "Schuif de ovenschotel nog 20 minuten in de hete oven." }
+    ],
+    "recipeCuisine": "Grieks"
+  },
+  {
+    "name": "Lasagne met gegrilde groenten",
+    "image": "https://cdn.dagelijksekost.tv/recipes/gHoMEcAuSJUh8FpzPZrA/landscape/1727274564561_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=adMUytdtYo9CAGEBz9zkvLxGfKXtgNsP%2BQAsQ%2FQyT72kPA2HtXFaJc1ayFaGFByC3G%2FdGi2%2FHUxGfASohcepvMd%2B%2BpIkZS7NegwJuAeoEq2UagWKEItDiVX%2BwPMNjTjqh2LcmftbVw1D0SJycyjTR0qua8Qmv4CbjVqvMHUNwXafeCZdrVNV0B7KFGl79kBhsYIoRT8bJOtiyWRKYmA1bvxPlrmoQrNfhTxTV9IR5uiOKrP9xlDGmerswckM6hAZp9AwjjS2EXbPZ84rLPiT%2FveitwfEqqdv98CSWWNpiXIA5txczVqbfVaja4WOtQaVUMOmX8uK3bK6IeEo5K6k2g%3D%3D",
+    "source": "https://dagelijksekost.vrt.be/gerechten/lasagne-met-gegrilde-groenten",
+    "description": "Deze klassieke ovenschotel met pasta heeft best wat tijd nodig om te garen, maar is het wachten waard. De groenten gaan vooraf even in de grillpan, wat zorgt voor extra smaak. Dit gerecht is ook geschikt voor wie vegetarisch eet.",
+    "keywords": "hoofdgerecht, vegetarisch",
+    "author": { "name": "Dagelijkse kost" },
+    "totalTime": "PT2H30M",
+    "recipeYield": 4,
+    "recipeIngredient": [
+      { "name": "ui", "amount": 2 },
+      { "name": "olijfolie", "amount": 1, "unit": "scheutje" },
+      { "name": "look", "amount": 2, "unit": "teentje" },
+      { "name": "rode chilipeper", "amount": 1 },
+      { "name": "laurier", "amount": 2, "unit": "blaadje" },
+      { "name": "tijm", "amount": 1, "unit": "takje" },
+      { "name": "tomatenpuree", "amount": 70, "unit": "g" },
+      { "name": "witte wijn", "amount": 0.1, "unit": "l" },
+      { "name": "tomatenstukjes", "amount": 400, "unit": "g" },
+      { "name": "tomatenpulp", "amount": 500, "unit": "g" },
+      { "name": "rode paprika", "amount": 2 },
+      { "name": "courgette", "amount": 1 },
+      { "name": "aubergine", "amount": 1 },
+      { "name": "parijse champignons", "amount": 250, "unit": "g" },
+      { "name": "spinazie", "amount": 300, "unit": "g" },
+      { "name": "parmezaanse kaas", "amount": 150, "unit": "g" },
+      { "name": "ricotta", "amount": 400, "unit": "g" },
+      { "name": "peper", "amount": 1, "unit": "snufje" },
+      { "name": "lasagnevellen", "amount": 18 },
+      { "name": "Provençaalse kruiden", "amount": 1, "unit": "snufje" },
+      { "name": "grof zout", "amount": 1, "unit": "snufje" },
+      { "name": "mozzarella", "amount": 1, "unit": "bolletje" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Pel de uien, snij ze middendoor en snipper ze in zeer fijne stukjes."
+      },
+      {
+        "text": "Verhit een stoofpot op een matig vuur. Schenk er een scheut olijfolie in."
+      },
+      {
+        "text": "Stoof de stukjes ui in de hete olie. Roer regelmatig even in de pot."
+      },
+      {
+        "text": "Pel tussendoor de teentjes look. Snij ze in stukjes en plet ze tot pulp. Gebruik hiervoor de zijkant van het brede lemmet van je koksmes, of grijp naar de lookpers. Roer de lookpulp door de stukjes ui in de stoofpot."
+      },
+      {
+        "text": "Snij de rode chilipeper overlangs in twee. Beslis of je de pittige zaadjes al dan niet mee wil verwerken. Snipper het pepertje in de allerkleinste stukjes en laat die rode puntjes meestoven met de uien. Wie helemaal niet van een pikante smaak houdt kan minder of geen chilipeper gebruiken."
+      },
+      {
+        "text": "Na 5 minuten stoven, kunnen de kruiden erbij. Begin met de blaadjes laurier en de tijm. Je kan de kruiden ook samenbinden met wat keukentouw."
+      },
+      {
+        "text": "Schep de geconcentreerde tomatenpuree toe en roer. Laat de puree kort meestoven, zodat de wrange smaak van de puree verdwijnt."
+      },
+      {
+        "text": "Schenk de witte wijn erbij en laat de alcohol verdampen. Enkele minuten later voeg je de tomatenpulp en de tomatenstukjes toe."
+      },
+      {
+        "text": "Laat de saus een kwartier pruttelen op een zacht vuur."
+      },
+      {
+        "text": "Neem een ruime ovenschaal bij de hand. Zet de grillpan op een stevig vuur en laat ze minstens 10 minuten voorverwarmen. Hoe heter de pan is, hoe krachtiger je kan grillen. Spoel alle groenten schoon."
+      },
+      {
+        "text": "Schil de rode paprika's met een dunschiller. Verdeel de vruchten in kwarten en snij het steeltje en de bleke vliesjes aan de binnenzijde weg."
+      },
+      {
+        "text": "Snij de courgette en de aubergine overlangs in repen van een halve centimeter breed. Veeg de paddenstoelen schoon met een beetje papier (indien nodig) en snij ze in brede schijfjes."
+      },
+      {
+        "text": "Leg de groenten op een schaal en besprenkel ze met een beetje olijfolie."
+      },
+      {
+        "text": "Zet de dampkap op en grill de groenten in beurten. Laat de pan een mooi grillpatroon bakken in de stukken paprika, courgette en aubergine."
+      },
+      {
+        "text": "Spoel de blaadjes spinazie in ruim water. Verwijder de taaiste bladstelen en de middennerf van de bladeren (of gebruik jonge spinazie). Verwarm de oven voor op 180°C."
+      },
+      {
+        "text": "Rasp de Parmezaanse kaas."
+      },
+      {
+        "text": "Neem een mengkom en roer daarin de ricotta en de gemalen Parmezaanse kaas tot een stevig smeuïg mengsel."
+      },
+      {
+        "text": "Kruid het kaasmengsel met flink wat peper van de molen. De Parmezaanse kaas zorgt al voor de zoute smaak."
+      },
+      {
+        "text": "Neem de diepe ovenschaal en schep een laagje tomatensaus op de bodem."
+      },
+      {
+        "text": "Schik er een vel pasta bovenop. Zorg dat het laagje lasagnevellen de hele bodem bedekt, maar vermijd dat de pastavellen elkaar overlappen."
+      },
+      {
+        "text": "Strijk daarbovenop een laagje van het kaasmengsel."
+      },
+      {
+        "text": "Leg een laag verse spinazieblaadjes op de kaas, en een deel van de gegrilde groenten. Puzzel ze samen, zodat de diverse groenten evenredig verdeeld zijn."
+      },
+      {
+        "text": "Strooi er een beetje Provençaalse kruiden, een beetje grof zout en wat peper van de molen bovenop."
+      },
+      {
+        "text": "Vervolgens is het de beurt aan een laagje tomatensaus."
+      },
+      {
+        "text": "Herhaal de handelingen: lasagnevellen, kaasmengsel, spinazie, gegrilde groenten, kruiden, peper en zout."
+      },
+      {
+        "text": "Bovenop het laatste laagje lasagnevellen komt een laagje kaasmengsel, eventueel nog een deel geroosterde groenten (zonder spinazie). Schenk er nog wat tomatensaus over."
+      },
+      {
+        "text": "Werk de ovenschotel af met brokjes verse mozzarella. Verdeel ze over het hele oppervlak van de lasagne."
+      },
+      {
+        "text": "Plaats de lasagne in de voorverwarmde oven van 180°C. Laat ze ongeveer 30 tot 40 minuten garen. Let wel: de exacte gaartijd is afhankelijk van de dikte van je lasagne. Gebruik een prikvork om te controleren of de lasagnevellen gaar (en dus zacht) zijn."
+      }
+    ],
+    "recipeCuisine": "Italiaans"
+  },
+  {
+    "name": "Ovenschotel met veggie gehakt en broccoli",
+    "image": "https://image.15gram.be/uploads/recipes/8053_ovenschotel-met-veggie-gehakt-en-broccoli_1511167153-1920x1280.jpg",
+    "source": "https://15gram.be/recepten/ovenschotel-met-veggie-gehakt-en-broccoli",
+    "description": "Hachis parmentier, de bekende ovenschotel met gehakt en groenten in laagjes, kan je ook in een overheerlijke veggieversie maken, met vegetarisch gehakt.",
+    "recipeYield": 2,
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      { "name": "vastkokende aardappelen", "amount": 400, "unit": "g" },
+      { "name": "broccoli", "amount": 1 },
+      { "name": "lichte room", "amount": 100, "unit": "ml" },
+      { "name": "knoflook", "amount": 1, "unit": "teentje" },
+      { "name": "parmezaan", "amount": 30, "unit": "g" },
+      { "name": "vegetarisch gehakt", "amount": 200, "unit": "g" },
+      { "name": "Provençaalse kruiden", "amount": 2, "unit": "kl" },
+      { "name": "olijfolie", "amount": 1, "unit": "el" },
+      { "name": "peper", "amount": 1, "unit": "snufje" },
+      { "name": "zout", "amount": 1, "unit": "snufje" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Verwarm de oven voor op 175 °C. Schil de aardappelen en snij ze in plakjes. Snij de broccoli in kleine roosjes. Kook de aardappelen en de broccoli 6-8 minuten in gezouten water en giet af."
+      },
+      {
+        "text": "Warm de room op in een steelpannetje. Pers er de knoflook bij en voeg de helft van de parmezaan toe. Kruid met peper en zout. Haal van het vuur."
+      },
+      {
+        "text": "Bak het vegetarisch gehakt in de olijfolie en breng op smaak met de Provençaalse kruiden, peper en zout."
+      },
+      {
+        "text": "Schik het gehakt, de broccoliroosjes en dan de aardappelplakjes in laagjes in een ovenschaal. Giet de roomsaus over de aardappelplakjes en strooi er de rest van de parmezaan over."
+      },
+      {
+        "text": "Zet de ovenschaal 10-13 minuten in de voorverwarmde oven. Zet dan nog enkele minuten onder een hete grill voor een goudgeel korstje."
+      }
+    ],
+    "recipeCuisine": "Frans"
+  },
+  {
+    "name": "Ovenschotel met kip en Italiaanse groenten",
+    "image": "https://i0.wp.com/lovemyfood.nl/lovemyfood.nl/wp-content/uploads/2016/05/Ovenschotel-met-kip-en-Italiaanse-groenten-2.jpg?fit=900%2C600&ssl=1",
+    "source": "http://lovemyfood.nl/lovemyfood.nl/ovenschotel-kip-en-italiaanse-groenten/",
+    "description": "Een eenvoudige Italiaanse ovenschotel met kip, krieltjes en mediterrane groenten, afgewerkt met mozzarella en Parmezaanse kaas.",
+    "author": { "name": "Love My Food" },
+    "recipeCategory": "Hoofdgerecht",
+    "recipeCuisine": "Italiaans",
+    "keywords": "kip, ovenschotel, groenten, Italiaans",
+    "recipeYield": 4,
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "recipeIngredient": [
+      { "name": "kipfilet", "amount": 400, "unit": "g" },
+      { "name": "voorgekookte krieltjes", "amount": 350, "unit": "g" },
+      { "name": "courgette", "amount": 1 },
+      { "name": "aubergine", "amount": 1, "unit": "kleine" },
+      { "name": "ui", "amount": 1 },
+      { "name": "knoflook", "amount": 2, "unit": "teentjes" },
+      { "name": "tomatenblokjes", "amount": 1, "unit": "blik" },
+      { "name": "mozzarella", "amount": 200, "unit": "g" },
+      { "name": "gedroogde Italiaanse kruiden", "amount": 1, "unit": "el" },
+      { "name": "cayennepeper", "amount": 0.5, "unit": "tl" },
+      { "name": "paprikapoeder", "amount": 0.5, "unit": "tl" },
+      { "name": "Parmezaanse kaas", "amount": 1, "unit": "handje" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Verwarm de oven voor op 200 graden en vet een grote ovenschaal licht in."
+      },
+      {
+        "text": "Snijd de kipfilet in blokjes en snijd de courgette en aubergine in ¼ plakjes."
+      },
+      {
+        "text": "Snipper de ui en hak de knoflook fijn."
+      },
+      {
+        "text": "Snijd de mozzarella in stukjes."
+      },
+      {
+        "text": "Doe alles bij elkaar in de ovenschaal en voeg de krieltjes, tomatenblokjes, Italiaanse kruiden, cayennepeper en paprikapoeder toe. Breng op smaak met peper en zout en meng alles goed door elkaar."
+      },
+      {
+        "text": "Bestrooi de ovenschotel met de Parmezaanse kaas zet voor ca. 30 minuten in de oven tot de kip gaar is."
+      },
+      {
+        "text": "Serveer met wat extra geraspte kaas."
+      }
+    ]
+  },
+  {
+    "name": "Zalm spinazie lasagne",
+    "image": "https://www.leukerecepten.nl/app/uploads/2020/03/lasagne-met-zalm_n.jpg",
+    "source": "https://www.leukerecepten.nl/recepten/zalm-spinazie-lasagne/",
+    "description": "Makkelijke verse lasagne met laagjes romige spinazie, plakjes tomaat en zalm, een heerlijke combinatie van pasta, groenten en vis",
+    "recipeCuisine": "Italiaans",
+    "author": { "name": "Leuke Recepten" },
+    "keywords": "vis, pasta, groenten",
+    "recipeYield": 4,
+    "prepTime": "PT30M",
+    "cookTime": "PT45M",
+    "totalTime": "PT1H15M",
+    "recipeIngredient": [
+      { "name": "lasagnevellen", "amount": 250, "unit": "g" },
+      { "name": "verse spinazie", "amount": 600, "unit": "g" },
+      { "name": "verse zalmfilet", "amount": 300, "unit": "g" },
+      { "name": "ricotta", "amount": 450, "unit": "g" },
+      { "name": "melk", "amount": 125, "unit": "ml" },
+      { "name": "geraspte kaas", "amount": 1, "unit": "handje" },
+      { "name": "knoflook", "amount": 1, "unit": "teentje" },
+      { "name": "tomaten", "amount": 2 },
+      { "name": "peper", "amount": 1, "unit": "snufje" },
+      { "name": "zout", "amount": 1, "unit": "snufje" },
+      { "name": "boter", "amount": 1, "unit": "scheutje" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Verwarm de oven op 200 graden. Bak de spinazie in etappes in een grote pan tot deze geslonken is. Snijd de zalm in dunne plakken."
+      },
+      {
+        "text": "Druk met een lepel zo veel mogelijk vocht uit de spinazie in een zeef of vergiet. Doe de geslonken spinazie in een kom en voeg de ricotta en melk toe en meng door elkaar. Breng op smaak met een flinke snuf peper, zout en knoflook."
+      },
+      {
+        "text": "Vet de ovenschaal in en verdeel een beetje (ca ⅕ deel) van het spinazie mengsel over de bodem. Leg hier 3 a 4 lasagnevellen op. Verdeel hier wat van het spinazie mengsel (ca ⅕ deel) over en de helft van de plakjes zalm. Dek weer af met lasagnevellen en schep er weer een beetje van het spinazie mengsel over en 1 tomaat in plakken."
+      },
+      {
+        "text": "Herhaal dit nog een keer met het spinazie mengsel en zalm, lasagnebladen en eindig met het spinazie mengsel met plakjes tomaat. Bestrooi de zalm lasagne met kaas en zet ca. 45 minuten in de oven tot hij gaar is."
+      }
+    ]
+  },
+  {
+    "name": "Griekse moussaka",
+    "image": "https://www.leukerecepten.nl/app/uploads/2020/05/moussaka-2.jpg",
+    "source": "https://www.leukerecepten.nl/recepten/griekse-moussaka/",
+    "description": "Lekkere Griekse ovenschotel met laagjes gegrilde aubergine, aardappel en een kruidige gehaktsaus onder een laagje romige bechamelsaus",
+    "recipeCuisine": "Grieks",
+    "keywords": "vegetarisch, ovenschotel, Grieks",
+    "recipeYield": 4,
+    "prepTime": "PT45M",
+    "cookTime": "PT45M",
+    "totalTime": "PT1H30M",
+    "recipeIngredient": [
+      { "name": "aardappelschijfjes", "amount": 600, "unit": "g" },
+      { "name": "aubergines", "amount": 2, "unit": "grote" },
+      { "name": "bloem", "amount": 2, "unit": "el" },
+      { "name": "olie", "amount": 1, "unit": "scheutje" },
+      { "name": "verse peterselie", "amount": 1, "unit": "handje" },
+      { "name": "rundergehakt", "amount": 300, "unit": "g" },
+      { "name": "ui", "amount": 1 },
+      { "name": "oregano", "amount": 1, "unit": "snufje" },
+      { "name": "knoflook", "amount": 2, "unit": "tenen" },
+      { "name": "kaneel", "amount": 1, "unit": "tl" },
+      { "name": "tomatenpuree", "amount": 2, "unit": "el" },
+      { "name": "tomatenblokjes", "amount": 400, "unit": "ml" },
+      { "name": "melk", "amount": 300, "unit": "ml" },
+      { "name": "boter", "amount": 30, "unit": "g" },
+      { "name": "bloem", "amount": 30, "unit": "g" },
+      { "name": "laurierblad", "amount": 1 },
+      { "name": "geraspte kaas", "amount": 50, "unit": "g" },
+      { "name": "nootmuskaat", "amount": 1, "unit": "snufje" },
+      { "name": "ei", "amount": 1 }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Snijd de aubergines in dunne plakken van ca. 3 mm."
+      },
+      {
+        "text": "Verhit een grillpan."
+      },
+      {
+        "text": "Bestrijk de aubergines met een beetje olie en bestrooi met een beetje peper en zout. Grill ze mooi bruin en bestrooi daarna met een beetje bloem."
+      },
+      {
+        "text": "Hak ondertussen de ui en knoflook fijn en bak een paar minuutjes in een (wok)pan."
+      },
+      {
+        "text": "Voeg het gehakt toe en bak dit rul. Voeg de oregano, kaneel, peper en zout toe en de tomatenblokjes en puree. Laat dit 20 minuutjes pruttelen. Proef of de saus goed op smaak is."
+      },
+      {
+        "text": "Verwarm de oven voor op 180° graden."
+      },
+      {
+        "text": "Verhit de boter in een steelpannetje voor de bechamelsaus. Voeg de bloem toe en bak de roux 5 minuten. Giet dan beetje bij beetje de melk erbij blijf roeren met een garde tot er geen klontjes meer inzitten."
+      },
+      {
+        "text": "Voeg het blaadje laurier toe en laat een paar minuten zachtjes pruttelen."
+      },
+      {
+        "text": "Laat ongeveer 25 gr kaas smelten in de saus en breng op smaak met peper, zout en nootmuskaat."
+      },
+      {
+        "text": "Laat de saus een paar minuten afkoelen, verwijder het laurierblaadje en klop dan ook het ei door de saus."
+      },
+      {
+        "text": "Vet de ovenschaal in met een beetje olie."
+      },
+      {
+        "text": "Verdeel ongeveer de helft van de gegrilde aubergine over de bodem van de ovenschaal."
+      },
+      {
+        "text": "Verdeel hier de aardappelschijfjes over."
+      },
+      {
+        "text": "Dek af met het laag gehaktmengsel. Verdeel hier de rest van de aubergines over."
+      },
+      {
+        "text": "Giet hier de bechamelsaus over. Bestrooi met de rest van de kaas."
+      },
+      {
+        "text": "Zet de moussaka ongeveer 45 minuten in de oven."
+      },
+      {
+        "text": "Laat een paar minuten afkoelen, garneer met peterselie en verdeel de moussaka in stukken."
+      }
+    ]
+  },
+  {
+    "name": "Chili sin carne",
+    "image": "https://www.leukerecepten.nl/app/uploads/2022/08/chili-sin-carne-h.jpg",
+    "source": "https://www.leukerecepten.nl/recepten/chili-sin-carne/",
+    "description": "De heerlijke vegetarische variant op de chili con carne. Een lekker Mexicaans gerecht zonder vlees maar met lekker veel groenten in een kruidige saus.",
+    "keywords": "vegetarisch, glutenvrij, Mexicaans",
+    "recipeCuisine": "Mexicaans",
+    "author": { "name": "Jaimy" },
+    "recipeYield": 4,
+    "prepTime": "PT30M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      { "name": "snelkookrijst", "amount": 400, "unit": "g" },
+      { "name": "bruine bonen", "amount": 400, "unit": "g" },
+      { "name": "kidney bonen", "amount": 400, "unit": "g" },
+      { "name": "tomatenblokjes", "amount": 400, "unit": "g" },
+      { "name": "tomatenpuree", "amount": 70, "unit": "g" },
+      { "name": "tomaten passata", "amount": 500, "unit": "ml" },
+      { "name": "maïs", "amount": 340, "unit": "g" },
+      { "name": "ui", "amount": 1 },
+      { "name": "knoflook", "amount": 2, "unit": "tenen" },
+      { "name": "limoen", "amount": 1 },
+      { "name": "zure room", "amount": 125, "unit": "ml" },
+      { "name": "paprikamix", "amount": 3, "unit": "paprika's" },
+      { "name": "paprikapoeder", "amount": 1, "unit": "tl" },
+      { "name": "oregano", "amount": 1, "unit": "tl" },
+      { "name": "komijn poeder", "amount": 1, "unit": "tl" },
+      { "name": "chili poeder", "amount": 1, "unit": "snufje" },
+      { "name": "olie", "amount": 1, "unit": "scheutje" },
+      { "name": "peper", "amount": 1, "unit": "snufje" },
+      { "name": "zout", "amount": 1, "unit": "snufje" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Snijd de paprika's in kleine stukjes."
+      },
+      {
+        "text": "Fruit het uitje aan in wat olie en als deze glazig is, voeg dan de knoflook toe."
+      },
+      {
+        "text": "Daarna mogen ook de kruiden toegevoegd worden (paprikapoeder, oregano, chili en komijn), fruit dit even mee."
+      },
+      {
+        "text": "Na 1 minuut gaat de tomaten puree erbij. Laat dit 2 minuten op laag vuur staan en voeg dan de paprika toe."
+      },
+      {
+        "text": "Na 5 minuten gaan de blokjes tomaat en passata erbij. Breng dit op smaak met peper en zout. Laat dit 10 minuten pruttelen."
+      },
+      {
+        "text": "Zet ondertussen de rijst op en kook deze volgens de verpakking."
+      },
+      {
+        "text": "Voeg daarna de maïs, bruine bonen en kidneybonen toe aan de tomatensaus en laat dit op middelhoog vuur staan tot de rijst klaar is. Dit zal ongeveer 10 minuten zijn."
+      },
+      {
+        "text": "Serveer de chili met rijst, partjes limoen en zure room."
+      }
+    ]
+  }
+]

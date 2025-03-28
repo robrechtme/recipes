@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="nl">
+    <Html lang="nl-BE">
       <Head>
         <meta name="title" content="Tweede kookboek van Robrecht" />
         <meta

@@ -1,18 +1,14 @@
-export const capitalize = (value: string) => {
-  if (value.length === 0) {
-    return value;
-  }
-  return value.charAt(0).toUpperCase() + value.slice(1);
-};
+/** Translate ISO 8601 duration to hours and minutes */
+export const translateTime = (time: string) => {
+  const hours = time.match(/(\d+)H/)?.[1];
+  const minutes = time.match(/(\d+)M/)?.[1];
 
-export const hostNameFromUrl = (url: string) => {
-  let hostname: string;
-  if (url.indexOf("//") > -1) {
-    hostname = url.split("/")[2];
-  } else {
-    hostname = url.split("/")[0];
+  if (hours && minutes) {
+    return `${hours}u ${minutes}m`;
+  } else if (hours) {
+    return `${hours}u`;
+  } else if (minutes) {
+    return `${minutes}m`;
   }
-  hostname = hostname.split(":")[0];
-  hostname = hostname.split("?")[0];
-  return hostname.replace("www.", "");
+  return time;
 };
