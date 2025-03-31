@@ -47,7 +47,7 @@ const RecipeDetail: NextPage<
   return (
     <main className="container mx-auto my-16 text-secondary-900">
       <Head>
-        <title>{recipe.name} - Tweede kookboek van Robrecht</title>
+        <title>{`${recipe.name} - Tweede kookboek van Robrecht`}</title>
       </Head>
 
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 lg:gap-8 ">
