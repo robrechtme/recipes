@@ -8,14 +8,14 @@ import {
 import Head from "next/head";
 import { useState } from "react";
 
-import { getRecipes } from "@lib/recipes";
-import { Recipe } from "@lib/types";
+import { getRecipe, getRecipes } from "@core/recipes";
+import { Recipe } from "@core/types";
 import { translateTime } from "@util/string";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const recipes = await getRecipes();
-  const paths = recipes.map((_, index) => ({
-    params: { id: index.toString() },
+  const paths = recipes.map((recipe) => ({
+    params: { slug: recipe.slug },
   }));
 
   return { paths, fallback: false };
@@ -24,8 +24,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps<{ recipe: Recipe }> = async ({
   params,
 }) => {
-  const recipes = await getRecipes();
-  const recipe = recipes[Number(params?.id)];
+  const recipe = await getRecipe(params?.slug as string);
 
   if (!recipe) {
     return { notFound: true };

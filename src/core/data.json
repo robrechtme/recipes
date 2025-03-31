@@ -1,6 +1,7 @@
 [
   {
     "name": "Kip Tikka Masala",
+    "slug": "kip-tikka-masala",
     "image": "https://cdn.dagelijksekost.tv/recipes/q3Hq9x253fk6bAwrIgWY/landscape/1727274592377_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=g8K8OcrcdoIL7tHMABGCanOW3jdCfUaLB9q%2B0h7OJ73nuB85ih8mJy8Pf%2FOhXkzvhNG85zbLZMOJCmDDHpvg%2BhMJ%2BR74SbhZkpucI4Y8keqqGPzOr5BIddmbfH33WYwB1XVyn2%2Bn228w8yj0tU8K1P%2Fvi03hnZOCxxL%2FqARcijbkRrQ2aaFUSYD30KVnzd22Dwo0xuhSXQx2eqsRrhDufH4wAmufS2qUJxb7w5zQCXvlSHawa%2Bll6Bwz%2Bm%2FMEXjbRfywSGSslHNGJfZraY3V71sd4L%2FgCJsWGf%2FliGwegkq0sVi2g71zjN%2FFvAhfKqQEDn%2BFWi0LALpZ%2FpESKxuE%2FA%3D%3D",
     "source": "https://dagelijksekost.vrt.be/gerechten/kip-tikka-masala",
     "description": "Kip 'Tikka Masala' is een wereldberoemd Indiaas gerecht. Jeroen marineert de kip in een kruidige en romige saus op basis van yoghurt en kokosmelk. Serveer het gerecht met een portie geurige basmatirijst.",
@@ -72,6 +73,7 @@
   },
   {
     "name": "Risotto met Pesto, Courgette en Halloumi",
+    "slug": "risotto-met-pesto-courgette-en-halloumi",
     "image": "https://chloekookt.be/wp-content/uploads/2020/08/5.jpg",
     "source": "https://chloekookt.be/risotto-met-pesto-courgette-en-halloumi/",
     "description": "Een smaakvolle risotto gecombineerd met groene pesto, gebakken courgette en krokant gebakken halloumi, afgewerkt met verse basilicum.",
@@ -128,6 +130,7 @@
   },
   {
     "name": "Pasta met scampi in tomatenroomsaus",
+    "slug": "pasta-met-scampi-in-tomatenroomsaus",
     "image": "https://images-5.schellywood.be/thumbnail/full/23273/pasta-met-scampi.jpg",
     "source": "https://njam.tv/recepten/pasta-met-scampi-in-tomatenroomsaus",
     "description": "Een heerlijk pastagerecht met scampi's in een romige tomatensaus.",
@@ -170,6 +173,7 @@
   },
   {
     "name": "Aardappel-ovenschotel met linzen en kikkererwten",
+    "slug": "aardappel-ovenschotel-met-linzen-en-kikkererwten",
     "image": "https://www.lekkerensimpel.com/wp-content/uploads/2016/10/IMG_3792.jpg",
     "source": "https://www.lekkerensimpel.com/aardappel-ovenschotel-met-linzen-en-kikkererwten/",
     "description": "Een smakelijke ovenschotel met (zoete) aardappels, linzen en kikkererwten.",
@@ -224,6 +228,7 @@
   },
   {
     "name": "Creamy Pasta met Kerstomatensaus en Ricotta",
+    "slug": "creamy-pasta-met-kerstomatensaus-en-ricotta",
     "image": "https://chloekookt.be/wp-content/uploads/2020/08/7.jpg",
     "source": "https://chloekookt.be/creamy-pasta-met-kerstomatensaus-en-ricotta/",
     "description": "Een romige pasta met zoete kerstomaatjes en ricotta. De combinatie van verse tomaten, ricotta en parmezaan zorgt voor een heerlijke smaak, terwijl de chilipoeder een subtiele pittige toets geeft. Een perfect vegetarisch gerecht dat snel op tafel staat.",
@@ -260,6 +265,7 @@
   },
   {
     "name": "Parelcouscous met Kerstomaatjes en Halloumi",
+    "slug": "parelcouscous-met-kerstomaatjes-en-halloumi",
     "image": "https://chloekookt.be/wp-content/uploads/2020/08/7-1.jpg",
     "source": "https://chloekookt.be/parelcouscous-met-kerstomaatjes-en-halloumi/",
     "description": "Ingrediënten:(voor 2 personen)– 200g halloumi– 100g parelcouscous– 200g honing/ kerstomaten– 1 rode paprika– 1 ui– 2 lookteentjes– 1dl light room– 1 blokje groentenbouillon– peterselie ter afwerking",
@@ -298,6 +304,7 @@
   },
   {
     "name": "Pastitsio",
+    "slug": "pastitsio",
     "image": "https://cdn.dagelijksekost.tv/recipes/LaZLOcbfpq4PvyKoSjXL/landscape/1727274378439_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=n6q2CFYi%2FtrMTNRclwV7l3YiyS9eFkNSppTmU6NxOf9iQoljbceK0jjQTL%2FF5Iif04HX99s44wyPy0JM22ptuPQZ%2F%2FHiSz7EK3cHqdQ1MmHqj78MJz9w0aEKIUQjJs4F0FGxRtTLG%2FI4lp2Jg%2B11bNutJ68qkXSlvjsE%2FwRlbazsORRfBo1toQt1MVrWfo1eYVTn%2BDPcVrJrmziD4cZxaJwUseD4fVfJZPkzCBfxgwGdRBReFAQxfr7uA4fDa6uqpQo1jRKMPle98zahbmvmCRMK6etjBokk52aB%2FPylR8BTBGcktLjyo9nNMT7Ap0TH0caA%2FTpQ3UVeWKh9oyzjkQ%3D%3D",
     "source": "https://dagelijksekost.vrt.be/gerechten/pastitsio",
     "description": "Pastitsio is een pastaschotel met gehakt en bucatini (holle pasta) afkomstig uit Griekenland. De ovenschotel is opgebouwd uit laagjes pasta, een laagje gehaktsaus en een laagje bechamelsaus. Deze schotel maak je makkelijk op voorhand klaar.",
@@ -379,6 +386,7 @@
   },
   {
     "name": "Lasagne met gegrilde groenten",
+    "slug": "lasagne-met-gegrilde-groenten",
     "image": "https://cdn.dagelijksekost.tv/recipes/gHoMEcAuSJUh8FpzPZrA/landscape/1727274564561_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=adMUytdtYo9CAGEBz9zkvLxGfKXtgNsP%2BQAsQ%2FQyT72kPA2HtXFaJc1ayFaGFByC3G%2FdGi2%2FHUxGfASohcepvMd%2B%2BpIkZS7NegwJuAeoEq2UagWKEItDiVX%2BwPMNjTjqh2LcmftbVw1D0SJycyjTR0qua8Qmv4CbjVqvMHUNwXafeCZdrVNV0B7KFGl79kBhsYIoRT8bJOtiyWRKYmA1bvxPlrmoQrNfhTxTV9IR5uiOKrP9xlDGmerswckM6hAZp9AwjjS2EXbPZ84rLPiT%2FveitwfEqqdv98CSWWNpiXIA5txczVqbfVaja4WOtQaVUMOmX8uK3bK6IeEo5K6k2g%3D%3D",
     "source": "https://dagelijksekost.vrt.be/gerechten/lasagne-met-gegrilde-groenten",
     "description": "Deze klassieke ovenschotel met pasta heeft best wat tijd nodig om te garen, maar is het wachten waard. De groenten gaan vooraf even in de grillpan, wat zorgt voor extra smaak. Dit gerecht is ook geschikt voor wie vegetarisch eet.",
@@ -500,6 +508,7 @@
   },
   {
     "name": "Ovenschotel met veggie gehakt en broccoli",
+    "slug": "ovenschotel-met-veggie-gehakt-en-broccoli",
     "image": "https://image.15gram.be/uploads/recipes/8053_ovenschotel-met-veggie-gehakt-en-broccoli_1511167153-1920x1280.jpg",
     "source": "https://15gram.be/recepten/ovenschotel-met-veggie-gehakt-en-broccoli",
     "description": "Hachis parmentier, de bekende ovenschotel met gehakt en groenten in laagjes, kan je ook in een overheerlijke veggieversie maken, met vegetarisch gehakt.",
@@ -538,6 +547,7 @@
   },
   {
     "name": "Ovenschotel met kip en Italiaanse groenten",
+    "slug": "ovenschotel-met-kip-en-italiaanse-groenten",
     "image": "https://i0.wp.com/lovemyfood.nl/lovemyfood.nl/wp-content/uploads/2016/05/Ovenschotel-met-kip-en-Italiaanse-groenten-2.jpg?fit=900%2C600&ssl=1",
     "source": "http://lovemyfood.nl/lovemyfood.nl/ovenschotel-kip-en-italiaanse-groenten/",
     "description": "Een eenvoudige Italiaanse ovenschotel met kip, krieltjes en mediterrane groenten, afgewerkt met mozzarella en Parmezaanse kaas.",
@@ -589,6 +599,7 @@
   },
   {
     "name": "Zalm spinazie lasagne",
+    "slug": "zalm-spinazie-lasagne",
     "image": "https://www.leukerecepten.nl/app/uploads/2020/03/lasagne-met-zalm_n.jpg",
     "source": "https://www.leukerecepten.nl/recepten/zalm-spinazie-lasagne/",
     "description": "Makkelijke verse lasagne met laagjes romige spinazie, plakjes tomaat en zalm, een heerlijke combinatie van pasta, groenten en vis",
@@ -629,6 +640,7 @@
   },
   {
     "name": "Griekse moussaka",
+    "slug": "griekse-moussaka",
     "image": "https://www.leukerecepten.nl/app/uploads/2020/05/moussaka-2.jpg",
     "source": "https://www.leukerecepten.nl/recepten/griekse-moussaka/",
     "description": "Lekkere Griekse ovenschotel met laagjes gegrilde aubergine, aardappel en een kruidige gehaktsaus onder een laagje romige bechamelsaus",
@@ -715,6 +727,7 @@
   },
   {
     "name": "Chili sin carne",
+    "slug": "chili-sin-carne",
     "image": "https://www.leukerecepten.nl/app/uploads/2022/08/chili-sin-carne-h.jpg",
     "source": "https://www.leukerecepten.nl/recepten/chili-sin-carne/",
     "description": "De heerlijke vegetarische variant op de chili con carne. Een lekker Mexicaans gerecht zonder vlees maar met lekker veel groenten in een kruidige saus.",

@@ -1,15 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import { Recipe } from "@lib/types";
+import { Recipe } from "@core/types";
 import { translateTime } from "@util/string";
 
 type Props = {
   recipe: Recipe;
-  id: number;
 };
 
-export const RecipeCard = ({ recipe, id }: Props) => (
+export const RecipeCard = ({ recipe }: Props) => (
   <a
-    href={`/r/${id}`}
+    href={`/r/${recipe.slug}`}
     className="flex flex-col bg-white shadow-lg shadow-primary-600 hover:shadow-xl transition-all rounded-lg overflow-hidden"
   >
     <img
