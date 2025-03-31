@@ -1,5 +1,45 @@
 [
   {
+    "name": "Gnocchi in romige tomatensaus",
+    "slug": "gnocchi-in-romige-tomatensaus",
+    "description": "Een snel en smaakvol gerecht met verse gnocchi in een romige tomatensaus met kerstomaatjes en basilicum.",
+    "author": { "name": "Met vijf aan tafel" },
+    "recipeYield": 4,
+    "image": "https://metvijfaantafel.be/wp-content/uploads/2023/08/Romige-gnocchi-met-tomaatjes.jpg",
+    "recipeIngredient": [
+      { "name": "gnocchi", "amount": 500, "unit": "g" },
+      { "name": "kerstomaatjes", "amount": 500, "unit": "g" },
+      { "name": "tomatenpassata", "amount": 700, "unit": "ml" },
+      { "name": "room", "amount": 200, "unit": "ml" },
+      { "name": "groentenbouillon", "amount": 200, "unit": "ml" },
+      { "name": "olijfolie", "amount": 1, "unit": "scheutje" },
+      { "name": "peper", "amount": 1, "unit": "snufje" },
+      { "name": "zout", "amount": 1, "unit": "snufje" },
+      { "name": "basilicum", "amount": 1, "unit": "handvol" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Halveer de kerstomaatjes. Verwarm een scheutje olijfolie in een ruime pan en bak er de halve kerstomaatjes enkele minuutjes in, op middelhoog vuur."
+      },
+      {
+        "text": "Voeg de tomatenpassata, de groentenbouillon en de room toe aan de pan, meng goed en laat zachtjes aan de kook komen. Voeg dan de gnocchi toe aan de pan en laat ze enkele minuten garen in de saus. De gnocchi zijn heel snel gaar, laat ze niet te lang pruttelen want dan worden ze al snel plat."
+      },
+      {
+        "text": "Proef de saus en kruid naar smaak bij met wat vers gemalen peper en zout."
+      },
+      {
+        "text": "Dien onmiddellijk op en werk de borden af met enkele blaadjes basilicum, een scheutje olijfolie en eventueel wat geraspte parmezaanse kaas."
+      }
+    ],
+    "recipeCuisine": "Italiaans",
+    "recipeCategory": "Hoofdgerecht",
+    "source": "https://metvijfaantafel.be/recept/romige-gnocchi-met-tomaatjes/",
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "keywords": "pasta, gnocchi, vegetarisch, snel"
+  },
+  {
     "name": "Kip Tikka Masala",
     "slug": "kip-tikka-masala",
     "image": "https://cdn.dagelijksekost.tv/recipes/q3Hq9x253fk6bAwrIgWY/landscape/1727274592377_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=g8K8OcrcdoIL7tHMABGCanOW3jdCfUaLB9q%2B0h7OJ73nuB85ih8mJy8Pf%2FOhXkzvhNG85zbLZMOJCmDDHpvg%2BhMJ%2BR74SbhZkpucI4Y8keqqGPzOr5BIddmbfH33WYwB1XVyn2%2Bn228w8yj0tU8K1P%2Fvi03hnZOCxxL%2FqARcijbkRrQ2aaFUSYD30KVnzd22Dwo0xuhSXQx2eqsRrhDufH4wAmufS2qUJxb7w5zQCXvlSHawa%2Bll6Bwz%2Bm%2FMEXjbRfywSGSslHNGJfZraY3V71sd4L%2FgCJsWGf%2FliGwegkq0sVi2g71zjN%2FFvAhfKqQEDn%2BFWi0LALpZ%2FpESKxuE%2FA%3D%3D",
