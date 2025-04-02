@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import {
   GetStaticPaths,
   GetStaticProps,
@@ -11,6 +10,7 @@ import { useState } from "react";
 import { getRecipe, getRecipes } from "@core/recipes";
 import { Recipe } from "@core/types";
 import { translateTime } from "@util/string";
+import { RecipeImage } from "@components/RecipeImage/RecipeImage";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const recipes = await getRecipes();
@@ -51,11 +51,12 @@ const RecipeDetail: NextPage<
 
       <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 lg:gap-8 ">
         {/* Image */}
-        <img
-          src={recipe.image}
+
+        <RecipeImage
+          slug={recipe.slug}
           className="aspect-video object-cover bg-neutral-200 mb-8 w-full rounded-lg"
-          alt=""
         />
+
         {/* Intro */}
         <div className="md:mx-12">
           <h1 className="text-4xl font-extrabold mb-4 mt-2 text-pretty max-w-2xl">
@@ -138,13 +139,15 @@ const RecipeDetail: NextPage<
                 {recipe.recipeIngredient.map((ingredient, index) => (
                   <li key={index} className="flex justify-between py-1 gap-4">
                     <span className="flex-1 break-all">{ingredient.name}</span>
-                    <span className="text-end shrink-0">
-                      {(
-                        (ingredient.amount / recipe.recipeYield) *
-                        servings
-                      ).toLocaleString("nl-BE")}{" "}
-                      {ingredient.unit || ""}
-                    </span>
+                    {ingredient.amount !== undefined ? (
+                      <span className="text-end shrink-0">
+                        {(
+                          (ingredient.amount / recipe.recipeYield) *
+                          servings
+                        ).toLocaleString("nl-BE")}{" "}
+                        {ingredient.unit || ""}
+                      </span>
+                    ) : null}
                   </li>
                 ))}
               </ul>

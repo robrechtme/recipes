@@ -1,6 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import { Recipe } from "@core/types";
 import { translateTime } from "@util/string";
+
+import { RecipeImage } from "./RecipeImage/RecipeImage";
 
 type Props = {
   recipe: Recipe;
@@ -11,10 +12,9 @@ export const RecipeCard = ({ recipe }: Props) => (
     href={`/r/${recipe.slug}`}
     className="flex flex-col bg-white shadow-lg shadow-primary-600 hover:shadow-xl transition-all rounded-lg overflow-hidden"
   >
-    <img
-      src={recipe.image}
+    <RecipeImage
+      slug={recipe.slug}
       className="aspect-video object-cover bg-neutral-200"
-      alt=""
     />
     <div className="mx-4 my-2">
       <p className="text-secondary-500 text-sm">{recipe.author?.name}</p>

@@ -7,7 +7,8 @@
     "deps": "pnpm update --interactive --latest",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "scripts:download-images": "node --import tsx scripts/download-images.ts"
   },
   "dependencies": {
     "next": "15.2.4",
@@ -16,15 +17,17 @@
   },
   "devDependencies": {
     "@next/env": "*",
-    "@tailwindcss/postcss": "^4.0.17",
-    "@types/node": "^22.13.14",
+    "@tailwindcss/postcss": "4.0.17",
+    "@types/node": "22.13.14",
     "@types/react": "19.0.12",
-    "@typescript-eslint/parser": "^8.28.0",
+    "@typescript-eslint/parser": "8.28.0",
     "eslint": "9.23.0",
     "eslint-config-next": "15.2.4",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "2.25.4",
     "postcss": "8.4.14",
+    "sharp": "0.33.5",
     "tailwindcss": "4.0.17",
+    "tsx": "4.19.3",
     "typescript": "5.8.2"
   },
   "packageManager": "pnpm@10.6.4+sha512.da3d715bfd22a9a105e6e8088cfc7826699332ded60c423b14ec613a185f1602206702ff0fe4c438cb15c979081ce4cb02568e364b15174503a63c7a8e2a5f6c"

@@ -1,9 +1,10 @@
-Your task is to put recipes in a fixed JSON format. Any input I give you, you will try to fit into the JSON. You should answer with the JSON only, wrapped in a markdown code block. It should adhere to this type and it should be in Dutch. Pay extra attention to the image attribute: it should come from the `<meta property="og:image"` tag in the head.
+Your task is to put recipes in a fixed JSON format. Any input I give you, you will try to fit into the JSON. It should adhere to this type and it should be in Dutch. Answer with the JSON only, wrapped in a markdown code block.
 
 ```typescript
 export interface Recipe {
   name: string;
-  image: string; // Preferably the og:image
+  slug: string;
+  image: string;
   source?: string; // original URL
   description?: string;
   author?: { name: string };
@@ -21,8 +22,8 @@ export interface Recipe {
 
 export interface RecipeIngredient {
   name: string; // e.g., "Bloem"
-  amount: number; // e.g., 200
-  unit?: string; // e.g., "g", "ml", "teelepel"
+  amount?: number; // e.g., 200
+  unit?: string; // e.g., "g", "ml", "el"
 }
 
 export interface RecipeInstruction {

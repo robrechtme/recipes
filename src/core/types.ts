@@ -18,9 +18,9 @@ export interface Recipe {
 }
 
 export interface RecipeIngredient {
-  name: string; // e.g., "Flour"
-  amount: number; // e.g., 200
-  unit?: string; // e.g., "g", "ml", "tbsp"
+  name: string; // e.g., "Bloem"
+  amount?: number; // e.g., 200
+  unit?: string; // e.g., "g", "ml", "el"
 }
 
 export interface RecipeInstruction {

@@ -10,9 +10,9 @@ export default function Document() {
           content="Een collectie van lekkere recepten, deze keer niet van mezelf"
         />
         <meta name="keywords" content="kookboek,recepten,koken,robrecht" />
-        <meta name="robots" content="index, follow" />
+        {/* This tells crawlers to not index the site */}
+        <meta name="robots" content="noindex" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="revisit-after" content="30 days" />
         <meta name="author" content="Robrecht Meersman" />
         <meta property="og:title" content="Tweede kookboek van Robrecht" />
         <meta property="og:site_name" content="kookboek.robrecht.me" />
