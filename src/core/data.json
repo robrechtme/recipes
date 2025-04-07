@@ -36,11 +36,11 @@
       },
       {
         "name": "Room",
-        "amount": 150,
+        "amount": 60,
         "unit": "ml"
       },
       {
-        "name": "Geitenkaas",
+        "name": "Geraspte mozzarella",
         "amount": 100,
         "unit": "g"
       },
@@ -53,10 +53,6 @@
         "name": "Zout",
         "amount": 1,
         "unit": "snufje"
-      },
-      {
-        "name": "Bieslook",
-        "amount": 1
       }
     ],
     "recipeInstructions": [
@@ -64,19 +60,16 @@
         "text": "Spoel de prei en snipper fijn. Stoof de prei glazig in een pan met boter en laat afkoelen."
       },
       {
-        "text": "Verwarm de oven voor op 180°C. Vet de quichevormpjes in met boter. Steek rondjes uit het bladerdeeg die 4 cm groter zijn dan de diameter van de vormpjes en leg ze in de vormpjes. Duw de randen lichtjes aan."
-      },
-      {
-        "text": "Leg op elk deegbodempje een vel bakpapier, vul met een steunvulling en bak het deeg 10 minuten blind voor. Verwijder het bakpapier en de steunvulling."
+        "text": "Verwarm de oven voor op 200°C. Vet de quichevormpjes in met boter. Steek rondjes uit het bladerdeeg die 4 cm groter zijn dan de diameter van de vormpjes en leg ze in de vormpjes. Duw de randen lichtjes aan."
       },
       {
         "text": "Verdeel de gestoofde prei over de vormpjes. Snij de gerookte zalm in snippers en verdeel over de prei. Kruid met peper."
       },
       {
-        "text": "Klop de eieren los met de room en kruid met peper en zout. Verdeel het eimengsel over de vormpjes en verkruimel de geitenkaas erover."
+        "text": "Klop de eieren los met de room en kruid met peper en zout. Verdeel het eimengsel over de vormpjes en verkruimel de mozzarella erover."
       },
       {
-        "text": "Bak de quiches 15 à 20 minuten in de oven, of tot het eimengsel goed gestold is. Werk af met gesnipperde bieslook."
+        "text": "Bak de quiches 25 minuten in de oven, of tot het eimengsel goed gestold is."
       }
     ]
   },
