@@ -301,7 +301,7 @@
       { "name": "(zoete) aardappels", "amount": 500, "unit": "g" },
       { "name": "linzen uit blik", "amount": 150, "unit": "g" },
       { "name": "kikkererwten uit blik", "amount": 150, "unit": "g" },
-      { "name": "tomatenblokjes", "amount": 200, "unit": "g" },
+      { "name": "tomatenblokjes", "amount": 400, "unit": "g" },
       { "name": "paprika", "amount": 1 },
       { "name": "ui", "amount": 1 },
       { "name": "knoflook", "amount": 1, "unit": "teen" },
