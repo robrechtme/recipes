@@ -902,11 +902,11 @@
     ]
   },
   {
-    "name": "Pastagratin met boontjes, broccolisaus en nori-korstje",
-    "slug": "pastagratin-met-boontjes-broccolisaus-en-nori-korstje",
+    "name": "Pastagratin met boontjes en broccolisaus",
+    "slug": "pastagratin-met-boontjes-en-broccolisaus",
     "image": "https://fgdjrynm.filerobot.com/recipes/1c9e2711bebffd120898833b5539130dcee1d33b9b682384de7698f6abcca932.jpg?vh=c6e09e&h=800&w=800&q=60",
     "source": "https://www.colruyt.be/nl/recepten/pastagratin-met-boontjes-broccolisaus-en-nori-korstje",
-    "description": "Een heerlijke pastagratin met prinsessenbonen, romige broccolisaus en een krokant nori-korstje. Perfect voor een smaakvolle en gezonde maaltijd.",
+    "description": "Een heerlijke pastagratin met prinsessenbonen, romige broccolisaus en een krokant korstje. Perfect voor een smaakvolle en gezonde maaltijd.",
     "author": { "name": "Colruyt" },
     "datePublished": "2021-03-05",
     "recipeCategory": "Hoofdgerecht",
@@ -931,10 +931,8 @@
       { "name": "Broccoli", "amount": 1 },
       { "name": "Geraspte kaas Special Mix", "amount": 200, "unit": "g" },
       { "name": "Melk", "amount": 3, "unit": "dl" },
-      { "name": "Spirelli tricolore", "amount": 200, "unit": "g" },
-      { "name": "Norivellen (zeewier)", "amount": 2 },
+      { "name": "Spirelli tricolore", "amount": 500, "unit": "g" },
       { "name": "Mosterd", "amount": 1, "unit": "el" },
-      { "name": "Paneermeel", "amount": 2, "unit": "el" },
       { "name": "Olijfolie", "amount": 3, "unit": "el" },
       { "name": "Nootmuskaat", "amount": 1, "unit": "mespunt" },
       { "name": "Zwarte peper", "amount": 1, "unit": "snufje" }
@@ -953,7 +951,7 @@
         "text": "Vet een ovenschaal in met 1 eetl. olijfolie. Meng de pasta en de prinsessenbonen onder de saus en schep in de ovenschaal."
       },
       {
-        "text": "Hak de norivellen in fijne reepjes en meng met het paneermeel en de rest van de geraspte kaas. Strooi over de pasta en zet ± 10 min. onder de ovengrill tot de bovenkant goudbruin is."
+        "text": "Strooi de rest van de geraspte kaas over de pasta en zet ± 10 min. onder de ovengrill tot de bovenkant goudbruin is."
       }
     ]
   }
