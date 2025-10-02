@@ -13,4 +13,4 @@ export { default as 'ovenschotel-met-kip-en-italiaanse-groenten' } from './image
 export { default as 'zalm-spinazie-lasagne' } from './images/zalm-spinazie-lasagne.webp'
 export { default as 'griekse-moussaka' } from './images/griekse-moussaka.webp'
 export { default as 'chili-sin-carne' } from './images/chili-sin-carne.webp'
-export { default as 'pastagratin-met-boontjes-broccolisaus-en-nori-korstje' } from './images/pastagratin-met-boontjes-broccolisaus-en-nori-korstje.webp'
+export { default as 'pastagratin-met-boontjes-en-broccolisaus' } from './images/pastagratin-met-boontjes-en-broccolisaus.webp'
