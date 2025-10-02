@@ -4,6 +4,7 @@ import sharp from "sharp";
 
 const INPUT_JSON = "./src/core/data.json"; // JSON file with image URLs
 const OUTPUT_DIR = "./src/components/RecipeImage/images";
+const IMAGES_TS_PATH = "./src/components/RecipeImage/images.ts";
 
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {
@@ -25,6 +26,15 @@ async function downloadAndConvert(imageUrl: string, fileName: number) {
   }
 }
 
+function updateImagesTs(slugs: string[]) {
+  const exports = slugs
+    .map(slug => `export { default as '${slug}' } from './images/${slug}.webp'`)
+    .join('\n');
+
+  fs.writeFileSync(IMAGES_TS_PATH, exports + '\n');
+  console.log(`Updated ${IMAGES_TS_PATH} with ${slugs.length} exports`);
+}
+
 async function processImages() {
   try {
     const data = fs.readFileSync(INPUT_JSON, "utf-8");
@@ -34,6 +44,10 @@ async function processImages() {
     await Promise.all(
       images.map((img) => downloadAndConvert(img.image, img.slug))
     );
+
+    // Update images.ts with all slugs
+    const slugs = images.map(img => img.slug);
+    updateImagesTs(slugs);
   } catch (error) {
     console.error("Error processing images:", error);
   }
