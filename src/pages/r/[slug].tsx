@@ -5,7 +5,8 @@ import {
   NextPage,
 } from "next";
 import Head from "next/head";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useWakeLock } from "react-screen-wake-lock";
 
 import { getRecipe, getRecipes } from "@core/recipes";
 import { Recipe } from "@core/types";
@@ -38,6 +39,27 @@ const RecipeDetail: NextPage<
 > = ({ recipe }) => {
   const [servings, setServings] = useState(recipe.recipeYield);
   const [selectedStep, setSelectedStep] = useState<number | null>(null);
+
+  // Prevent screen from going dark while viewing recipe
+  const { isSupported, released, request, release } = useWakeLock({
+    onRequest: () => console.log('Screen wake lock activated'),
+    onError: () => console.log('An error happened 💥'),
+    onRelease: () => console.log('Screen wake lock released'),
+  });
+
+  // Request wake lock when component mounts
+  useEffect(() => {
+    if (isSupported) {
+      request();
+    }
+
+    // Release wake lock when component unmounts
+    return () => {
+      if (!released) {
+        release();
+      }
+    };
+  }, [isSupported, request, release, released]);
 
   const adjustServings = (change: number) => {
     setServings((prev) => Math.max(1, prev + change)); // Prevent servings < 1
