@@ -36,7 +36,6 @@ const Home: NextPage<Props> = ({ recipes }) => {
     <>
       <Head>
         <title>Tweede kookboek van Robrecht</title>
-        <meta name="description" content="Een collectie van lekkere recepten met gedetailleerde instructies en ingrediënten. Ontdek diverse gerechten uit verschillende keukens." />
       </Head>
       <main className="container mx-auto my-16">
         <header className="text-center mb-8">
@@ -44,7 +43,8 @@ const Home: NextPage<Props> = ({ recipes }) => {
             Tweede kookboek van Robrecht
           </h1>
           <p className="text-lg text-gray-600">
-            Een collectie van lekkere recepten, deze keer niet van mezelf
+            Een compilatie van lekkere recepten, niet van mezelf maar soms
+            aangepast naar smaak.
           </p>
         </header>
 
@@ -58,7 +58,10 @@ const Home: NextPage<Props> = ({ recipes }) => {
         )}
 
         {/* Recipe Grid */}
-        <section className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8" role="list">
+        <section
+          className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8"
+          role="list"
+        >
           {filteredRecipes.map((recipe) => (
             <RecipeCard key={recipe.slug} recipe={recipe} />
           ))}

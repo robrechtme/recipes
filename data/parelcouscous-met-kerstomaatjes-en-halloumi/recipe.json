@@ -1,0 +1,80 @@
+{
+  "name": "Parelcouscous met Kerstomaatjes en Halloumi",
+  "slug": "parelcouscous-met-kerstomaatjes-en-halloumi",
+  "image": "https://chloekookt.be/wp-content/uploads/2020/08/7-1.jpg",
+  "source": "https://chloekookt.be/parelcouscous-met-kerstomaatjes-en-halloumi/",
+  "description": "Ingrediënten:(voor 2 personen)– 200g halloumi– 100g parelcouscous– 200g honing/ kerstomaten– 1 rode paprika– 1 ui– 2 lookteentjes– 1dl light room– 1 blokje groentenbouillon– peterselie ter afwerking",
+  "author": {
+    "name": "Chloe Kookt"
+  },
+  "datePublished": "2020-08-04T16:09:43+00:00",
+  "recipeYield": 2,
+  "recipeIngredient": [
+    {
+      "name": "halloumi",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "name": "parelcouscous",
+      "amount": 100,
+      "unit": "g"
+    },
+    {
+      "name": "kerstomaten",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "name": "rode paprika",
+      "amount": 1
+    },
+    {
+      "name": "ui",
+      "amount": 1
+    },
+    {
+      "name": "lookteentjes",
+      "amount": 2
+    },
+    {
+      "name": "light room",
+      "amount": 1,
+      "unit": "dl"
+    },
+    {
+      "name": "groentenbouillon",
+      "amount": 1,
+      "unit": "blokje"
+    },
+    {
+      "name": "peterselie",
+      "amount": 1,
+      "unit": "handvol"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Zet de kerstomaten eerst in de oven voor 15-20 min tot deze zacht zijn met wat olijfolie, peper en zout (je kan ze ook stoven in de pan)"
+    },
+    {
+      "text": "Kook de parelcouscous"
+    },
+    {
+      "text": "Snijd de paprika, halloumi, ui en look – stoof deze in een beetje olijfolie met peper en klein beetje zout (halloumi is al heel zout)"
+    },
+    {
+      "text": "Bak tot de halloumi een krokant korstje krijgt"
+    },
+    {
+      "text": "Meng de warme tomaatjes door de couscous en voeg de room en het groentenbouillonblokje toe zodat je een smeuïg geheel krijgt"
+    },
+    {
+      "text": "Verdeel de couscous over de borden en leg de gebakken groenten en halloumi er boven op"
+    },
+    {
+      "text": "Werk eventueel af met peterselie"
+    }
+  ],
+  "recipeCuisine": "Mediterraans"
+}

@@ -1,0 +1,206 @@
+{
+  "name": "Lasagne met gegrilde groenten",
+  "slug": "lasagne-met-gegrilde-groenten",
+  "image": "https://cdn.dagelijksekost.tv/recipes/gHoMEcAuSJUh8FpzPZrA/landscape/1727274564561_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=adMUytdtYo9CAGEBz9zkvLxGfKXtgNsP%2BQAsQ%2FQyT72kPA2HtXFaJc1ayFaGFByC3G%2FdGi2%2FHUxGfASohcepvMd%2B%2BpIkZS7NegwJuAeoEq2UagWKEItDiVX%2BwPMNjTjqh2LcmftbVw1D0SJycyjTR0qua8Qmv4CbjVqvMHUNwXafeCZdrVNV0B7KFGl79kBhsYIoRT8bJOtiyWRKYmA1bvxPlrmoQrNfhTxTV9IR5uiOKrP9xlDGmerswckM6hAZp9AwjjS2EXbPZ84rLPiT%2FveitwfEqqdv98CSWWNpiXIA5txczVqbfVaja4WOtQaVUMOmX8uK3bK6IeEo5K6k2g%3D%3D",
+  "source": "https://dagelijksekost.vrt.be/gerechten/lasagne-met-gegrilde-groenten",
+  "description": "Deze klassieke ovenschotel met pasta heeft best wat tijd nodig om te garen, maar is het wachten waard. De groenten gaan vooraf even in de grillpan, wat zorgt voor extra smaak. Dit gerecht is ook geschikt voor wie vegetarisch eet.",
+  "keywords": "hoofdgerecht, vegetarisch",
+  "author": {
+    "name": "Dagelijkse kost"
+  },
+  "totalTime": "PT2H30M",
+  "recipeYield": 4,
+  "recipeIngredient": [
+    {
+      "name": "ui",
+      "amount": 2
+    },
+    {
+      "name": "olijfolie",
+      "amount": 1,
+      "unit": "scheutje"
+    },
+    {
+      "name": "look",
+      "amount": 2,
+      "unit": "teentje"
+    },
+    {
+      "name": "rode chilipeper",
+      "amount": 1
+    },
+    {
+      "name": "laurier",
+      "amount": 2,
+      "unit": "blaadje"
+    },
+    {
+      "name": "tijm",
+      "amount": 1,
+      "unit": "takje"
+    },
+    {
+      "name": "tomatenpuree",
+      "amount": 70,
+      "unit": "g"
+    },
+    {
+      "name": "witte wijn",
+      "amount": 0.1,
+      "unit": "l"
+    },
+    {
+      "name": "tomatenstukjes",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "tomatenpulp",
+      "amount": 500,
+      "unit": "g"
+    },
+    {
+      "name": "rode paprika",
+      "amount": 2
+    },
+    {
+      "name": "courgette",
+      "amount": 1
+    },
+    {
+      "name": "aubergine",
+      "amount": 1
+    },
+    {
+      "name": "parijse champignons",
+      "amount": 250,
+      "unit": "g"
+    },
+    {
+      "name": "spinazie",
+      "amount": 300,
+      "unit": "g"
+    },
+    {
+      "name": "parmezaanse kaas",
+      "amount": 150,
+      "unit": "g"
+    },
+    {
+      "name": "ricotta",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "lasagnevellen",
+      "amount": 18
+    },
+    {
+      "name": "Provençaalse kruiden",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "grof zout",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "mozzarella",
+      "amount": 1,
+      "unit": "bolletje"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Pel de uien, snij ze middendoor en snipper ze in zeer fijne stukjes."
+    },
+    {
+      "text": "Verhit een stoofpot op een matig vuur. Schenk er een scheut olijfolie in."
+    },
+    {
+      "text": "Stoof de stukjes ui in de hete olie. Roer regelmatig even in de pot."
+    },
+    {
+      "text": "Pel tussendoor de teentjes look. Snij ze in stukjes en plet ze tot pulp. Gebruik hiervoor de zijkant van het brede lemmet van je koksmes, of grijp naar de lookpers. Roer de lookpulp door de stukjes ui in de stoofpot."
+    },
+    {
+      "text": "Snij de rode chilipeper overlangs in twee. Beslis of je de pittige zaadjes al dan niet mee wil verwerken. Snipper het pepertje in de allerkleinste stukjes en laat die rode puntjes meestoven met de uien. Wie helemaal niet van een pikante smaak houdt kan minder of geen chilipeper gebruiken."
+    },
+    {
+      "text": "Na 5 minuten stoven, kunnen de kruiden erbij. Begin met de blaadjes laurier en de tijm. Je kan de kruiden ook samenbinden met wat keukentouw."
+    },
+    {
+      "text": "Schep de geconcentreerde tomatenpuree toe en roer. Laat de puree kort meestoven, zodat de wrange smaak van de puree verdwijnt."
+    },
+    {
+      "text": "Schenk de witte wijn erbij en laat de alcohol verdampen. Enkele minuten later voeg je de tomatenpulp en de tomatenstukjes toe."
+    },
+    {
+      "text": "Laat de saus een kwartier pruttelen op een zacht vuur."
+    },
+    {
+      "text": "Neem een ruime ovenschaal bij de hand. Zet de grillpan op een stevig vuur en laat ze minstens 10 minuten voorverwarmen. Hoe heter de pan is, hoe krachtiger je kan grillen. Spoel alle groenten schoon."
+    },
+    {
+      "text": "Schil de rode paprika's met een dunschiller. Verdeel de vruchten in kwarten en snij het steeltje en de bleke vliesjes aan de binnenzijde weg."
+    },
+    {
+      "text": "Snij de courgette en de aubergine overlangs in repen van een halve centimeter breed. Veeg de paddenstoelen schoon met een beetje papier (indien nodig) en snij ze in brede schijfjes."
+    },
+    {
+      "text": "Leg de groenten op een schaal en besprenkel ze met een beetje olijfolie."
+    },
+    {
+      "text": "Zet de dampkap op en grill de groenten in beurten. Laat de pan een mooi grillpatroon bakken in de stukken paprika, courgette en aubergine."
+    },
+    {
+      "text": "Spoel de blaadjes spinazie in ruim water. Verwijder de taaiste bladstelen en de middennerf van de bladeren (of gebruik jonge spinazie). Verwarm de oven voor op 180°C."
+    },
+    {
+      "text": "Rasp de Parmezaanse kaas."
+    },
+    {
+      "text": "Neem een mengkom en roer daarin de ricotta en de gemalen Parmezaanse kaas tot een stevig smeuïg mengsel."
+    },
+    {
+      "text": "Kruid het kaasmengsel met flink wat peper van de molen. De Parmezaanse kaas zorgt al voor de zoute smaak."
+    },
+    {
+      "text": "Neem de diepe ovenschaal en schep een laagje tomatensaus op de bodem."
+    },
+    {
+      "text": "Schik er een vel pasta bovenop. Zorg dat het laagje lasagnevellen de hele bodem bedekt, maar vermijd dat de pastavellen elkaar overlappen."
+    },
+    {
+      "text": "Strijk daarbovenop een laagje van het kaasmengsel."
+    },
+    {
+      "text": "Leg een laag verse spinazieblaadjes op de kaas, en een deel van de gegrilde groenten. Puzzel ze samen, zodat de diverse groenten evenredig verdeeld zijn."
+    },
+    {
+      "text": "Strooi er een beetje Provençaalse kruiden, een beetje grof zout en wat peper van de molen bovenop."
+    },
+    {
+      "text": "Vervolgens is het de beurt aan een laagje tomatensaus."
+    },
+    {
+      "text": "Herhaal de handelingen: lasagnevellen, kaasmengsel, spinazie, gegrilde groenten, kruiden, peper en zout."
+    },
+    {
+      "text": "Bovenop het laatste laagje lasagnevellen komt een laagje kaasmengsel, eventueel nog een deel geroosterde groenten (zonder spinazie). Schenk er nog wat tomatensaus over."
+    },
+    {
+      "text": "Werk de ovenschotel af met brokjes verse mozzarella. Verdeel ze over het hele oppervlak van de lasagne."
+    },
+    {
+      "text": "Plaats de lasagne in de voorverwarmde oven van 180°C. Laat ze ongeveer 30 tot 40 minuten garen. Let wel: de exacte gaartijd is afhankelijk van de dikte van je lasagne. Gebruik een prikvork om te controleren of de lasagnevellen gaar (en dus zacht) zijn."
+    }
+  ],
+  "recipeCuisine": "Italiaans"
+}

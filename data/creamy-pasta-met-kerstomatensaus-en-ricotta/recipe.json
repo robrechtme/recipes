@@ -1,0 +1,93 @@
+{
+  "name": "Creamy Pasta met Kerstomatensaus en Ricotta",
+  "slug": "creamy-pasta-met-kerstomatensaus-en-ricotta",
+  "image": "https://chloekookt.be/wp-content/uploads/2020/08/7.jpg",
+  "source": "https://chloekookt.be/creamy-pasta-met-kerstomatensaus-en-ricotta/",
+  "description": "Een romige pasta met zoete kerstomaatjes en ricotta. De combinatie van verse tomaten, ricotta en parmezaan zorgt voor een heerlijke smaak, terwijl de chilipoeder een subtiele pittige toets geeft. Een perfect vegetarisch gerecht dat snel op tafel staat.",
+  "author": {
+    "name": "Chloe Kookt"
+  },
+  "datePublished": "2020-08-04T16:45:58+00:00",
+  "recipeYield": 2,
+  "recipeIngredient": [
+    {
+      "name": "pasta",
+      "amount": 150,
+      "unit": "g"
+    },
+    {
+      "name": "kerstomaatjes",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "name": "rode paprika",
+      "amount": 1,
+      "unit": "stuk"
+    },
+    {
+      "name": "lookteentjes",
+      "amount": 2,
+      "unit": "stuk"
+    },
+    {
+      "name": "ui",
+      "amount": 1,
+      "unit": "stuk"
+    },
+    {
+      "name": "tomatensaus",
+      "amount": 0.5,
+      "unit": "pot"
+    },
+    {
+      "name": "ricotta",
+      "amount": 100,
+      "unit": "g"
+    },
+    {
+      "name": "parmezaan",
+      "amount": 40,
+      "unit": "g"
+    },
+    {
+      "name": "light room",
+      "amount": 5,
+      "unit": "cl"
+    },
+    {
+      "name": "chilipoeder",
+      "amount": 1,
+      "unit": "tl"
+    },
+    {
+      "name": "basilicum",
+      "amount": 1,
+      "unit": "handvol"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Kook de pasta in gezout water"
+    },
+    {
+      "text": "Snijd de groenten en look en stoof deze in olijfolie met wat peper en zout"
+    },
+    {
+      "text": "Blus met de tomatensaus en voeg de chilipoeder toe"
+    },
+    {
+      "text": "Laat de saus even sudderen op een laag vuurtje"
+    },
+    {
+      "text": "Voeg de basilicumblaadjes toe, de ricotta, scheutje room en de parmezaanse kaas"
+    },
+    {
+      "text": "Meng de pasta onder de saus"
+    },
+    {
+      "text": "Werk eventueel af met wat ricotta en verse basilicum"
+    }
+  ],
+  "recipeCuisine": "Italiaans"
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Quiche met prei, zalm en geitenkaas",
+  "slug": "quiche-met-prei-zalm-en-geitenkaas",
+  "image": "http://img.static-rmg.be/a/food/image/q75/w640/h400/18733/quiche-met-prei-zalm-en-geitenkaas.jpg",
+  "source": "https://www.libelle-lekker.be/bekijk-recept/20027/quiche-met-prei-zalm-en-geitenkaas",
+  "author": {
+    "name": "Libelle Lekker"
+  },
+  "recipeCategory": "Lunch",
+  "recipeCuisine": "Europees",
+  "keywords": "quiche, prei, zalm, geitenkaas, lunch",
+  "description": "Een heerlijke hartige quiche met zachte prei, gerookte zalm en romige geitenkaas. Perfect als lunch of lichte avondmaaltijd. De combinatie van de zilte zalm en de pittige geitenkaas maakt deze quiche extra smaakvol. Makkelijk te bereiden en ideaal om te serveren met een frisse salade!",
+  "recipeYield": 2,
+  "prepTime": "PT20M",
+  "cookTime": "PT20M",
+  "totalTime": "PT40M",
+  "recipeIngredient": [
+    {
+      "name": "Prei",
+      "amount": 2
+    },
+    {
+      "name": "Boter"
+    },
+    {
+      "name": "Bladerdeeg",
+      "amount": 1
+    },
+    {
+      "name": "Gerookte zalm",
+      "amount": 150,
+      "unit": "g"
+    },
+    {
+      "name": "Eieren",
+      "amount": 3
+    },
+    {
+      "name": "Room",
+      "amount": 60,
+      "unit": "ml"
+    },
+    {
+      "name": "Geraspte mozzarella",
+      "amount": 100,
+      "unit": "g"
+    },
+    {
+      "name": "Peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "Zout",
+      "amount": 1,
+      "unit": "snufje"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Spoel de prei en snipper fijn. Stoof de prei glazig in een pan met boter en laat afkoelen."
+    },
+    {
+      "text": "Verwarm de oven voor op 200°C. Vet de quichevormpjes in met boter. Steek rondjes uit het bladerdeeg die 4 cm groter zijn dan de diameter van de vormpjes en leg ze in de vormpjes. Duw de randen lichtjes aan."
+    },
+    {
+      "text": "Verdeel de gestoofde prei over de vormpjes. Snij de gerookte zalm in snippers en verdeel over de prei. Kruid met peper."
+    },
+    {
+      "text": "Klop de eieren los met de room en kruid met peper en zout. Verdeel het eimengsel over de vormpjes en verkruimel de mozzarella erover."
+    },
+    {
+      "text": "Bak de quiches 25 minuten in de oven, of tot het eimengsel goed gestold is."
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "name": "Pastitsio",
+  "slug": "pastitsio",
+  "image": "https://cdn.dagelijksekost.tv/recipes/LaZLOcbfpq4PvyKoSjXL/landscape/1727274378439_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=n6q2CFYi%2FtrMTNRclwV7l3YiyS9eFkNSppTmU6NxOf9iQoljbceK0jjQTL%2FF5Iif04HX99s44wyPy0JM22ptuPQZ%2F%2FHiSz7EK3cHqdQ1MmHqj78MJz9w0aEKIUQjJs4F0FGxRtTLG%2FI4lp2Jg%2B11bNutJ68qkXSlvjsE%2FwRlbazsORRfBo1toQt1MVrWfo1eYVTn%2BDPcVrJrmziD4cZxaJwUseD4fVfJZPkzCBfxgwGdRBReFAQxfr7uA4fDa6uqpQo1jRKMPle98zahbmvmCRMK6etjBokk52aB%2FPylR8BTBGcktLjyo9nNMT7Ap0TH0caA%2FTpQ3UVeWKh9oyzjkQ%3D%3D",
+  "source": "https://dagelijksekost.vrt.be/gerechten/pastitsio",
+  "description": "Pastitsio is een pastaschotel met gehakt en bucatini (holle pasta) afkomstig uit Griekenland. De ovenschotel is opgebouwd uit laagjes pasta, een laagje gehaktsaus en een laagje bechamelsaus. Deze schotel maak je makkelijk op voorhand klaar.",
+  "author": {
+    "name": "Dagelijkse kost"
+  },
+  "recipeYield": 4,
+  "recipeIngredient": [
+    {
+      "name": "zout",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "boter",
+      "amount": 40,
+      "unit": "g"
+    },
+    {
+      "name": "gehakt",
+      "amount": 1000,
+      "unit": "g"
+    },
+    {
+      "name": "ajuin",
+      "amount": 4
+    },
+    {
+      "name": "look",
+      "amount": 3,
+      "unit": "teentje"
+    },
+    {
+      "name": "oregano",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "kaneel",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "laurierblaadjes",
+      "amount": 2
+    },
+    {
+      "name": "kaneelstokje",
+      "amount": 1
+    },
+    {
+      "name": "kruidnagels",
+      "amount": 2
+    },
+    {
+      "name": "tomatenpuree",
+      "amount": 1,
+      "unit": "el"
+    },
+    {
+      "name": "rode wijn",
+      "amount": 1,
+      "unit": "scheutje"
+    },
+    {
+      "name": "bucatini",
+      "amount": 500,
+      "unit": "g"
+    },
+    {
+      "name": "bloem",
+      "amount": 60,
+      "unit": "g"
+    },
+    {
+      "name": "tomatenblokjes",
+      "amount": 2,
+      "unit": "blik"
+    },
+    {
+      "name": "tomaten passata",
+      "amount": 690,
+      "unit": "g"
+    },
+    {
+      "name": "melk",
+      "amount": 0.6,
+      "unit": "l"
+    },
+    {
+      "name": "parmezaanse kaas",
+      "amount": 100,
+      "unit": "g"
+    },
+    {
+      "name": "olijfolie",
+      "amount": 1,
+      "unit": "scheutje"
+    },
+    {
+      "name": "feta",
+      "amount": 100,
+      "unit": "g"
+    },
+    {
+      "name": "rozemarijn",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "nootmuskaat",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "panko",
+      "amount": 50,
+      "unit": "g"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Verwarm de oven voor op 200°C. Breng een pot gezouten water aan de kook en zet een pan op het vuur."
+    },
+    {
+      "text": "Laat een flinke klont boter heet worden in een kookpot."
+    },
+    {
+      "text": "Leg het gehakt in grote stukken in de pan met de boter. Duw het gehakt vervolgens plat in de pan en laat het rustig verder bakken."
+    },
+    {
+      "text": "Pel de ui en snijd ze in stukjes."
+    },
+    {
+      "text": "Pel en snijd de teentjes look fijn."
+    },
+    {
+      "text": "Kruid de stovende groenten met een flinke snuif oregano, een snuif kaneel, enkele laurierblaadjes, een kaneelstokje, een flinke snuif tijm en de kruidnagels."
+    },
+    {
+      "text": "Haal het vlees van het vuur en laat even uitlekken. Voeg vervolgens toe aan de stovende groenten en meng onder elkaar."
+    },
+    {
+      "text": "Doe er de tomatenpuree bij en laat even meebakken."
+    },
+    {
+      "text": "Giet er de rode wijn over en laat deze inkoken."
+    },
+    {
+      "text": "Kook de pasta 1 minuut minder als vermeld staat op de verpakking."
+    },
+    {
+      "text": "Laat de boter smelten in een pot en voeg er de bloem aan toe. Meng het geheel tot een stevige roux en laat even drogen op het vuur."
+    },
+    {
+      "text": "Doe de tomatenblokjes en de passata bij de saus en meng het geheel onder elkaar."
+    },
+    {
+      "text": "Blus de roux met de melk. Blijf geduldig doorroeren met een garde tot de saus pruttelt en bindt tot een gladde bechamelsaus."
+    },
+    {
+      "text": "Rasp de parmezaan in een kom en zet even aan de kant."
+    },
+    {
+      "text": "Neem de ovenschalen en giet er een scheutje olijfolie in."
+    },
+    {
+      "text": "Giet de pasta af en verdeel de helft van de pasta over de twee ovenschalen. Lepel er wat van de saus over. Verdeel ook de andere helft van de pasta over de ovenschalen."
+    },
+    {
+      "text": "Doe een deel van de feta met de geraspte Parmezaanse kaas bij de bechamelsaus en meng het geheel onder elkaar."
+    },
+    {
+      "text": "Breng de saus verder op smaak met een snuifje rozemarijn, een snuifje nootmuskaat, een snuifje zout en wat peper van de molen."
+    },
+    {
+      "text": "Verdeel de bechamelsaus over de ovenschotels. Verbrokkel er de rest van de feta over en werk af met wat panko en een scheutje olijfolie."
+    },
+    {
+      "text": "Schuif de ovenschotel nog 20 minuten in de hete oven."
+    }
+  ],
+  "recipeCuisine": "Grieks"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Risotto met Pesto, Courgette en Halloumi",
+  "slug": "risotto-met-pesto-courgette-en-halloumi",
+  "image": "https://chloekookt.be/wp-content/uploads/2020/08/5.jpg",
+  "source": "https://chloekookt.be/risotto-met-pesto-courgette-en-halloumi/",
+  "description": "Een smaakvolle risotto gecombineerd met groene pesto, gebakken courgette en krokant gebakken halloumi, afgewerkt met verse basilicum.",
+  "author": {
+    "name": "Chloé Kookt"
+  },
+  "datePublished": "2019-08-15",
+  "recipeCategory": "Hoofdgerecht",
+  "recipeCuisine": "Italiaans",
+  "keywords": "risotto, pesto, courgette, halloumi, vegetarisch",
+  "recipeYield": 2,
+  "prepTime": "PT10M",
+  "cookTime": "PT20M",
+  "totalTime": "PT30M",
+  "recipeIngredient": [
+    {
+      "name": "Risottorijst",
+      "amount": 125,
+      "unit": "g"
+    },
+    {
+      "name": "Bouillonblokje",
+      "amount": 1
+    },
+    {
+      "name": "Halloumi",
+      "amount": 150,
+      "unit": "g"
+    },
+    {
+      "name": "Courgette",
+      "amount": 1
+    },
+    {
+      "name": "Ui",
+      "amount": 1
+    },
+    {
+      "name": "Lookteentjes",
+      "amount": 2
+    },
+    {
+      "name": "Pesto",
+      "amount": 1.5,
+      "unit": "el"
+    },
+    {
+      "name": "Parmezaanse kaas",
+      "amount": 30,
+      "unit": "g"
+    },
+    {
+      "name": "Heet water",
+      "amount": 500,
+      "unit": "ml"
+    },
+    {
+      "name": "Olijfolie",
+      "amount": 2,
+      "unit": "el"
+    },
+    {
+      "name": "Peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "Zout",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "Basilicum",
+      "amount": 1,
+      "unit": "handvol"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Verhit een pot op het vuur en voeg een scheut olijfolie toe."
+    },
+    {
+      "text": "Stoof de fijngehakte look samen met de risottorijst tot de rijst glazig wordt."
+    },
+    {
+      "text": "Voeg beetje bij beetje heet water toe en los het bouillonblokje erin op. Blijf roeren en voeg water toe tot de rijst gaar is (ongeveer 15-20 minuten)."
+    },
+    {
+      "text": "Snijd de courgette en ui in stukjes en bak ze in een beetje olijfolie. Kruid met peper en zout."
+    },
+    {
+      "text": "Meng de helft van de gebakken groenten onder de risotto; bewaar de rest voor de garnering."
+    },
+    {
+      "text": "Roer de pesto en Parmezaanse kaas door de risotto en breng op smaak met peper en zout."
+    },
+    {
+      "text": "Snijd de halloumi in plakjes en bak ze zonder vetstof tot ze een krokant korstje hebben."
+    },
+    {
+      "text": "Serveer de risotto met de overgebleven groenten, de gebakken halloumi en werk af met verse basilicum."
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "name": "Kip Tikka Masala",
+  "slug": "kip-tikka-masala",
+  "image": "https://cdn.dagelijksekost.tv/recipes/q3Hq9x253fk6bAwrIgWY/landscape/1727274592377_1500x1125?GoogleAccessId=firebase-adminsdk-2hybg%40dagelijkse-kost-prod.iam.gserviceaccount.com&Expires=16725225600&Signature=g8K8OcrcdoIL7tHMABGCanOW3jdCfUaLB9q%2B0h7OJ73nuB85ih8mJy8Pf%2FOhXkzvhNG85zbLZMOJCmDDHpvg%2BhMJ%2BR74SbhZkpucI4Y8keqqGPzOr5BIddmbfH33WYwB1XVyn2%2Bn228w8yj0tU8K1P%2Fvi03hnZOCxxL%2FqARcijbkRrQ2aaFUSYD30KVnzd22Dwo0xuhSXQx2eqsRrhDufH4wAmufS2qUJxb7w5zQCXvlSHawa%2Bll6Bwz%2Bm%2FMEXjbRfywSGSslHNGJfZraY3V71sd4L%2FgCJsWGf%2FliGwegkq0sVi2g71zjN%2FFvAhfKqQEDn%2BFWi0LALpZ%2FpESKxuE%2FA%3D%3D",
+  "source": "https://dagelijksekost.vrt.be/gerechten/kip-tikka-masala",
+  "description": "Kip 'Tikka Masala' is een wereldberoemd Indiaas gerecht. Jeroen marineert de kip in een kruidige en romige saus op basis van yoghurt en kokosmelk. Serveer het gerecht met een portie geurige basmatirijst.",
+  "author": {
+    "name": "Dagelijkse kost"
+  },
+  "datePublished": "2011-01-01",
+  "recipeCategory": "Hoofdgerecht",
+  "recipeCuisine": "Indiaas",
+  "keywords": "kip, tikka masala, Indiaas, curry",
+  "recipeYield": 4,
+  "prepTime": "PT30M",
+  "cookTime": "PT20M",
+  "totalTime": "PT2H30M",
+  "recipeIngredient": [
+    {
+      "name": "Kipfilets",
+      "amount": 4
+    },
+    {
+      "name": "Yoghurt",
+      "amount": 100,
+      "unit": "ml"
+    },
+    {
+      "name": "Kokosmelk",
+      "amount": 400,
+      "unit": "ml"
+    },
+    {
+      "name": "Tomatenstukjes",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "Gember",
+      "amount": 40,
+      "unit": "g"
+    },
+    {
+      "name": "Rode uien",
+      "amount": 2
+    },
+    {
+      "name": "Chilipeper",
+      "amount": 1
+    },
+    {
+      "name": "Lookteentjes",
+      "amount": 3
+    },
+    {
+      "name": "Limoen",
+      "amount": 1
+    },
+    {
+      "name": "Koriander",
+      "amount": 0.5,
+      "unit": "bosje"
+    },
+    {
+      "name": "Kurkumapoeder",
+      "amount": 0.5,
+      "unit": "el"
+    },
+    {
+      "name": "Garam masala",
+      "amount": 0.5,
+      "unit": "el"
+    },
+    {
+      "name": "Tandoori-pasta",
+      "amount": 1,
+      "unit": "el"
+    },
+    {
+      "name": "Currypoeder",
+      "amount": 1,
+      "unit": "el"
+    },
+    {
+      "name": "Amandelschilfers",
+      "amount": 4,
+      "unit": "el"
+    },
+    {
+      "name": "Arachideolie",
+      "amount": 2,
+      "unit": "scheutjes"
+    },
+    {
+      "name": "Peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "Zout",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "Basmatirijst",
+      "amount": 200,
+      "unit": "g"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Snijd de kipfilets in brede repen en doe ze in een ruime mengschaal."
+    },
+    {
+      "text": "Voeg de yoghurt, garam masala, tandoori-pasta, currypoeder, kurkumapoeder, limoenzeste en het sap van een halve limoen toe. Meng alles goed en laat de kip marineren."
+    },
+    {
+      "text": "Pel de lookteentjes, snipper de chilipeper en schil de gember. Mix deze samen met de koriandersteeltjes fijn in een blender."
+    },
+    {
+      "text": "Rooster de amandelschilfers in een hete pan tot ze lichtbruin zijn. Zet opzij."
+    },
+    {
+      "text": "Verhit een scheutje arachideolie in de pan. Haal de kip uit de marinade en bak de stukken kort aan beide zijden. Haal de kip uit de pan en zet opzij."
+    },
+    {
+      "text": "Pel en snipper de rode uien fijn. Stoof ze aan in dezelfde pan met een extra scheutje arachideolie."
+    },
+    {
+      "text": "Voeg het gemixte kruidenmengsel toe aan de uien en roer goed door."
+    },
+    {
+      "text": "Schenk de tomatenstukjes en de kokosmelk in de pan. Roer tot een egale saus."
+    },
+    {
+      "text": "Voeg de gebakken kip toe aan de saus en laat het geheel nog 20 minuten zachtjes sudderen."
+    },
+    {
+      "text": "Kook ondertussen de basmatirijst volgens de aanwijzingen op de verpakking."
+    },
+    {
+      "text": "Serveer de kip tikka masala met de basmatirijst en werk af met de geroosterde amandelschilfers en verse korianderblaadjes."
+    }
+  ]
+}

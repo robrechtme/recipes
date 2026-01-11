@@ -1,13 +1,14 @@
-import data from "../../data/recipes.json";
-
 import { Recipe } from "./types";
 
+import { recipes } from "@data";
+
+
 export async function getRecipes(): Promise<Recipe[]> {
-  return data;
+  return recipes;
 }
 
-export async function getRecipe(slug: string) {
-  return data.find((recipe) => recipe.slug === slug);
+export async function getRecipe(slug: string): Promise<Recipe | undefined> {
+  return recipes.find((recipe: Recipe) => recipe.slug === slug);
 }
 
 export function searchRecipes(recipes: Recipe[], query: string): Recipe[] {

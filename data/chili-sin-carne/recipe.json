@@ -1,0 +1,136 @@
+{
+  "name": "Chili sin carne",
+  "slug": "chili-sin-carne",
+  "image": "https://www.leukerecepten.nl/app/uploads/2022/08/chili-sin-carne-h.jpg",
+  "source": "https://www.leukerecepten.nl/recepten/chili-sin-carne/",
+  "description": "De heerlijke vegetarische variant op de chili con carne. Een lekker Mexicaans gerecht zonder vlees maar met lekker veel groenten in een kruidige saus.",
+  "keywords": "vegetarisch, glutenvrij, Mexicaans",
+  "recipeCuisine": "Mexicaans",
+  "author": {
+    "name": "Jaimy"
+  },
+  "recipeYield": 4,
+  "prepTime": "PT30M",
+  "totalTime": "PT30M",
+  "recipeIngredient": [
+    {
+      "name": "snelkookrijst",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "bruine bonen",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "kidney bonen",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "tomatenblokjes",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "tomatenpuree",
+      "amount": 70,
+      "unit": "g"
+    },
+    {
+      "name": "tomaten passata",
+      "amount": 500,
+      "unit": "ml"
+    },
+    {
+      "name": "maïs",
+      "amount": 340,
+      "unit": "g"
+    },
+    {
+      "name": "ui",
+      "amount": 1
+    },
+    {
+      "name": "knoflook",
+      "amount": 2,
+      "unit": "tenen"
+    },
+    {
+      "name": "limoen",
+      "amount": 1
+    },
+    {
+      "name": "zure room",
+      "amount": 125,
+      "unit": "ml"
+    },
+    {
+      "name": "paprikamix",
+      "amount": 3,
+      "unit": "paprika's"
+    },
+    {
+      "name": "paprikapoeder",
+      "amount": 1,
+      "unit": "tl"
+    },
+    {
+      "name": "oregano",
+      "amount": 1,
+      "unit": "tl"
+    },
+    {
+      "name": "komijn poeder",
+      "amount": 1,
+      "unit": "tl"
+    },
+    {
+      "name": "chili poeder",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "olie",
+      "amount": 1,
+      "unit": "scheutje"
+    },
+    {
+      "name": "peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "zout",
+      "amount": 1,
+      "unit": "snufje"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Snijd de paprika's in kleine stukjes."
+    },
+    {
+      "text": "Fruit het uitje aan in wat olie en als deze glazig is, voeg dan de knoflook toe."
+    },
+    {
+      "text": "Daarna mogen ook de kruiden toegevoegd worden (paprikapoeder, oregano, chili en komijn), fruit dit even mee."
+    },
+    {
+      "text": "Na 1 minuut gaat de tomaten puree erbij. Laat dit 2 minuten op laag vuur staan en voeg dan de paprika toe."
+    },
+    {
+      "text": "Na 5 minuten gaan de blokjes tomaat en passata erbij. Breng dit op smaak met peper en zout. Laat dit 10 minuten pruttelen."
+    },
+    {
+      "text": "Zet ondertussen de rijst op en kook deze volgens de verpakking."
+    },
+    {
+      "text": "Voeg daarna de maïs, bruine bonen en kidneybonen toe aan de tomatensaus en laat dit op middelhoog vuur staan tot de rijst klaar is. Dit zal ongeveer 10 minuten zijn."
+    },
+    {
+      "text": "Serveer de chili met rijst, partjes limoen en zure room."
+    }
+  ]
+}

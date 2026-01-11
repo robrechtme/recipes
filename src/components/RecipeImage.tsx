@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import * as Images from "@data/images";
+import { images } from "@data";
 
 export const RecipeImage = ({
   slug,
@@ -11,7 +11,7 @@ export const RecipeImage = ({
 }) => {
   return (
     <Image
-      src={Images[slug as keyof typeof Images]}
+      src={images[slug as keyof typeof images]}
       className={className}
       priority
       alt=""

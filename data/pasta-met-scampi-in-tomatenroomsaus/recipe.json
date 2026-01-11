@@ -1,0 +1,97 @@
+{
+  "name": "Pasta met scampi in tomatenroomsaus",
+  "slug": "pasta-met-scampi-in-tomatenroomsaus",
+  "image": "https://images-5.schellywood.be/thumbnail/full/23273/pasta-met-scampi.jpg",
+  "source": "https://njam.tv/recepten/pasta-met-scampi-in-tomatenroomsaus",
+  "description": "Een heerlijk pastagerecht met scampi's in een romige tomatensaus.",
+  "author": {
+    "name": "Stephanie Bex"
+  },
+  "recipeCategory": "Hoofdgerecht",
+  "recipeCuisine": "Italiaans",
+  "keywords": "pasta, scampi, tomatenroomsaus",
+  "recipeYield": 4,
+  "prepTime": "PT10M",
+  "cookTime": "PT10M",
+  "totalTime": "PT20M",
+  "recipeIngredient": [
+    {
+      "name": "pasta",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "scampi's",
+      "amount": 24
+    },
+    {
+      "name": "look",
+      "amount": 1,
+      "unit": "teentje"
+    },
+    {
+      "name": "rode ui",
+      "amount": 1
+    },
+    {
+      "name": "Boursin",
+      "amount": 150,
+      "unit": "g"
+    },
+    {
+      "name": "tomatenpuree",
+      "amount": 70,
+      "unit": "g"
+    },
+    {
+      "name": "room",
+      "amount": 200,
+      "unit": "ml"
+    },
+    {
+      "name": "kersomaatjes",
+      "amount": 250,
+      "unit": "g"
+    },
+    {
+      "name": "bieslook",
+      "amount": 1,
+      "unit": "handvol"
+    },
+    {
+      "name": "peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "zout",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "cayennepeper",
+      "amount": 1,
+      "unit": "snufje"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Kook de pasta al dente."
+    },
+    {
+      "text": "Bak de look, rode ui en scampi's in een pan tot ze goudkleurig zijn."
+    },
+    {
+      "text": "Voeg de Boursin toe en laat smelten."
+    },
+    {
+      "text": "Doe de tomatenpuree, room en kerstomaatjes erbij. Voeg indien nodig een scheutje water toe als de saus te dik is."
+    },
+    {
+      "text": "Kruid met peper, zout en cayennepeper en meng de pasta onder de saus."
+    },
+    {
+      "text": "Werk af met bieslook."
+    }
+  ]
+}

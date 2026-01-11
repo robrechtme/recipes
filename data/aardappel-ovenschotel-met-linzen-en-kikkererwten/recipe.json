@@ -1,0 +1,103 @@
+{
+  "name": "Aardappel-ovenschotel met linzen en kikkererwten",
+  "slug": "aardappel-ovenschotel-met-linzen-en-kikkererwten",
+  "image": "https://www.lekkerensimpel.com/wp-content/uploads/2016/10/IMG_3792.jpg",
+  "source": "https://www.lekkerensimpel.com/aardappel-ovenschotel-met-linzen-en-kikkererwten/",
+  "description": "Een smakelijke ovenschotel met (zoete) aardappels, linzen en kikkererwten.",
+  "recipeCategory": "Hoofdgerecht",
+  "author": {
+    "name": "Lekker en Simpel"
+  },
+  "recipeYield": 2,
+  "prepTime": "PT20M",
+  "cookTime": "PT15M",
+  "totalTime": "PT35M",
+  "recipeIngredient": [
+    {
+      "name": "(zoete) aardappels",
+      "amount": 500,
+      "unit": "g"
+    },
+    {
+      "name": "linzen uit blik",
+      "amount": 150,
+      "unit": "g"
+    },
+    {
+      "name": "kikkererwten uit blik",
+      "amount": 150,
+      "unit": "g"
+    },
+    {
+      "name": "tomatenblokjes",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "paprika",
+      "amount": 1
+    },
+    {
+      "name": "ui",
+      "amount": 1
+    },
+    {
+      "name": "knoflook",
+      "amount": 1,
+      "unit": "teen"
+    },
+    {
+      "name": "ras el hanout kruiden",
+      "amount": 1,
+      "unit": "tl"
+    },
+    {
+      "name": "geraspte kaas",
+      "amount": 1,
+      "unit": "handje"
+    },
+    {
+      "name": "zout",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "peper",
+      "amount": 1,
+      "unit": "snufje"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Verwarm de oven voor op 200 graden."
+    },
+    {
+      "text": "Schil de aardappels en snijd ze in plakjes. Kook de plakjes ongeveer 10 minuten tot ze zacht zijn."
+    },
+    {
+      "text": "Snipper de ui en snijd de knoflook fijn. Bak deze in een pan met een scheutje olie."
+    },
+    {
+      "text": "Voeg na 2-3 minuten de in stukjes gesneden paprika toe en bak enkele minuten mee."
+    },
+    {
+      "text": "Voeg de kikkererwten, linzen en ras el hanout kruiden toe en bak kort mee."
+    },
+    {
+      "text": "Voeg de tomatenblokjes toe en laat het geheel ongeveer 10 minuten zachtjes pruttelen."
+    },
+    {
+      "text": "Verdeel de helft van de aardappelschijfjes over de bodem van een ingevette ovenschaal."
+    },
+    {
+      "text": "Schep de helft van de saus over de aardappels. Leg hierop de rest van de aardappelschijfjes en vervolgens de resterende saus."
+    },
+    {
+      "text": "Strooi de geraspte kaas over de ovenschotel."
+    },
+    {
+      "text": "Bak de ovenschotel ongeveer 15 minuten in de oven tot de kaas gesmolten is."
+    }
+  ],
+  "recipeCuisine": "Mediterraans"
+}

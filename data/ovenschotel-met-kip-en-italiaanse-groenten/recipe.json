@@ -1,0 +1,100 @@
+{
+  "name": "Ovenschotel met kip en Italiaanse groenten",
+  "slug": "ovenschotel-met-kip-en-italiaanse-groenten",
+  "image": "https://i0.wp.com/lovemyfood.nl/lovemyfood.nl/wp-content/uploads/2016/05/Ovenschotel-met-kip-en-Italiaanse-groenten-2.jpg?fit=900%2C600&ssl=1",
+  "source": "http://lovemyfood.nl/lovemyfood.nl/ovenschotel-kip-en-italiaanse-groenten/",
+  "description": "Een eenvoudige Italiaanse ovenschotel met kip, krieltjes en mediterrane groenten, afgewerkt met mozzarella en Parmezaanse kaas.",
+  "author": {
+    "name": "Love My Food"
+  },
+  "recipeCategory": "Hoofdgerecht",
+  "recipeCuisine": "Italiaans",
+  "keywords": "kip, ovenschotel, groenten, Italiaans",
+  "recipeYield": 4,
+  "prepTime": "PT15M",
+  "cookTime": "PT30M",
+  "totalTime": "PT45M",
+  "recipeIngredient": [
+    {
+      "name": "kipfilet",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "voorgekookte krieltjes",
+      "amount": 350,
+      "unit": "g"
+    },
+    {
+      "name": "courgette",
+      "amount": 1
+    },
+    {
+      "name": "aubergine",
+      "amount": 1,
+      "unit": "kleine"
+    },
+    {
+      "name": "ui",
+      "amount": 1
+    },
+    {
+      "name": "knoflook",
+      "amount": 2,
+      "unit": "teentjes"
+    },
+    {
+      "name": "tomatenblokjes",
+      "amount": 1,
+      "unit": "blik"
+    },
+    {
+      "name": "mozzarella",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "name": "gedroogde Italiaanse kruiden",
+      "amount": 1,
+      "unit": "el"
+    },
+    {
+      "name": "cayennepeper",
+      "amount": 0.5,
+      "unit": "tl"
+    },
+    {
+      "name": "paprikapoeder",
+      "amount": 0.5,
+      "unit": "tl"
+    },
+    {
+      "name": "Parmezaanse kaas",
+      "amount": 1,
+      "unit": "handje"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Verwarm de oven voor op 200 graden en vet een grote ovenschaal licht in."
+    },
+    {
+      "text": "Snijd de kipfilet in blokjes en snijd de courgette en aubergine in ¼ plakjes."
+    },
+    {
+      "text": "Snipper de ui en hak de knoflook fijn."
+    },
+    {
+      "text": "Snijd de mozzarella in stukjes."
+    },
+    {
+      "text": "Doe alles bij elkaar in de ovenschaal en voeg de krieltjes, tomatenblokjes, Italiaanse kruiden, cayennepeper en paprikapoeder toe. Breng op smaak met peper en zout en meng alles goed door elkaar."
+    },
+    {
+      "text": "Bestrooi de ovenschotel met de Parmezaanse kaas zet voor ca. 30 minuten in de oven tot de kip gaar is."
+    },
+    {
+      "text": "Serveer met wat extra geraspte kaas."
+    }
+  ]
+}

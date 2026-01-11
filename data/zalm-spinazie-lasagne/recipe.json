@@ -1,0 +1,86 @@
+{
+  "name": "Zalm spinazie lasagne",
+  "slug": "zalm-spinazie-lasagne",
+  "image": "https://www.leukerecepten.nl/app/uploads/2020/03/lasagne-met-zalm_n.jpg",
+  "source": "https://www.leukerecepten.nl/recepten/zalm-spinazie-lasagne/",
+  "description": "Makkelijke verse lasagne met laagjes romige spinazie, plakjes tomaat en zalm, een heerlijke combinatie van pasta, groenten en vis",
+  "recipeCuisine": "Italiaans",
+  "author": {
+    "name": "Leuke Recepten"
+  },
+  "keywords": "vis, pasta, groenten",
+  "recipeYield": 4,
+  "prepTime": "PT30M",
+  "cookTime": "PT45M",
+  "totalTime": "PT1H15M",
+  "recipeIngredient": [
+    {
+      "name": "lasagnevellen",
+      "amount": 250,
+      "unit": "g"
+    },
+    {
+      "name": "verse spinazie",
+      "amount": 600,
+      "unit": "g"
+    },
+    {
+      "name": "verse zalmfilet",
+      "amount": 300,
+      "unit": "g"
+    },
+    {
+      "name": "ricotta",
+      "amount": 450,
+      "unit": "g"
+    },
+    {
+      "name": "melk",
+      "amount": 125,
+      "unit": "ml"
+    },
+    {
+      "name": "geraspte kaas",
+      "amount": 1,
+      "unit": "handje"
+    },
+    {
+      "name": "knoflook",
+      "amount": 1,
+      "unit": "teentje"
+    },
+    {
+      "name": "tomaten",
+      "amount": 2
+    },
+    {
+      "name": "peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "zout",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "boter",
+      "amount": 1,
+      "unit": "scheutje"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Verwarm de oven op 200 graden. Bak de spinazie in etappes in een grote pan tot deze geslonken is. Snijd de zalm in dunne plakken."
+    },
+    {
+      "text": "Druk met een lepel zo veel mogelijk vocht uit de spinazie in een zeef of vergiet. Doe de geslonken spinazie in een kom en voeg de ricotta en melk toe en meng door elkaar. Breng op smaak met een flinke snuf peper, zout en knoflook."
+    },
+    {
+      "text": "Vet de ovenschaal in en verdeel een beetje (ca ⅕ deel) van het spinazie mengsel over de bodem. Leg hier 3 a 4 lasagnevellen op. Verdeel hier wat van het spinazie mengsel (ca ⅕ deel) over en de helft van de plakjes zalm. Dek weer af met lasagnevellen en schep er weer een beetje van het spinazie mengsel over en 1 tomaat in plakken."
+    },
+    {
+      "text": "Herhaal dit nog een keer met het spinazie mengsel en zalm, lasagnebladen en eindig met het spinazie mengsel met plakjes tomaat. Bestrooi de zalm lasagne met kaas en zet ca. 45 minuten in de oven tot hij gaar is."
+    }
+  ]
+}

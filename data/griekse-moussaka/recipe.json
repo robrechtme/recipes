@@ -1,0 +1,163 @@
+{
+  "name": "Griekse moussaka",
+  "slug": "griekse-moussaka",
+  "image": "https://www.leukerecepten.nl/app/uploads/2020/05/moussaka-2.jpg",
+  "author": {
+    "name": "Leuke Recepten"
+  },
+  "source": "https://www.leukerecepten.nl/recepten/griekse-moussaka/",
+  "description": "Lekkere Griekse ovenschotel met laagjes gegrilde aubergine, aardappel en een kruidige gehaktsaus onder een laagje romige bechamelsaus",
+  "recipeCuisine": "Grieks",
+  "keywords": "vegetarisch, ovenschotel, Grieks",
+  "recipeYield": 4,
+  "prepTime": "PT45M",
+  "cookTime": "PT45M",
+  "totalTime": "PT1H30M",
+  "recipeIngredient": [
+    {
+      "name": "aardappelschijfjes",
+      "amount": 600,
+      "unit": "g"
+    },
+    {
+      "name": "aubergines",
+      "amount": 2,
+      "unit": "grote"
+    },
+    {
+      "name": "bloem",
+      "amount": 2,
+      "unit": "el"
+    },
+    {
+      "name": "olie",
+      "amount": 1,
+      "unit": "scheutje"
+    },
+    {
+      "name": "verse peterselie",
+      "amount": 1,
+      "unit": "handje"
+    },
+    {
+      "name": "rundergehakt",
+      "amount": 300,
+      "unit": "g"
+    },
+    {
+      "name": "ui",
+      "amount": 1
+    },
+    {
+      "name": "oregano",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "knoflook",
+      "amount": 2,
+      "unit": "tenen"
+    },
+    {
+      "name": "kaneel",
+      "amount": 1,
+      "unit": "tl"
+    },
+    {
+      "name": "tomatenpuree",
+      "amount": 2,
+      "unit": "el"
+    },
+    {
+      "name": "tomatenblokjes",
+      "amount": 400,
+      "unit": "ml"
+    },
+    {
+      "name": "melk",
+      "amount": 300,
+      "unit": "ml"
+    },
+    {
+      "name": "boter",
+      "amount": 30,
+      "unit": "g"
+    },
+    {
+      "name": "bloem",
+      "amount": 30,
+      "unit": "g"
+    },
+    {
+      "name": "laurierblad",
+      "amount": 1
+    },
+    {
+      "name": "geraspte kaas",
+      "amount": 50,
+      "unit": "g"
+    },
+    {
+      "name": "nootmuskaat",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "ei",
+      "amount": 1
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Snijd de aubergines in dunne plakken van ca. 3 mm."
+    },
+    {
+      "text": "Verhit een grillpan."
+    },
+    {
+      "text": "Bestrijk de aubergines met een beetje olie en bestrooi met een beetje peper en zout. Grill ze mooi bruin en bestrooi daarna met een beetje bloem."
+    },
+    {
+      "text": "Hak ondertussen de ui en knoflook fijn en bak een paar minuutjes in een (wok)pan."
+    },
+    {
+      "text": "Voeg het gehakt toe en bak dit rul. Voeg de oregano, kaneel, peper en zout toe en de tomatenblokjes en puree. Laat dit 20 minuutjes pruttelen. Proef of de saus goed op smaak is."
+    },
+    {
+      "text": "Verwarm de oven voor op 180° graden."
+    },
+    {
+      "text": "Verhit de boter in een steelpannetje voor de bechamelsaus. Voeg de bloem toe en bak de roux 5 minuten. Giet dan beetje bij beetje de melk erbij blijf roeren met een garde tot er geen klontjes meer inzitten."
+    },
+    {
+      "text": "Voeg het blaadje laurier toe en laat een paar minuten zachtjes pruttelen."
+    },
+    {
+      "text": "Laat ongeveer 25 gr kaas smelten in de saus en breng op smaak met peper, zout en nootmuskaat."
+    },
+    {
+      "text": "Laat de saus een paar minuten afkoelen, verwijder het laurierblaadje en klop dan ook het ei door de saus."
+    },
+    {
+      "text": "Vet de ovenschaal in met een beetje olie."
+    },
+    {
+      "text": "Verdeel ongeveer de helft van de gegrilde aubergine over de bodem van de ovenschaal."
+    },
+    {
+      "text": "Verdeel hier de aardappelschijfjes over."
+    },
+    {
+      "text": "Dek af met het laag gehaktmengsel. Verdeel hier de rest van de aubergines over."
+    },
+    {
+      "text": "Giet hier de bechamelsaus over. Bestrooi met de rest van de kaas."
+    },
+    {
+      "text": "Zet de moussaka ongeveer 45 minuten in de oven."
+    },
+    {
+      "text": "Laat een paar minuten afkoelen, garneer met peterselie en verdeel de moussaka in stukken."
+    }
+  ]
+}

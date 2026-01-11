@@ -1,0 +1,81 @@
+{
+  "name": "Ovenschotel met veggie gehakt en broccoli",
+  "slug": "ovenschotel-met-veggie-gehakt-en-broccoli",
+  "image": "https://image.15gram.be/uploads/recipes/8053_ovenschotel-met-veggie-gehakt-en-broccoli_1511167153-1920x1280.jpg",
+  "source": "https://15gram.be/recepten/ovenschotel-met-veggie-gehakt-en-broccoli",
+  "author": {
+    "name": "15 gram"
+  },
+  "description": "Hachis parmentier, de bekende ovenschotel met gehakt en groenten in laagjes, kan je ook in een overheerlijke veggieversie maken, met vegetarisch gehakt.",
+  "recipeYield": 2,
+  "totalTime": "PT30M",
+  "recipeIngredient": [
+    {
+      "name": "vastkokende aardappelen",
+      "amount": 400,
+      "unit": "g"
+    },
+    {
+      "name": "broccoli",
+      "amount": 1
+    },
+    {
+      "name": "lichte room",
+      "amount": 100,
+      "unit": "ml"
+    },
+    {
+      "name": "knoflook",
+      "amount": 1,
+      "unit": "teentje"
+    },
+    {
+      "name": "parmezaan",
+      "amount": 30,
+      "unit": "g"
+    },
+    {
+      "name": "vegetarisch gehakt",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "name": "Provençaalse kruiden",
+      "amount": 2,
+      "unit": "kl"
+    },
+    {
+      "name": "olijfolie",
+      "amount": 1,
+      "unit": "el"
+    },
+    {
+      "name": "peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "zout",
+      "amount": 1,
+      "unit": "snufje"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Verwarm de oven voor op 175 °C. Schil de aardappelen en snij ze in plakjes. Snij de broccoli in kleine roosjes. Kook de aardappelen en de broccoli 6-8 minuten in gezouten water en giet af."
+    },
+    {
+      "text": "Warm de room op in een steelpannetje. Pers er de knoflook bij en voeg de helft van de parmezaan toe. Kruid met peper en zout. Haal van het vuur."
+    },
+    {
+      "text": "Bak het vegetarisch gehakt in de olijfolie en breng op smaak met de Provençaalse kruiden, peper en zout."
+    },
+    {
+      "text": "Schik het gehakt, de broccoliroosjes en dan de aardappelplakjes in laagjes in een ovenschaal. Giet de roomsaus over de aardappelplakjes en strooi er de rest van de parmezaan over."
+    },
+    {
+      "text": "Zet de ovenschaal 10-13 minuten in de voorverwarmde oven. Zet dan nog enkele minuten onder een hete grill voor een goudgeel korstje."
+    }
+  ],
+  "recipeCuisine": "Frans"
+}
