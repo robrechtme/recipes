@@ -1,10 +1,11 @@
 import fs from "fs";
 import path from "path";
+
 import sharp from "sharp";
 
-const INPUT_JSON = "./src/core/data.json"; // JSON file with image URLs
-const OUTPUT_DIR = "./src/components/RecipeImage/images";
-const IMAGES_TS_PATH = "./src/components/RecipeImage/images.ts";
+const INPUT_JSON = "./data/recipes.json"; // JSON file with image URLs
+const OUTPUT_DIR = "./data/images";
+const IMAGES_TS_PATH = "./data/images.ts";
 
 // Ensure output directory exists
 if (!fs.existsSync(OUTPUT_DIR)) {

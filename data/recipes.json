@@ -954,5 +954,54 @@
         "text": "Strooi de rest van de geraspte kaas over de pasta en zet ± 10 min. onder de ovengrill tot de bovenkant goudbruin is."
       }
     ]
+  },
+  {
+    "name": "Gnocchi met bloemkool en paprikasaus uit de oven",
+    "slug": "gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven",
+    "image": "gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven",
+    "source": "https://www.colruyt.be/nl/recepten/gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven",
+    "description": "Deze vegan ovenschotel valt in de smaak bij het hele gezin. Een smaakvol gerecht met gnocchi, bloemkool en een romige paprikasaus, afgewerkt met vegan kaas.",
+    "author": { "name": "Colruyt" },
+    "recipeCategory": "Hoofdgerecht",
+    "recipeCuisine": "Internationaal",
+    "keywords": "vegan, ovenschotel, gnocchi, bloemkool, paprika",
+    "recipeYield": 4,
+    "prepTime": "PT25M",
+    "cookTime": "PT20M",
+    "totalTime": "PT45M",
+    "recipeIngredient": [
+      { "name": "bloemkool", "amount": 1 },
+      { "name": "prei", "amount": 1 },
+      { "name": "ui", "amount": 1 },
+      { "name": "look", "amount": 2, "unit": "tenen" },
+      { "name": "vegan alternatief voor geraspte kaas", "amount": 200, "unit": "g" },
+      { "name": "aardappelgnocchi (versmarkt)", "amount": 400, "unit": "g" },
+      { "name": "kikkererwten (blik)", "amount": 400, "unit": "g" },
+      { "name": "gegrilde paprika's (bokaal)", "amount": 3 },
+      { "name": "olijfolie", "amount": 4, "unit": "el" },
+      { "name": "Italiaanse kruidenmix", "amount": 1, "unit": "el" },
+      { "name": "zwarte peper", "amount": 1, "unit": "snufje" },
+      { "name": "zout", "amount": 1, "unit": "snufje" }
+    ],
+    "recipeInstructions": [
+      {
+        "text": "Verdeel de bloemkool in roosjes en kook 6 min. in lichtgezouten water. Hou 1 dl kookvocht aan de kant en giet de rest af."
+      },
+      {
+        "text": "Snipper intussen het knoflook en de ui fijn. Snij de prei in de lengte in 2 en vervolgens in fijne reepjes. Spoel de kikkererwten onder koud water en laat uitlekken."
+      },
+      {
+        "text": "Verhit 1/4 van de olijfolie in een kookpot en stoof het knoflook en de ui glazig. Doe in een hoge kom of maatbeker en voeg de uitgelekte gegrilde paprika's, 1/4 van de bloemkool en de helft van het vegan alternatief voor gemalen kaas toe. Schenk er het kookvocht van de bloemkool bij en mix fijn. Kruid met de Italiaanse kruiden, peper en zout."
+      },
+      {
+        "text": "Verwarm de oven voor op 180 °C."
+      },
+      {
+        "text": "Verhit 1/4 olijfolie in de pan waarin je de ui gestoofd hebt en stoof de prei 4 min. Kruid met peper en zout."
+      },
+      {
+        "text": "Verdeel de gnocchi over een ovenschaal met de rest van de bloemkool, de kikkererwten en de prei. Meng met de rest van olijfolie en kruid met peper en zout. Verdeel er de paprikasaus en de rest van het vegan alternatief voor gemalen kaas over. Zet 20 min. in de voorverwarmde oven."
+      }
+    ]
   }
 ]

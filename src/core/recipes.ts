@@ -1,4 +1,5 @@
-import data from "./data.json";
+import data from "../../data/recipes.json";
+
 import { Recipe } from "./types";
 
 export async function getRecipes(): Promise<Recipe[]> {

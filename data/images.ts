@@ -14,3 +14,4 @@ export { default as 'zalm-spinazie-lasagne' } from './images/zalm-spinazie-lasag
 export { default as 'griekse-moussaka' } from './images/griekse-moussaka.webp'
 export { default as 'chili-sin-carne' } from './images/chili-sin-carne.webp'
 export { default as 'pastagratin-met-boontjes-en-broccolisaus' } from './images/pastagratin-met-boontjes-en-broccolisaus.webp'
+export { default as 'gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven' } from './images/gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven.webp'
