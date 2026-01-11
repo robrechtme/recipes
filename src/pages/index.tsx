@@ -1,8 +1,11 @@
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
+import { useEffect, useState } from "react";
 
 import { RecipeCard } from "@components/RecipeCard";
-import { getRecipes } from "@core/recipes";
+import { SearchBar } from "@components/SearchBar";
+import { SearchEmptyState } from "@components/SearchEmptyState";
+import { getRecipes, searchRecipes } from "@core/recipes";
 import { Recipe } from "@core/types";
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -17,6 +20,18 @@ interface Props {
 }
 
 const Home: NextPage<Props> = ({ recipes }) => {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [filteredRecipes, setFilteredRecipes] = useState<Recipe[]>(recipes);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      const filtered = searchRecipes(recipes, searchQuery);
+      setFilteredRecipes(filtered);
+    }, 300);
+
+    return () => clearTimeout(timeoutId);
+  }, [searchQuery, recipes]);
+
   return (
     <>
       <Head>
@@ -32,8 +47,19 @@ const Home: NextPage<Props> = ({ recipes }) => {
             Een collectie van lekkere recepten, deze keer niet van mezelf
           </p>
         </header>
+
+        <SearchBar
+          searchQuery={searchQuery}
+          onSearchQueryChange={setSearchQuery}
+        />
+
+        {filteredRecipes.length === 0 && searchQuery.trim() && (
+          <SearchEmptyState />
+        )}
+
+        {/* Recipe Grid */}
         <section className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8" role="list">
-          {recipes.map((recipe) => (
+          {filteredRecipes.map((recipe) => (
             <RecipeCard key={recipe.slug} recipe={recipe} />
           ))}
         </section>
