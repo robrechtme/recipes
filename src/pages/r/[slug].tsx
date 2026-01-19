@@ -205,7 +205,7 @@ const RecipeDetail: NextPage<
                 </button>
               </div>
               <ul
-                className="divide-y"
+                className="divide-y divide-neutral-200"
                 role="list"
                 aria-label="Ingrediënten lijst"
               >
@@ -238,7 +238,7 @@ const RecipeDetail: NextPage<
         <section className="bg-white shadow-lg shadow-primary-600 rounded-lg px-8 py-4">
           <h2 className="sr-only">Bereidingswijze</h2>
           {recipe.recipeInstructions.length ? (
-            <ol className="divide-y" role="list" aria-label="Bereidingsstappen">
+            <ol className="divide-y divide-neutral-200" role="list" aria-label="Bereidingsstappen">
               {recipe.recipeInstructions.map((step, index) => (
                 <li key={index} role="listitem">
                   <button
