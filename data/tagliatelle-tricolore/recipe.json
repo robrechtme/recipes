@@ -25,9 +25,9 @@
       "unit": "bakje"
     },
     {
-      "name": "knoflook",
-      "amount": 2,
-      "unit": "teentjes"
+      "name": "oranje pesto",
+      "amount": 1,
+      "unit": "potje"
     },
     {
       "name": "olijfolie",
@@ -47,22 +47,22 @@
   ],
   "recipeInstructions": [
     {
-      "text": "Breng een grote pot gezouten water aan de kook en kook de tagliatelle volgens de verpakking"
+      "text": "Snijd de paprika's in reepjes, de courgettes in halve maantjes en halveer de kerstomaatjes"
     },
     {
-      "text": "Snijd de courgettes in halve maantjes, de paprika's in reepjes en halveer de kerstomaatjes"
+      "text": "Verhit de olijfolie in een grote hapjespan en bak de paprika"
     },
     {
-      "text": "Verhit de olijfolie in een grote hapjespan en fruit de fijngesneden knoflook 1 minuut"
+      "text": "Voeg de courgette toe en bak mee"
     },
     {
-      "text": "Voeg de courgette en paprika toe en bak op middelhoog vuur tot ze zacht zijn, ongeveer 8-10 minuten"
+      "text": "Voeg de kerstomaatjes toe"
     },
     {
-      "text": "Voeg de kerstomaatjes toe en bak nog 3-4 minuten mee tot ze zacht worden"
+      "text": "Roer de oranje pesto erdoor"
     },
     {
-      "text": "Breng op smaak met peper en zout"
+      "text": "Kook intussen de tagliatelle volgens de verpakking"
     },
     {
       "text": "Schep de uitgelekte pasta door de groenten en meng goed"
