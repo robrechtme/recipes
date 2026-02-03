@@ -33,16 +33,6 @@
       "name": "olijfolie",
       "amount": 3,
       "unit": "el"
-    },
-    {
-      "name": "parmezaan",
-      "amount": 50,
-      "unit": "g"
-    },
-    {
-      "name": "verse basilicum",
-      "amount": 1,
-      "unit": "handvol"
     }
   ],
   "recipeInstructions": [
@@ -66,9 +56,6 @@
     },
     {
       "text": "Schep de uitgelekte pasta door de groenten en meng goed"
-    },
-    {
-      "text": "Serveer met geraspte parmezaan en verse basilicum"
     }
   ],
   "recipeCuisine": "Italiaans"
