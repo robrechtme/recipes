@@ -1,0 +1,25 @@
+{
+  "name": "Tagliatelle Tricolore",
+  "slug": "tagliatelle-tricolore",
+  "image": "",
+  "recipeYield": 4,
+  "recipeIngredient": [
+    {
+      "name": "courgettes",
+      "amount": 2,
+      "unit": "stuk"
+    },
+    {
+      "name": "paprika",
+      "amount": 2,
+      "unit": "stuk"
+    },
+    {
+      "name": "kerstomaatjes",
+      "amount": 1,
+      "unit": "bakje"
+    }
+  ],
+  "recipeInstructions": [],
+  "recipeCuisine": "Italiaans"
+}
