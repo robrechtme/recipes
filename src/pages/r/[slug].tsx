@@ -100,6 +100,8 @@ const RecipeDetail: NextPage<
           <RecipeImage
             slug={recipe.slug}
             className="aspect-video object-cover bg-neutral-200 w-full rounded-lg"
+            priority
+            sizes="(max-width: 768px) 100vw, 33vw"
           />
         </figure>
 

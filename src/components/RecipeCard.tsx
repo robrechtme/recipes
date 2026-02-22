@@ -16,6 +16,7 @@ export const RecipeCard = ({ recipe }: Props) => (
       <RecipeImage
         slug={recipe.slug}
         className="aspect-video object-cover bg-neutral-200"
+        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
       />
       <div className="mx-4 my-2 flex-1 flex flex-col">
         <footer className="text-secondary-500 text-sm mb-1">
