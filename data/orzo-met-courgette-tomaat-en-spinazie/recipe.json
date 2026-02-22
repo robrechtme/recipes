@@ -1,0 +1,44 @@
+{
+  "name": "Orzo met Courgette, Tomaat en Spinazie",
+  "slug": "orzo-met-courgette-tomaat-en-spinazie",
+  "image": "https://www.secretosdelsur.com/wp-content/uploads/2023/09/Orzo-met-tomaat-courgette-en-spinazie-1-scaled-e1695650317447.jpg",
+  "source": "https://www.secretosdelsur.com/recepten/orzo-pasta-met-courgette-tomaat-en-spinazie/",
+  "description": "Mediterraanse orzo pasta met courgette, kerstomaatjes en spinazie, afgewerkt met gegrilde berloumi.",
+  "author": {
+    "name": "Secrets del Sur"
+  },
+  "datePublished": "2022-04-27",
+  "recipeCategory": "Hoofdgerecht",
+  "recipeCuisine": "Mediterraans",
+  "keywords": "orzo, pasta, mediterraans, courgette, spinazie, berloumi",
+  "recipeYield": 4,
+  "prepTime": "PT15M",
+  "cookTime": "PT25M",
+  "totalTime": "PT40M",
+  "recipeIngredient": [
+    { "name": "Orzo pasta", "amount": 300, "unit": "g" },
+    { "name": "Passata", "amount": 400, "unit": "ml" },
+    { "name": "Kerstomaatjes", "amount": 20 },
+    { "name": "Babyspinazie", "amount": 50, "unit": "g" },
+    { "name": "Courgette", "amount": 1 },
+    { "name": "Look", "amount": 2, "unit": "teentje" },
+    { "name": "Water", "amount": 1, "unit": "glas" },
+    { "name": "Groentenbouillon", "amount": 0.5, "unit": "blokje" },
+    { "name": "Zoet paprikapoeder", "amount": 2, "unit": "tl" },
+    { "name": "Tomatenconcentraat", "amount": 2, "unit": "el" },
+    { "name": "Harissa pasta", "amount": 1, "unit": "tl" },
+    { "name": "Olijfolie", "amount": 3, "unit": "el" },
+    { "name": "Basilicum", "amount": 10, "unit": "g" },
+    { "name": "Berloumi", "amount": 200, "unit": "g" },
+    { "name": "Peper" },
+    { "name": "Zout" }
+  ],
+  "recipeInstructions": [
+    { "text": "Zet een pot water (met een scheutje olijfolie en snufje zout) op het vuur en kook de orzo pasta volgens de instructies op de verpakking. Laat hem niet te lang koken want hij wordt nadien nog opgebakken. Giet af en meng er een eetlepel olijfolie doorheen zodat hij niet aan elkaar kleeft." },
+    { "text": "Was de courgette en halveer hem in de lengte, halveer opnieuw in de lengte en snij in fijne schijfjes. Versnipper de look. Spoel de kerstomaatjes en de spinazie." },
+    { "text": "Doe 2 eetlepels olijfolie in een diepe pan en bak de knoflook een minuutje. Voeg de courgette toe en bak 3 minuten. Voeg het water, de spinazie, kerstomaatjes, tomatenconcentraat en harissa toe. Stoof en roer tot de spinazie is geslonken. Verkruimel het bouillonblokje en strooi het paprikapoeder erbij. Giet de passata erbij en roer goed. Breng op smaak met peper en zout." },
+    { "text": "Lepel de orzo pasta erbij en laat nog 3 minuten sudderen." },
+    { "text": "Snij de berloumi in plakken van ongeveer 1 cm dik. Verhit een grillpan of koekenpan op hoog vuur en gril de berloumi aan beide kanten goudbruin en krokant, ongeveer 2 minuten per kant." },
+    { "text": "Verdeel de orzo over de borden, leg de gegrilde berloumi erop en werk af met versnipperde basilicum." }
+  ]
+}
