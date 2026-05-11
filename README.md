@@ -18,25 +18,20 @@ A collection of my favorite recipes
 </div>
 
 ## Tech Stack
-- [Next.js](https://nextjs.org/)
+- [Next.js](https://nextjs.org/) (Pages Router, SSG)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [csv-parse](https://www.npmjs.com/package/csv-parse)
-- [open-graph-scraper](https://www.npmjs.com/package/open-graph-scraper)
-
-## How it works
-
-1. I have a Google Sheet with URL's to recipes.
-2. The server side parses the Google Sheet and visits the websites.
-3. The scraper looks for [Open Graph](https://ogp.me/) data on the recipe website and sends it to the client side.
-4. Tailwind makes it pretty.
-
-## License
-
-This repo is lincensed under [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/). See [LICENSE](/LICENSE) for more information.
-
-## Contact
-
-Robrecht Meersman - [@robrechtme](https://twitter.com/robrechtme) - hello@robrecht.me
+- [Biome](https://biomejs.dev/) for linting and formatting
+- [pnpm](https://pnpm.io/) as package manager
 
 
+## Development
+
+```bash
+pnpm install
+pnpm dev      # start dev server
+pnpm build    # production build
+pnpm check    # lint + format with Biome
+```
 
