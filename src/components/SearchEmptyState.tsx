@@ -1,5 +1,3 @@
-import { SearchIcon } from "./SearchIcon";
-
 export const SearchEmptyState = () => (
   <div className="text-center py-16">
     <div className="text-neutral-400 mb-4"></div>

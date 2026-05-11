@@ -1,17 +1,11 @@
-import {
-  GetStaticPaths,
-  GetStaticProps,
-  InferGetStaticPropsType,
-  NextPage,
-} from "next";
-import Head from "next/head";
-import { useState, useEffect } from "react";
-import { useWakeLock } from "react-screen-wake-lock";
-
 import { RecipeImage } from "@components/RecipeImage";
 import { getRecipe, getRecipes } from "@core/recipes";
-import { Recipe } from "@core/types";
+import type { Recipe } from "@core/types";
 import { translateTime } from "@util/string";
+import type { GetStaticPaths, GetStaticProps, InferGetStaticPropsType, NextPage } from "next";
+import Head from "next/head";
+import { useEffect, useState } from "react";
+import { useWakeLock } from "react-screen-wake-lock";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const recipes = await getRecipes();
@@ -22,9 +16,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export const getStaticProps: GetStaticProps<{ recipe: Recipe }> = async ({
-  params,
-}) => {
+export const getStaticProps: GetStaticProps<{ recipe: Recipe }> = async ({ params }) => {
   const recipe = await getRecipe(params?.slug as string);
 
   if (!recipe) {
@@ -34,9 +26,7 @@ export const getStaticProps: GetStaticProps<{ recipe: Recipe }> = async ({
   return { props: { recipe } };
 };
 
-const RecipeDetail: NextPage<
-  InferGetStaticPropsType<typeof getStaticProps>
-> = ({ recipe }) => {
+const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({ recipe }) => {
   const [servings, setServings] = useState(recipe.recipeYield);
   const [selectedStep, setSelectedStep] = useState<number | null>(null);
 
@@ -88,9 +78,7 @@ const RecipeDetail: NextPage<
         {recipe.recipeCuisine && (
           <meta
             name="keywords"
-            content={`${recipe.recipeCuisine}, recept, koken, ${
-              recipe.keywords || ""
-            }`}
+            content={`${recipe.recipeCuisine}, recept, koken, ${recipe.keywords || ""}`}
           />
         )}
       </Head>
@@ -106,9 +94,7 @@ const RecipeDetail: NextPage<
         </figure>
 
         <header className="md:mx-12">
-          <h1 className="text-4xl font-extrabold mb-4 mt-2 text-pretty max-w-2xl">
-            {recipe.name}
-          </h1>
+          <h1 className="text-4xl font-extrabold mb-4 mt-2 text-pretty max-w-2xl">{recipe.name}</h1>
 
           <div
             className="flex flex-wrap gap-2 justify-start mb-6"
@@ -147,9 +133,7 @@ const RecipeDetail: NextPage<
               <div className="text-sm text-neutral800">
                 <dt className="inline">Totaal </dt>
                 <dd className="inline font-bold text-secondary-900">
-                  <time dateTime={recipe.totalTime}>
-                    {translateTime(recipe.totalTime)}
-                  </time>
+                  <time dateTime={recipe.totalTime}>{translateTime(recipe.totalTime)}</time>
                 </dd>
               </div>
             )}
@@ -157,9 +141,7 @@ const RecipeDetail: NextPage<
               <div className="text-sm text-neutral800">
                 <dt className="inline">Voorbereiding </dt>
                 <dd className="inline font-bold text-secondary-900">
-                  <time dateTime={recipe.prepTime}>
-                    {translateTime(recipe.prepTime)}
-                  </time>
+                  <time dateTime={recipe.prepTime}>{translateTime(recipe.prepTime)}</time>
                 </dd>
               </div>
             )}
@@ -167,17 +149,13 @@ const RecipeDetail: NextPage<
               <div className="text-sm text-neutral800">
                 <dt className="inline">Koken </dt>
                 <dd className="inline font-bold text-secondary-900">
-                  <time dateTime={recipe.cookTime}>
-                    {translateTime(recipe.cookTime)}
-                  </time>
+                  <time dateTime={recipe.cookTime}>{translateTime(recipe.cookTime)}</time>
                 </dd>
               </div>
             )}
           </dl>
 
-          <p className="text-lg text-gray-600 mb-6 max-w-prose text-pretty">
-            {recipe.description}
-          </p>
+          <p className="text-lg text-gray-600 mb-6 max-w-prose text-pretty">{recipe.description}</p>
         </header>
         <aside>
           {recipe.recipeIngredient.length ? (
@@ -206,27 +184,15 @@ const RecipeDetail: NextPage<
                   +
                 </button>
               </div>
-              <ul
-                className="divide-y divide-neutral-200"
-                role="list"
-                aria-label="Ingrediënten lijst"
-              >
+              <ul className="divide-y divide-neutral-200" aria-label="Ingrediënten lijst">
                 {recipe.recipeIngredient.map((ingredient, index) => (
-                  <li
-                    key={index}
-                    className="flex justify-between py-1 gap-4"
-                    role="listitem"
-                  >
+                  <li key={index} className="flex justify-between py-1 gap-4">
                     <span className="flex-1 break-all">{ingredient.name}</span>
                     {ingredient.amount !== undefined ? (
-                      <data
-                        className="text-end shrink-0"
-                        value={ingredient.amount}
-                      >
-                        {(
-                          (ingredient.amount / recipe.recipeYield) *
-                          servings
-                        ).toLocaleString("nl-BE")}{" "}
+                      <data className="text-end shrink-0" value={ingredient.amount}>
+                        {((ingredient.amount / recipe.recipeYield) * servings).toLocaleString(
+                          "nl-BE",
+                        )}{" "}
                         {ingredient.unit || ""}
                       </data>
                     ) : null}
@@ -240,25 +206,18 @@ const RecipeDetail: NextPage<
         <section className="bg-white shadow-lg shadow-primary-600 rounded-lg px-8 py-4">
           <h2 className="sr-only">Bereidingswijze</h2>
           {recipe.recipeInstructions.length ? (
-            <ol className="divide-y divide-neutral-200" role="list" aria-label="Bereidingsstappen">
+            <ol className="divide-y divide-neutral-200" aria-label="Bereidingsstappen">
               {recipe.recipeInstructions.map((step, index) => (
-                <li key={index} role="listitem">
+                <li key={index}>
                   <button
-                    onClick={() =>
-                      setSelectedStep(selectedStep === index ? null : index)
-                    }
+                    onClick={() => setSelectedStep(selectedStep === index ? null : index)}
                     className="flex py-8 px-4 gap-4 items-baseline text-start cursor-auto w-full"
                     aria-expanded={selectedStep === index}
-                    aria-label={`Stap ${index + 1}: ${step.text.substring(
-                      0,
-                      50
-                    )}...`}
+                    aria-label={`Stap ${index + 1}: ${step.text.substring(0, 50)}...`}
                   >
                     <span
                       className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
-                        selectedStep === index
-                          ? "bg-primary-800 text-neutral-50"
-                          : "bg-neutral-100"
+                        selectedStep === index ? "bg-primary-800 text-neutral-50" : "bg-neutral-100"
                       }`}
                       aria-hidden="true"
                     >

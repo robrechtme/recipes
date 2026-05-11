@@ -1,12 +1,11 @@
-import type { GetStaticProps, NextPage } from "next";
-import Head from "next/head";
-import { useEffect, useState } from "react";
-
 import { RecipeCard } from "@components/RecipeCard";
 import { SearchBar } from "@components/SearchBar";
 import { SearchEmptyState } from "@components/SearchEmptyState";
 import { getRecipes, searchRecipes } from "@core/recipes";
-import { Recipe } from "@core/types";
+import type { Recipe } from "@core/types";
+import type { GetStaticProps, NextPage } from "next";
+import Head from "next/head";
+import { useEffect, useState } from "react";
 
 export const getStaticProps: GetStaticProps = async () => {
   const recipes = await getRecipes();
@@ -43,19 +42,13 @@ const Home: NextPage<Props> = ({ recipes }) => {
             Tweede kookboek van Robrecht
           </h1>
           <p className="text-lg text-gray-600">
-            Een compilatie van lekkere recepten, niet van mezelf maar soms
-            aangepast naar smaak.
+            Een compilatie van lekkere recepten, niet van mezelf maar soms aangepast naar smaak.
           </p>
         </header>
 
-        <SearchBar
-          searchQuery={searchQuery}
-          onSearchQueryChange={setSearchQuery}
-        />
+        <SearchBar searchQuery={searchQuery} onSearchQueryChange={setSearchQuery} />
 
-        {filteredRecipes.length === 0 && searchQuery.trim() && (
-          <SearchEmptyState />
-        )}
+        {filteredRecipes.length === 0 && searchQuery.trim() && <SearchEmptyState />}
 
         {/* Recipe Grid */}
         <section

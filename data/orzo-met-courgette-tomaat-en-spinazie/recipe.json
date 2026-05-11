@@ -34,11 +34,21 @@
     { "name": "Zout" }
   ],
   "recipeInstructions": [
-    { "text": "Zet een pot water (met een scheutje olijfolie en snufje zout) op het vuur en kook de orzo pasta volgens de instructies op de verpakking. Laat hem niet te lang koken want hij wordt nadien nog opgebakken. Giet af en meng er een eetlepel olijfolie doorheen zodat hij niet aan elkaar kleeft." },
-    { "text": "Was de courgette en halveer hem in de lengte, halveer opnieuw in de lengte en snij in fijne schijfjes. Versnipper de look. Spoel de kerstomaatjes en de spinazie." },
-    { "text": "Doe 2 eetlepels olijfolie in een diepe pan en bak de knoflook een minuutje. Voeg de courgette toe en bak 3 minuten. Voeg het water, de spinazie, kerstomaatjes, tomatenconcentraat en harissa toe. Stoof en roer tot de spinazie is geslonken. Verkruimel het bouillonblokje en strooi het paprikapoeder erbij. Giet de passata erbij en roer goed. Breng op smaak met peper en zout." },
+    {
+      "text": "Zet een pot water (met een scheutje olijfolie en snufje zout) op het vuur en kook de orzo pasta volgens de instructies op de verpakking. Laat hem niet te lang koken want hij wordt nadien nog opgebakken. Giet af en meng er een eetlepel olijfolie doorheen zodat hij niet aan elkaar kleeft."
+    },
+    {
+      "text": "Was de courgette en halveer hem in de lengte, halveer opnieuw in de lengte en snij in fijne schijfjes. Versnipper de look. Spoel de kerstomaatjes en de spinazie."
+    },
+    {
+      "text": "Doe 2 eetlepels olijfolie in een diepe pan en bak de knoflook een minuutje. Voeg de courgette toe en bak 3 minuten. Voeg het water, de spinazie, kerstomaatjes, tomatenconcentraat en harissa toe. Stoof en roer tot de spinazie is geslonken. Verkruimel het bouillonblokje en strooi het paprikapoeder erbij. Giet de passata erbij en roer goed. Breng op smaak met peper en zout."
+    },
     { "text": "Lepel de orzo pasta erbij en laat nog 3 minuten sudderen." },
-    { "text": "Snij de berloumi in plakken van ongeveer 1 cm dik. Verhit een grillpan of koekenpan op hoog vuur en gril de berloumi aan beide kanten goudbruin en krokant, ongeveer 2 minuten per kant." },
-    { "text": "Verdeel de orzo over de borden, leg de gegrilde berloumi erop en werk af met versnipperde basilicum." }
+    {
+      "text": "Snij de berloumi in plakken van ongeveer 1 cm dik. Verhit een grillpan of koekenpan op hoog vuur en gril de berloumi aan beide kanten goudbruin en krokant, ongeveer 2 minuten per kant."
+    },
+    {
+      "text": "Verdeel de orzo over de borden, leg de gegrilde berloumi erop en werk af met versnipperde basilicum."
+    }
   ]
 }

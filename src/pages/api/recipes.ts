@@ -1,11 +1,7 @@
-import { NextApiRequest, NextApiResponse } from "next";
-
 import { getRecipes } from "@core/recipes";
+import type { NextApiRequest, NextApiResponse } from "next";
 
-export default async function handler(
-  req: NextApiRequest,
-  res: NextApiResponse
-) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "OPTIONS") {
     res.setHeader("Allow", "GET, OPTIONS");
     return res.status(204).end();
