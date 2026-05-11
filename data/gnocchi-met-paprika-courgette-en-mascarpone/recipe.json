@@ -2,6 +2,9 @@
   "name": "Gnocchi met paprika, courgette en mascarpone",
   "slug": "gnocchi-met-paprika-courgette-en-mascarpone",
   "description": "Romige ovenschotel met gnocchi, paprika, courgette en spinazie in een tomatensaus met mascarpone.",
+  "author": {
+    "name": "Louise"
+  },
   "recipeYield": 4,
   "image": "image.webp",
   "recipeIngredient": [
