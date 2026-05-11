@@ -58,25 +58,60 @@ The target shape matches `src/core/types.ts`. Optional fields are truly optional
   "recipeInstructions": [
     { "text": "Instruction step 1." },
     { "text": "Instruction step 2." }
+  ],
+  "adaptations": [
+    "Geschaald van 4 naar 2 personen.",
+    "Kip vervangen door tofu."
   ]
 }
 ```
 
+#### Adaptations
+
+`adaptations` is an optional string array that records *true* adaptations vs the original source recipe — changes to what the cook actually does or eats. Omit the field entirely when there are none.
+
+**Include:**
+- Servings scaling ("Geschaald van 4 naar 2 personen.")
+- Ingredient swaps ("Rundergehakt vervangen door linzen.")
+- Dietary adaptations ("Vegetarisch gemaakt door X.")
+- Format/cookware changes ("Eén grote quiche in plaats van meerdere kleine vormpjes.")
+
+**Exclude** (these are data-quality fixes, not adaptations):
+- Fixing typos, wrong units, mislabeled fields
+- Renaming an ingredient for clarity
+- Adding metadata (recipeCategory, times)
+- Clarifying an ambiguous step
+
+Write each adaptation as one short Dutch sentence. Stay factual ("Geschaald van 4 naar 2 personen.") — no reasoning ("Omdat de gebruiker vegetarisch wilde…").
+
 #### Ingredient parsing
 
-Ingredients render in the UI as a scalable list, so they need structured fields rather than raw strings. Capitalize `name` (first letter uppercase) because that's how the UI displays them — the model isn't doing extra normalization at render time.
+Ingredients render in the UI as a scalable list, so they need structured fields rather than raw strings. Keep `name` **lowercase** — the UI renders the string verbatim with no normalization, and the existing corpus is lowercase.
 
-- `"200 g bloem"` → `{ "name": "Bloem", "amount": 200, "unit": "g" }`
-- `"3 eieren"` → `{ "name": "Eieren", "amount": 3 }`
-- `"1 el olijfolie"` → `{ "name": "Olijfolie", "amount": 1, "unit": "el" }`
-- `"½ tl zout"` → `{ "name": "Zout", "amount": 0.5, "unit": "tl" }`
-- `"Peper naar smaak"` → `{ "name": "Peper" }` (no amount, no unit)
+- `"200 g bloem"` → `{ "name": "bloem", "amount": 200, "unit": "g" }`
+- `"3 eieren"` → `{ "name": "eieren", "amount": 3 }`
+- `"½ tl kaneel"` → `{ "name": "kaneel", "amount": 0.5, "unit": "tl" }`
+
+#### Universal pantry items — do NOT include
+
+Skip these even if the source recipe lists them. They're assumed pantry staples, and listing them adds noise to the scalable ingredient list:
+
+- **peper**, **zout** (any variant: zwarte peper, grof zout, peper en zout)
+- **olie**, **olijfolie**, **arachideolie**, **plantaardige olie** (any cooking oil used for greasing/bakken/fruiten)
+- **water** (unless it's a measured ingredient like bouillon water or a precise risotto liquid)
+- **boter** when used only for "vet de ovenschaal in" or similar greasing
+
+If the source lists e.g. `"1 el olijfolie"` or `"Peper naar smaak"`, drop it. Leave the mentions in `recipeInstructions` as-is — instructions can still say "bak in een scheutje olijfolie" or "kruid met peper en zout".
+
+Exception: if oil/butter is a *substantive* ingredient (e.g. 30 g boter in a bechamel roux, or 5 el olijfolie that's the bulk of a dressing), keep it.
 
 Unicode fractions: ½ = 0.5, ⅓ = 0.33, ¼ = 0.25, ¾ = 0.75, ⅔ = 0.67.
 
 Common Dutch units to recognize: `g`, `kg`, `ml`, `dl`, `cl`, `l`, `el` (eetlepel), `tl` (theelepel), `snufje`, `snuf`, `scheutje`, `scheut`, `bosje`, `takje`, `teen`, `teentje`, `stuk`, `plakje`, `plakjes`, `blikje`, `potje`, `bakje`, `zakje`, `handvol`.
 
-Anything you can't confidently split — like "1 ui, fijngesnipperd" — keep the descriptor in the `name` field rather than guessing at a unit: `{ "name": "Ui, fijngesnipperd", "amount": 1 }`.
+Anything you can't confidently split — like "1 ui, fijngesnipperd" — keep the descriptor in the `name` field rather than guessing at a unit: `{ "name": "ui, fijngesnipperd", "amount": 1 }`.
+
+Optional `note` field on an ingredient holds side-info like substitutions or origin (e.g. `{ "name": "gegrilde paprika's (bokaal)", "amount": 2, "unit": "bokaal", "note": "alternatief: 5 verse paprika's" }`). Use it sparingly — only when the source provides a meaningful alternative.
 
 #### Time format
 

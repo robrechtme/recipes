@@ -6,7 +6,6 @@
     "name": "Louise"
   },
   "recipeYield": 4,
-  "image": "image.webp",
   "recipeIngredient": [
     {
       "name": "gnocchi",
@@ -24,9 +23,9 @@
       "unit": "stuk"
     },
     {
-      "name": "tomatenblokjes (blik)",
-      "amount": 2,
-      "unit": "blik"
+      "name": "tomatenblokjes",
+      "amount": 800,
+      "unit": "g"
     },
     {
       "name": "mascarpone",
@@ -59,16 +58,6 @@
       "unit": "tl"
     },
     {
-      "name": "peper",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "zout",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
       "name": "verse basilicum",
       "amount": 1,
       "unit": "handvol"
@@ -85,7 +74,7 @@
       "text": "Voeg de paprika en courgette toe en bak ze 5 à 7 minuten tot ze zacht beginnen te worden. Kruid met Italiaanse kruiden, peper en zout."
     },
     {
-      "text": "Schenk de twee blikken tomatenblokjes erbij en laat de saus 10 minuten zachtjes pruttelen tot ze indikt."
+      "text": "Schenk de tomatenblokjes erbij en laat de saus 10 minuten zachtjes pruttelen tot ze indikt."
     },
     {
       "text": "Roer de mascarpone door de saus tot je een romige, oranje-rode saus krijgt."

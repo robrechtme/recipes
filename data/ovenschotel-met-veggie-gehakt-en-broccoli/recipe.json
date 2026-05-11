@@ -6,9 +6,12 @@
   "author": {
     "name": "15 gram"
   },
-  "description": "Hachis parmentier, de bekende ovenschotel met gehakt en groenten in laagjes, kan je ook in een overheerlijke veggieversie maken, met vegetarisch gehakt.",
+  "description": "Een snelle ovenschotel met laagjes vegetarisch gehakt, broccoli en aardappelplakjes, afgewerkt met een roomsaus en parmezaan.",
+  "recipeCategory": "Hoofdgerecht",
   "recipeYield": 2,
-  "totalTime": "PT30M",
+  "prepTime": "PT15M",
+  "cookTime": "PT25M",
+  "totalTime": "PT40M",
   "recipeIngredient": [
     {
       "name": "vastkokende aardappelen",
@@ -42,22 +45,7 @@
     {
       "name": "Provençaalse kruiden",
       "amount": 2,
-      "unit": "kl"
-    },
-    {
-      "name": "olijfolie",
-      "amount": 1,
-      "unit": "el"
-    },
-    {
-      "name": "peper",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "zout",
-      "amount": 1,
-      "unit": "snufje"
+      "unit": "tl"
     }
   ],
   "recipeInstructions": [

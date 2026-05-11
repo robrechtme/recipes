@@ -49,7 +49,7 @@
       "unit": "ml"
     },
     {
-      "name": "kersomaatjes",
+      "name": "kerstomaatjes",
       "amount": 250,
       "unit": "g"
     },
@@ -57,16 +57,6 @@
       "name": "bieslook",
       "amount": 1,
       "unit": "handvol"
-    },
-    {
-      "name": "peper",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "zout",
-      "amount": 1,
-      "unit": "snufje"
     },
     {
       "name": "cayennepeper",
@@ -79,7 +69,7 @@
       "text": "Kook de pasta al dente."
     },
     {
-      "text": "Bak de look, rode ui en scampi's in een pan tot ze goudkleurig zijn."
+      "text": "Bak de look, rode ui en scampi's in een scheutje olijfolie tot ze goudkleurig zijn."
     },
     {
       "text": "Voeg de Boursin toe en laat smelten."

@@ -7,8 +7,12 @@
   "author": {
     "name": "Chloe Kookt"
   },
-  "datePublished": "2020-08-04T16:45:58+00:00",
+  "datePublished": "2020-08-04",
+  "recipeCategory": "Hoofdgerecht",
   "recipeYield": 2,
+  "prepTime": "PT10M",
+  "cookTime": "PT15M",
+  "totalTime": "PT25M",
   "recipeIngredient": [
     {
       "name": "pasta",
@@ -56,11 +60,6 @@
       "unit": "cl"
     },
     {
-      "name": "chilipoeder",
-      "amount": 1,
-      "unit": "tl"
-    },
-    {
       "name": "basilicum",
       "amount": 1,
       "unit": "handvol"
@@ -68,26 +67,32 @@
   ],
   "recipeInstructions": [
     {
-      "text": "Kook de pasta in gezout water"
+      "text": "Kook de pasta in gezouten water."
     },
     {
-      "text": "Snijd de groenten en look en stoof deze in olijfolie met wat peper en zout"
+      "text": "Snipper de ui en lookteentjes en snijd de paprika in stukjes. Halveer de kerstomaatjes."
     },
     {
-      "text": "Blus met de tomatensaus en voeg de chilipoeder toe"
+      "text": "Stoof de ui, look en paprika in olijfolie met wat peper en zout."
     },
     {
-      "text": "Laat de saus even sudderen op een laag vuurtje"
+      "text": "Voeg de kerstomaatjes toe en bak enkele minuten mee."
     },
     {
-      "text": "Voeg de basilicumblaadjes toe, de ricotta, scheutje room en de parmezaanse kaas"
+      "text": "Blus met de tomatensaus en laat even sudderen op een laag vuurtje."
     },
     {
-      "text": "Meng de pasta onder de saus"
+      "text": "Voeg de basilicumblaadjes, de ricotta, een scheutje room en de parmezaanse kaas toe."
     },
     {
-      "text": "Werk eventueel af met wat ricotta en verse basilicum"
+      "text": "Meng de pasta onder de saus."
+    },
+    {
+      "text": "Werk eventueel af met wat ricotta en verse basilicum."
     }
   ],
-  "recipeCuisine": "Italiaans"
+  "recipeCuisine": "Italiaans",
+  "adaptations": [
+    "Chilipoeder weggelaten."
+  ]
 }

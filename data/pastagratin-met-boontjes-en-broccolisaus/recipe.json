@@ -15,15 +15,6 @@
   "prepTime": "PT20M",
   "cookTime": "PT25M",
   "totalTime": "PT45M",
-  "nutrition": {
-    "calories": "542.00 kCal",
-    "fatContent": "25.60 g",
-    "saturatedFatContent": "11.00 g",
-    "proteinContent": "26.00 g",
-    "fiberContent": "8.20 g",
-    "sodiumContent": "1.50 g",
-    "sugarContent": "7.70 g"
-  },
   "recipeIngredient": [
     {
       "name": "Prinsessenbonen",
@@ -67,16 +58,11 @@
       "name": "Nootmuskaat",
       "amount": 1,
       "unit": "mespunt"
-    },
-    {
-      "name": "Zwarte peper",
-      "amount": 1,
-      "unit": "snufje"
     }
   ],
   "recipeInstructions": [
     {
-      "text": "Kook de prinsessenbonen 8 min. onafgedekt in lichtgezouten water. Giet af en spoel onder koud water. Snij intussen de broccoli in roosjes. Kook 8 min. onafgedekt in lichtgezouten water. Giet af en spoel onder koud water. Pureer. Snij de preien in fijne ringen."
+      "text": "Kook de prinsessenbonen 8 min. onafgedekt in lichtgezouten water. Giet af en spoel onder koud water. Snij intussen de broccoli in roosjes. Kook 8 min. onafgedekt in lichtgezouten water. Giet af en spoel onder koud water. Pureer de broccoli. Snij de preien in fijne ringen."
     },
     {
       "text": "Kook de spirelli gaar in lichtgezouten water (kooktijd: zie verpakking). Giet af."

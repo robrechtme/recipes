@@ -3,12 +3,16 @@
   "slug": "parelcouscous-met-kerstomaatjes-en-halloumi",
   "image": "https://chloekookt.be/wp-content/uploads/2020/08/7-1.jpg",
   "source": "https://chloekookt.be/parelcouscous-met-kerstomaatjes-en-halloumi/",
-  "description": "Ingrediënten:(voor 2 personen)– 200g halloumi– 100g parelcouscous– 200g honing/ kerstomaten– 1 rode paprika– 1 ui– 2 lookteentjes– 1dl light room– 1 blokje groentenbouillon– peterselie ter afwerking",
+  "description": "Romige parelcouscous met gestoofde kerstomaatjes, krokant gebakken halloumi en zachte paprika en ui.",
   "author": {
     "name": "Chloe Kookt"
   },
-  "datePublished": "2020-08-04T16:09:43+00:00",
+  "datePublished": "2020-08-04",
+  "recipeCategory": "Hoofdgerecht",
   "recipeYield": 2,
+  "prepTime": "PT10M",
+  "cookTime": "PT20M",
+  "totalTime": "PT30M",
   "recipeIngredient": [
     {
       "name": "halloumi",
@@ -55,7 +59,7 @@
   ],
   "recipeInstructions": [
     {
-      "text": "Zet de kerstomaten eerst in de oven voor 15-20 min tot deze zacht zijn met wat olijfolie, peper en zout (je kan ze ook stoven in de pan)"
+      "text": "Stoof de kerstomaten 10-15 min in een pot met wat olijfolie, peper en zout tot ze zacht zijn."
     },
     {
       "text": "Kook de parelcouscous"
@@ -76,5 +80,8 @@
       "text": "Werk eventueel af met peterselie"
     }
   ],
-  "recipeCuisine": "Mediterraans"
+  "recipeCuisine": "Mediterraans",
+  "adaptations": [
+    "Kerstomaten worden gestoofd in een pot in plaats van in de oven gegaard."
+  ]
 }

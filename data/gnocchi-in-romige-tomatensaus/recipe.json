@@ -34,21 +34,6 @@
       "unit": "ml"
     },
     {
-      "name": "olijfolie",
-      "amount": 1,
-      "unit": "scheutje"
-    },
-    {
-      "name": "peper",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "zout",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
       "name": "basilicum",
       "amount": 1,
       "unit": "handvol"
@@ -65,7 +50,7 @@
       "text": "Proef de saus en kruid naar smaak bij met wat vers gemalen peper en zout."
     },
     {
-      "text": "Dien onmiddellijk op en werk de borden af met enkele blaadjes basilicum, een scheutje olijfolie en eventueel wat geraspte parmezaanse kaas."
+      "text": "Dien onmiddellijk op en werk de borden af met enkele blaadjes basilicum en een scheutje olijfolie."
     }
   ],
   "recipeCuisine": "Italiaans",
@@ -74,5 +59,8 @@
   "prepTime": "PT10M",
   "cookTime": "PT15M",
   "totalTime": "PT25M",
-  "keywords": "pasta, gnocchi, vegetarisch, snel"
+  "keywords": "pasta, gnocchi, vegetarisch, snel",
+  "adaptations": [
+    "Parmezaanse kaas weggelaten als afwerking."
+  ]
 }

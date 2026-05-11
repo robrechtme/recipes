@@ -55,16 +55,6 @@
       "name": "geraspte kaas",
       "amount": 1,
       "unit": "handje"
-    },
-    {
-      "name": "zout",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "peper",
-      "amount": 1,
-      "unit": "snufje"
     }
   ],
   "recipeInstructions": [
@@ -99,5 +89,5 @@
       "text": "Bak de ovenschotel ongeveer 15 minuten in de oven tot de kaas gesmolten is."
     }
   ],
-  "recipeCuisine": "Mediterraans"
+  "recipeCuisine": "Marokkaans"
 }

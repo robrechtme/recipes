@@ -30,9 +30,8 @@
       "amount": 1
     },
     {
-      "name": "aubergine",
-      "amount": 1,
-      "unit": "kleine"
+      "name": "kleine aubergine",
+      "amount": 1
     },
     {
       "name": "ui",
@@ -45,8 +44,8 @@
     },
     {
       "name": "tomatenblokjes",
-      "amount": 1,
-      "unit": "blik"
+      "amount": 400,
+      "unit": "g"
     },
     {
       "name": "mozzarella",
@@ -70,6 +69,11 @@
     },
     {
       "name": "Parmezaanse kaas",
+      "amount": 1,
+      "unit": "handje"
+    },
+    {
+      "name": "geraspte kaas",
       "amount": 1,
       "unit": "handje"
     }

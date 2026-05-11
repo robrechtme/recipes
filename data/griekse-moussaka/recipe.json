@@ -8,7 +8,7 @@
   "source": "https://www.leukerecepten.nl/recepten/griekse-moussaka/",
   "description": "Lekkere Griekse ovenschotel met laagjes gegrilde aubergine, aardappel en een kruidige gehaktsaus onder een laagje romige bechamelsaus",
   "recipeCuisine": "Grieks",
-  "keywords": "vegetarisch, ovenschotel, Grieks",
+  "keywords": "ovenschotel, Grieks",
   "recipeYield": 4,
   "prepTime": "PT45M",
   "cookTime": "PT45M",
@@ -25,14 +25,9 @@
       "unit": "grote"
     },
     {
-      "name": "bloem",
+      "name": "bloem (om te bestuiven)",
       "amount": 2,
       "unit": "el"
-    },
-    {
-      "name": "olie",
-      "amount": 1,
-      "unit": "scheutje"
     },
     {
       "name": "verse peterselie",
@@ -71,7 +66,7 @@
     {
       "name": "tomatenblokjes",
       "amount": 400,
-      "unit": "ml"
+      "unit": "g"
     },
     {
       "name": "melk",
@@ -84,7 +79,7 @@
       "unit": "g"
     },
     {
-      "name": "bloem",
+      "name": "bloem (voor de bechamel)",
       "amount": 30,
       "unit": "g"
     },
@@ -133,7 +128,7 @@
       "text": "Voeg het blaadje laurier toe en laat een paar minuten zachtjes pruttelen."
     },
     {
-      "text": "Laat ongeveer 25 gr kaas smelten in de saus en breng op smaak met peper, zout en nootmuskaat."
+      "text": "Laat de helft van de geraspte kaas (ca. 25 g) smelten in de saus en breng op smaak met peper, zout en nootmuskaat. Bewaar de rest om over de ovenschotel te strooien."
     },
     {
       "text": "Laat de saus een paar minuten afkoelen, verwijder het laurierblaadje en klop dan ook het ei door de saus."

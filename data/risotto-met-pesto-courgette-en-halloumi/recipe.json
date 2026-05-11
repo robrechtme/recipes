@@ -17,63 +17,53 @@
   "totalTime": "PT30M",
   "recipeIngredient": [
     {
-      "name": "Risottorijst",
+      "name": "risottorijst",
       "amount": 125,
       "unit": "g"
     },
     {
-      "name": "Bouillonblokje",
+      "name": "bouillonblokje",
       "amount": 1
     },
     {
-      "name": "Halloumi",
+      "name": "halloumi",
       "amount": 150,
       "unit": "g"
     },
     {
-      "name": "Courgette",
+      "name": "courgette",
       "amount": 2
     },
     {
-      "name": "Ui",
+      "name": "ui",
       "amount": 1
     },
     {
-      "name": "Lookteentjes",
+      "name": "lookteentje",
       "amount": 1
     },
     {
-      "name": "Pesto",
+      "name": "pesto",
       "amount": 1.5,
       "unit": "el"
     },
     {
-      "name": "Parmezaanse kaas",
+      "name": "parmezaanse kaas",
       "amount": 30,
       "unit": "g"
     },
     {
-      "name": "Heet water",
+      "name": "heet water",
       "amount": 500,
       "unit": "ml"
     },
     {
-      "name": "Olijfolie",
+      "name": "olijfolie",
       "amount": 2,
       "unit": "el"
     },
     {
-      "name": "Peper",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "Zout",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "Basilicum",
+      "name": "basilicum",
       "amount": 1,
       "unit": "handvol"
     }

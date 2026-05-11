@@ -1,7 +1,6 @@
 {
   "name": "Gnocchi met bloemkool en paprikasaus uit de oven",
   "slug": "gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven",
-  "image": "gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven",
   "source": "https://www.colruyt.be/nl/recepten/gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven",
   "description": "Deze vegan ovenschotel valt in de smaak bij het hele gezin. Een smaakvol gerecht met gnocchi, bloemkool en een romige paprikasaus, afgewerkt met vegan kaas.",
   "author": {
@@ -39,8 +38,8 @@
     },
     {
       "name": "gnocchi",
-      "amount": 2,
-      "unit": "zakken"
+      "amount": 1000,
+      "unit": "g"
     },
     {
       "name": "kikkererwten (blik)",
@@ -48,8 +47,9 @@
       "unit": "g"
     },
     {
-      "name": "gegrilde paprika's (bokaal) of verse paprika's",
-      "amount": "2 bokalen",
+      "name": "gegrilde paprika's (bokaal)",
+      "amount": 2,
+      "unit": "bokaal",
       "note": "alternatief: 5 verse paprika's"
     },
     {
@@ -61,16 +61,6 @@
       "name": "Italiaanse kruidenmix",
       "amount": 1,
       "unit": "el"
-    },
-    {
-      "name": "zwarte peper",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "zout",
-      "amount": 1,
-      "unit": "snufje"
     }
   ],
   "recipeInstructions": [

@@ -10,8 +10,9 @@
     "name": "Jaimy"
   },
   "recipeYield": 4,
-  "prepTime": "PT30M",
-  "totalTime": "PT30M",
+  "prepTime": "PT15M",
+  "cookTime": "PT30M",
+  "totalTime": "PT45M",
   "recipeIngredient": [
     {
       "name": "snelkookrijst",
@@ -69,7 +70,7 @@
     {
       "name": "paprikamix",
       "amount": 3,
-      "unit": "paprika's"
+      "unit": "stuk"
     },
     {
       "name": "paprikapoeder",
@@ -89,22 +90,7 @@
     {
       "name": "chili poeder",
       "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "olie",
-      "amount": 1,
-      "unit": "scheutje"
-    },
-    {
-      "name": "peper",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "zout",
-      "amount": 1,
-      "unit": "snufje"
+      "unit": "tl"
     }
   ],
   "recipeInstructions": [
@@ -132,5 +118,8 @@
     {
       "text": "Serveer de chili met rijst, partjes limoen en zure room."
     }
+  ],
+  "adaptations": [
+    "Chilipoeder opgetrokken van een snufje naar 1 tl voor meer pit."
   ]
 }

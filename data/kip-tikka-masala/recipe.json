@@ -14,7 +14,7 @@
   "recipeYield": 4,
   "prepTime": "PT30M",
   "cookTime": "PT20M",
-  "totalTime": "PT2H30M",
+  "totalTime": "PT50M",
   "recipeIngredient": [
     {
       "name": "Kipfilets",
@@ -23,7 +23,7 @@
     {
       "name": "Yoghurt",
       "amount": 100,
-      "unit": "ml"
+      "unit": "g"
     },
     {
       "name": "Kokosmelk",
@@ -85,21 +85,6 @@
       "name": "Amandelschilfers",
       "amount": 4,
       "unit": "el"
-    },
-    {
-      "name": "Arachideolie",
-      "amount": 2,
-      "unit": "scheutjes"
-    },
-    {
-      "name": "Peper",
-      "amount": 1,
-      "unit": "snufje"
-    },
-    {
-      "name": "Zout",
-      "amount": 1,
-      "unit": "snufje"
     },
     {
       "name": "Basmatirijst",
