@@ -10,6 +10,8 @@ import gnocchiInRomigeTomatensausImage from './gnocchi-in-romige-tomatensaus/ima
 import gnocchiInRomigeTomatensausRecipe from './gnocchi-in-romige-tomatensaus/recipe.json';
 import gnocchiMetBloemkoolEnPaprikasausUitDeOvenImage from './gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven/image.webp';
 import gnocchiMetBloemkoolEnPaprikasausUitDeOvenRecipe from './gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven/recipe.json';
+import gnocchiMetPaprikaCourgetteEnMascarponeImage from './gnocchi-met-paprika-courgette-en-mascarpone/image.webp';
+import gnocchiMetPaprikaCourgetteEnMascarponeRecipe from './gnocchi-met-paprika-courgette-en-mascarpone/recipe.json';
 import griekseMoussakaImage from './griekse-moussaka/image.webp';
 import griekseMoussakaRecipe from './griekse-moussaka/recipe.json';
 import kipTikkaMasalaImage from './kip-tikka-masala/image.webp';
@@ -48,6 +50,7 @@ export const recipes: Recipe[] = [
   creamyPastaMetKerstomatensausEnRicottaRecipe as Recipe,
   gnocchiInRomigeTomatensausRecipe as Recipe,
   gnocchiMetBloemkoolEnPaprikasausUitDeOvenRecipe as Recipe,
+  gnocchiMetPaprikaCourgetteEnMascarponeRecipe as Recipe,
   griekseMoussakaRecipe as Recipe,
   kipTikkaMasalaRecipe as Recipe,
   lasagneMetGegrildeGroentenRecipe as Recipe,
@@ -70,6 +73,7 @@ export const images = {
   'creamy-pasta-met-kerstomatensaus-en-ricotta': creamyPastaMetKerstomatensausEnRicottaImage,
   'gnocchi-in-romige-tomatensaus': gnocchiInRomigeTomatensausImage,
   'gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven': gnocchiMetBloemkoolEnPaprikasausUitDeOvenImage,
+  'gnocchi-met-paprika-courgette-en-mascarpone': gnocchiMetPaprikaCourgetteEnMascarponeImage,
   'griekse-moussaka': griekseMoussakaImage,
   'kip-tikka-masala': kipTikkaMasalaImage,
   'lasagne-met-gegrilde-groenten': lasagneMetGegrildeGroentenImage,

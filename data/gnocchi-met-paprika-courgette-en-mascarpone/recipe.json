@@ -1,0 +1,106 @@
+{
+  "name": "Gnocchi met paprika, courgette en mascarpone",
+  "slug": "gnocchi-met-paprika-courgette-en-mascarpone",
+  "description": "Romige ovenschotel met gnocchi, paprika, courgette en spinazie in een tomatensaus met mascarpone.",
+  "recipeYield": 4,
+  "image": "image.webp",
+  "recipeIngredient": [
+    {
+      "name": "gnocchi",
+      "amount": 500,
+      "unit": "g"
+    },
+    {
+      "name": "paprika",
+      "amount": 1,
+      "unit": "stuk"
+    },
+    {
+      "name": "courgette",
+      "amount": 1,
+      "unit": "stuk"
+    },
+    {
+      "name": "tomatenblokjes (blik)",
+      "amount": 2,
+      "unit": "blik"
+    },
+    {
+      "name": "mascarpone",
+      "amount": 250,
+      "unit": "g"
+    },
+    {
+      "name": "verse spinazie",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "name": "ui",
+      "amount": 1,
+      "unit": "stuk"
+    },
+    {
+      "name": "knoflook",
+      "amount": 2,
+      "unit": "teentjes"
+    },
+    {
+      "name": "olijfolie",
+      "amount": 2,
+      "unit": "el"
+    },
+    {
+      "name": "Italiaanse kruiden",
+      "amount": 1,
+      "unit": "tl"
+    },
+    {
+      "name": "peper",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "zout",
+      "amount": 1,
+      "unit": "snufje"
+    },
+    {
+      "name": "verse basilicum",
+      "amount": 1,
+      "unit": "handvol"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Snipper de ui en pers de knoflook. Snijd de paprika en courgette in blokjes."
+    },
+    {
+      "text": "Verhit de olijfolie in een ruime hapjespan en fruit de ui glazig op middelhoog vuur. Voeg de knoflook toe en bak kort mee tot het geurt."
+    },
+    {
+      "text": "Voeg de paprika en courgette toe en bak ze 5 à 7 minuten tot ze zacht beginnen te worden. Kruid met Italiaanse kruiden, peper en zout."
+    },
+    {
+      "text": "Schenk de twee blikken tomatenblokjes erbij en laat de saus 10 minuten zachtjes pruttelen tot ze indikt."
+    },
+    {
+      "text": "Roer de mascarpone door de saus tot je een romige, oranje-rode saus krijgt."
+    },
+    {
+      "text": "Voeg de gnocchi rechtstreeks toe aan de saus en laat ze enkele minuten garen tot ze gaar zijn. Laat ze niet te lang pruttelen, anders worden ze plat. Voeg een scheutje water toe als de saus te dik wordt."
+    },
+    {
+      "text": "Roer de spinazie er in porties door en laat slinken. Proef en kruid eventueel bij met peper en zout."
+    },
+    {
+      "text": "Verdeel over de borden en werk af met enkele blaadjes verse basilicum."
+    }
+  ],
+  "recipeCuisine": "Italiaans",
+  "recipeCategory": "Hoofdgerecht",
+  "prepTime": "PT15M",
+  "cookTime": "PT20M",
+  "totalTime": "PT35M",
+  "keywords": "gnocchi, vegetarisch, mascarpone, spinazie, courgette"
+}
