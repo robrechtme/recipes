@@ -1,16 +1,15 @@
 ---
 name: import-recipe
-description: Import a recipe from a URL into the cookbook. Optionally apply user-requested changes.
+description: Import a recipe from a URL into the cookbook. Use whenever the user provides a recipe URL, pastes a link from a recipe site (dagelijksekost, ah.nl, jumbo.com, leukerecepten.nl, etc.), or says things like "add this recipe", "import this", "scrape this dish", "put this in my kookboek", or "voeg dit toe aan mijn kookboek". Optionally applies user changes like servings scaling, ingredient swaps, dietary adaptations (vegetarian, vegan, gluten-free), or cuisine tweaks.
 argument-hint: "[recipe-url] [optional-changes]"
 ---
 
 # Import Recipe Skill
 
-Import a recipe from a URL into the cookbook. Optionally apply user-requested changes.
+Import a recipe from a URL into the cookbook at `data/{slug}/recipe.json`, download its image, and regenerate the data index. Optionally apply user-requested modifications before saving.
 
 ## Arguments
 
-The user provides:
 1. A recipe URL (required)
 2. Optional change requests (e.g., "maak het vegetarisch", "vervang kip door tofu", "voor 2 personen")
 
@@ -18,23 +17,29 @@ The user provides:
 
 ### 1. Scrape the recipe
 
-Use WebFetch to fetch the recipe URL. In your prompt, ask to extract ALL of the following:
+Use WebFetch on the URL and ask for ALL of:
 
-- **JSON-LD structured data** (`<script type="application/ld+json">`) — most recipe sites embed schema.org/Recipe data
-- If no JSON-LD: extract recipe name, ingredients list, cooking instructions, image URL, prep/cook/total time, number of servings, cuisine type, category, description, and author from the page content
-- The recipe image URL (highest resolution available)
+- **JSON-LD structured data** (`<script type="application/ld+json">`) — most recipe sites embed schema.org/Recipe data, and this is the cleanest source
+- If no JSON-LD: recipe name, ingredients, instructions, image URL, prep/cook/total time, servings, cuisine, category, description, author — pulled from the rendered page
+- The highest-resolution image URL available
 
-Return ALL raw data — do not summarize or omit fields.
+Return the raw data verbatim — don't summarize, don't drop fields you think are unimportant.
 
-### 2. Parse into project format
+**If WebFetch returns a thin shell** (no JSON-LD and almost no body text — common on SPA-based sites), fall back to the Playwright MCP to render the page first, then extract.
 
-Map the scraped data to this exact JSON structure (matching `src/core/types.ts`):
+### 2. Check for duplicates
+
+Before parsing, derive the slug (kebab-case Dutch name) and check whether `data/{slug}/` already exists. If it does, ask the user whether to overwrite, pick a different slug, or abort. Silently overwriting an existing recipe is almost never what the user wants.
+
+### 3. Parse into project format
+
+The target shape matches `src/core/types.ts`. Optional fields are truly optional — **omit them entirely when absent rather than writing `null` or `""`**, otherwise TypeScript and the build will complain.
 
 ```json
 {
   "name": "Recipe Name",
   "slug": "recipe-name-in-kebab-case",
-  "image": "<original image URL for downloading>",
+  "image": "<original image URL — the download script fetches this>",
   "source": "<the URL the user provided>",
   "description": "Short description in Dutch",
   "author": { "name": "Source site name" },
@@ -57,57 +62,74 @@ Map the scraped data to this exact JSON structure (matching `src/core/types.ts`)
 }
 ```
 
-#### Ingredient parsing rules
+#### Ingredient parsing
 
-Ingredients must be split into structured objects with `name`, `amount` (optional number), and `unit` (optional string):
+Ingredients render in the UI as a scalable list, so they need structured fields rather than raw strings. Capitalize `name` (first letter uppercase) because that's how the UI displays them — the model isn't doing extra normalization at render time.
 
 - `"200 g bloem"` → `{ "name": "Bloem", "amount": 200, "unit": "g" }`
 - `"3 eieren"` → `{ "name": "Eieren", "amount": 3 }`
 - `"1 el olijfolie"` → `{ "name": "Olijfolie", "amount": 1, "unit": "el" }`
 - `"½ tl zout"` → `{ "name": "Zout", "amount": 0.5, "unit": "tl" }`
-- `"Peper naar smaak"` → `{ "name": "Peper" }` (omit amount and unit entirely)
-- Unicode fractions: ½ = 0.5, ⅓ = 0.33, ¼ = 0.25, ¾ = 0.75, ⅔ = 0.67
-- Capitalize ingredient names (first letter uppercase)
-- Common Dutch units to recognize: `g`, `kg`, `ml`, `dl`, `cl`, `l`, `el` (eetlepel), `tl` (theelepel), `snufje`, `snuf`, `scheutje`, `scheut`, `bosje`, `takje`, `teen`, `teentje`, `stuk`, `plakje`, `plakjes`, `blikje`, `potje`, `bakje`, `zakje`, `handvol`
-- Omit `amount` and `unit` fields entirely when they don't apply — do NOT include `null` values
+- `"Peper naar smaak"` → `{ "name": "Peper" }` (no amount, no unit)
+
+Unicode fractions: ½ = 0.5, ⅓ = 0.33, ¼ = 0.25, ¾ = 0.75, ⅔ = 0.67.
+
+Common Dutch units to recognize: `g`, `kg`, `ml`, `dl`, `cl`, `l`, `el` (eetlepel), `tl` (theelepel), `snufje`, `snuf`, `scheutje`, `scheut`, `bosje`, `takje`, `teen`, `teentje`, `stuk`, `plakje`, `plakjes`, `blikje`, `potje`, `bakje`, `zakje`, `handvol`.
+
+Anything you can't confidently split — like "1 ui, fijngesnipperd" — keep the descriptor in the `name` field rather than guessing at a unit: `{ "name": "Ui, fijngesnipperd", "amount": 1 }`.
 
 #### Time format
 
-ISO 8601 duration format: `PT30M` (30 min), `PT1H` (1 hour), `PT1H30M` (1h30m). Omit time fields that aren't available.
+ISO 8601 durations: `PT30M`, `PT1H`, `PT1H30M`. Omit time fields that aren't on the source — partial data is fine, fabricated data is not.
 
-#### Slug generation
+#### Date format
 
-Generate a kebab-case slug from the Dutch recipe name. Keep it concise but descriptive.
+`datePublished` is a date, not a datetime. JSON-LD often returns a full ISO timestamp (`2011-01-01T08:00:00+01:00`) — trim it to `YYYY-MM-DD`. If the source has no publish date, omit the field.
 
-### 3. Apply user-requested changes (if any)
+#### Slug
 
-If the user requested modifications, apply them to the parsed recipe data before saving. Examples:
-- Swap or remove ingredients (update both ingredients list and instructions)
-- Adjust `recipeYield` and scale all ingredient amounts proportionally
-- Change cuisine, category, or description
-- Modify instruction steps
+Kebab-case from the Dutch name. Keep it concise but recognizable — `kip-tikka-masala`, not `lekkere-kip-tikka-masala-volgens-jeroen`.
 
-### 4. Save recipe.json
+### 4. Apply user-requested changes
 
-1. Create the recipe directory: `mkdir -p data/{slug}`
-2. Write the recipe JSON to `data/{slug}/recipe.json` (pretty-printed, 2-space indent)
+If the user asked for modifications, apply them to the parsed data *before* writing. The point is to save the recipe in its final intended form, not to record the original and patch it later.
 
-### 5. Download image and regenerate index
+Examples and what they touch:
 
-Run the existing script which handles both image downloading (from the `image` URL in recipe.json) and `data/index.ts` regeneration:
+- **Substitutions** ("vervang kip door tofu") — update both `recipeIngredient` and any mentions in `recipeInstructions`. Don't leave the instructions saying "bak de kip" when there's no kip in the ingredients anymore.
+- **Servings scaling** ("voor 2 personen") — update `recipeYield` and scale every numeric `amount` proportionally. Watch out for ingredients without amounts ("peper naar smaak") — those don't scale.
+- **Dietary adaptations** ("maak het vegetarisch") — swap proteins, update `recipeCategory`/`keywords` if appropriate, adjust instructions.
+- **Cuisine/category/description tweaks** — straightforward field edits.
+
+### 5. Save recipe.json
+
+```bash
+mkdir -p data/{slug}
+```
+
+Write the JSON pretty-printed (2-space indent) to `data/{slug}/recipe.json`.
+
+### 6. Download image and regenerate index
+
+The download script reads `image` from every recipe.json, fetches it, converts to WebP, and rewrites `data/index.ts`. One command does both:
 
 ```bash
 pnpm run scripts:download-images
 ```
 
-### 6. Verify
+### 7. Verify
 
-Run `pnpm build` to verify everything compiles correctly.
+```bash
+pnpm build
+```
 
-### 7. Report
+This catches type mismatches (missing required fields, wrong shapes) and confirms static generation succeeds for the new page at `/r/{slug}`.
 
-Show the user a summary:
+### 8. Report
+
+Summarize for the user:
+
 - Recipe name and slug
-- Number of ingredients and instruction steps
-- Any changes that were applied
-- Any issues encountered (missing fields, image problems, etc.)
+- Ingredient count, instruction step count
+- Any user-requested changes that were applied
+- Any issues — missing fields the source didn't provide, image download failures, fallbacks to Playwright, ambiguous ingredients you had to interpret
