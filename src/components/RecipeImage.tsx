@@ -1,6 +1,5 @@
-import Image from "next/image";
-
 import { images } from "@data";
+import Image from "next/image";
 
 export const RecipeImage = ({
   slug,

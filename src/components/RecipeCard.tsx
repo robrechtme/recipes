@@ -1,7 +1,6 @@
-import { RecipeImage } from "./RecipeImage";
-
-import { Recipe } from "@core/types";
+import type { Recipe } from "@core/types";
 import { translateTime } from "@util/string";
+import { RecipeImage } from "./RecipeImage";
 
 type Props = {
   recipe: Recipe;
@@ -48,9 +47,7 @@ export const RecipeCard = ({ recipe }: Props) => (
             </span>
           ))}
         </div>
-        <p className="my-2 text-secondary-900 text-sm line-clamp-3">
-          {recipe.description}
-        </p>
+        <p className="my-2 text-secondary-900 text-sm line-clamp-3">{recipe.description}</p>
       </div>
     </a>
   </article>

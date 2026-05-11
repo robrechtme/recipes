@@ -1,5 +1,5 @@
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
 
 import sharp from "sharp";
 
@@ -9,8 +9,7 @@ const INDEX_TS_PATH = "./data/index.ts";
 async function downloadAndConvert(imageUrl: string, slug: string): Promise<boolean> {
   try {
     const response = await fetch(imageUrl);
-    if (!response.ok)
-      throw new Error(`Failed to fetch ${imageUrl}: ${response.statusText}`);
+    if (!response.ok) throw new Error(`Failed to fetch ${imageUrl}: ${response.statusText}`);
 
     const buffer = await response.arrayBuffer();
 
@@ -30,7 +29,7 @@ async function downloadAndConvert(imageUrl: string, slug: string): Promise<boole
   }
 }
 
-function scanRecipeDirectories(): Array<{slug: string, imageUrl?: string}> {
+function scanRecipeDirectories(): Array<{ slug: string; imageUrl?: string }> {
   if (!fs.existsSync(DATA_DIR)) {
     console.error(`Data directory not found: ${DATA_DIR}`);
     return [];
@@ -50,7 +49,7 @@ function scanRecipeDirectories(): Array<{slug: string, imageUrl?: string}> {
 
           recipes.push({
             slug: recipe.slug,
-            imageUrl: recipe.image
+            imageUrl: recipe.image,
           });
         } catch (error) {
           console.error(`Error reading ${recipeFile}:`, (error as Error).message);
@@ -67,37 +66,37 @@ function generateDataIndex(slugs: string[]) {
 
   // Generate recipe imports
   const recipeImports = sortedSlugs
-    .map(slug => {
+    .map((slug) => {
       const camelCase = slug.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
-      return `import ${camelCase}Recipe from './${slug}/recipe.json';`;
+      return `import ${camelCase}Recipe from "./${slug}/recipe.json";`;
     })
-    .join('\n');
+    .join("\n");
 
   // Generate image imports
   const imageImports = sortedSlugs
-    .map(slug => {
+    .map((slug) => {
       const camelCase = slug.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
-      return `import ${camelCase}Image from './${slug}/image.webp';`;
+      return `import ${camelCase}Image from "./${slug}/image.webp";`;
     })
-    .join('\n');
+    .join("\n");
 
   // Generate recipes array
   const recipesArray = sortedSlugs
-    .map(slug => {
+    .map((slug) => {
       const camelCase = slug.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
       return `  ${camelCase}Recipe as Recipe,`;
     })
-    .join('\n');
+    .join("\n");
 
   // Generate images object
   const imagesObject = sortedSlugs
-    .map(slug => {
+    .map((slug) => {
       const camelCase = slug.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
-      return `  '${slug}': ${camelCase}Image,`;
+      return `  "${slug}": ${camelCase}Image,`;
     })
-    .join('\n');
+    .join("\n");
 
-  const content = `import { Recipe } from '@core/types';
+  const content = `import { Recipe } from "@core/types";
 
 // Import all recipe data
 ${recipeImports}
@@ -120,13 +119,13 @@ ${imagesObject}
 }
 
 async function processImages() {
-  console.log('🖼️  Processing recipe images...');
+  console.log("🖼️  Processing recipe images...");
 
   try {
     const recipes = scanRecipeDirectories();
 
     if (recipes.length === 0) {
-      console.log('No recipes found to process');
+      console.log("No recipes found to process");
       return;
     }
 
@@ -155,14 +154,13 @@ async function processImages() {
       if (success) successCount++;
     }
 
-    console.log('\n📋 Processing Summary:');
+    console.log("\n📋 Processing Summary:");
     console.log(`✅ Downloaded: ${successCount} images`);
     console.log(`⏭️  Skipped: ${skipCount} images`);
     console.log(`📁 Images saved to: ${DATA_DIR}/[slug]/image.webp`);
 
     // Generate data/index.ts file
-    generateDataIndex(recipes.map(r => r.slug));
-
+    generateDataIndex(recipes.map((r) => r.slug));
   } catch (error) {
     console.error("Error processing images:", error);
   }
