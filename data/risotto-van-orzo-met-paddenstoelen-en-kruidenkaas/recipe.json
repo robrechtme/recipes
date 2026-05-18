@@ -1,0 +1,85 @@
+{
+  "name": "Risotto van Orzo met Paddenstoelen en Kruidenkaas",
+  "slug": "risotto-van-orzo-met-paddenstoelen-en-kruidenkaas",
+  "source": "https://www.hellofresh.be/recipes/risotto-van-orzo-met-paddenstoelen-en-kruidenkaas-57dc0baa9afd9ec4068b456d",
+  "description": "Snelle risotto van orzo (een pastasoort met de smeuïge structuur van risotto) gecombineerd met een paddenstoelenmix en kruidenkaas met tuinkruiden, bieslook en ui. Gegarneerd met verse basilicum en geroosterde pompoenpitten.",
+  "author": {
+    "name": "HelloFresh"
+  },
+  "datePublished": "2016-10-03",
+  "recipeCategory": "Hoofdgerecht",
+  "recipeCuisine": "Italiaans",
+  "keywords": "orzo, risotto, paddenstoelen, kruidenkaas, vegetarisch, pasta, kindvriendelijk",
+  "recipeYield": 4,
+  "totalTime": "PT25M",
+  "recipeIngredient": [
+    {
+      "name": "sjalot",
+      "amount": 2
+    },
+    {
+      "name": "knoflook",
+      "amount": 2,
+      "unit": "teentjes"
+    },
+    {
+      "name": "verse basilicum",
+      "amount": 8,
+      "unit": "blaadjes"
+    },
+    {
+      "name": "bosui",
+      "amount": 8
+    },
+    {
+      "name": "orzo",
+      "amount": 335,
+      "unit": "g"
+    },
+    {
+      "name": "pompoenpitten",
+      "amount": 40,
+      "unit": "g"
+    },
+    {
+      "name": "gemengde paddenstoelen",
+      "amount": 700,
+      "unit": "g"
+    },
+    {
+      "name": "kruidenkaas",
+      "amount": 125,
+      "unit": "g"
+    },
+    {
+      "name": "groentebouillon",
+      "amount": 700,
+      "unit": "ml"
+    },
+    {
+      "name": "roomboter",
+      "amount": 1.5,
+      "unit": "el"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Bereid de bouillon. Snipper de sjalot en snijd of pers de knoflook fijn. Scheur de basilicum klein en snijd de bosui in ringen."
+    },
+    {
+      "text": "Verhit de helft van de roomboter in een pan met deksel en fruit de sjalot en knoflook 2 minuten op middelmatig vuur. Voeg de orzo toe en bak 1 minuut."
+    },
+    {
+      "text": "Schenk de bouillon over de orzo en kook de orzo, afgedekt, in 10-12 minuten droog. Schep tussendoor een paar keer om. Voeg eventueel water toe als de orzo te droog wordt."
+    },
+    {
+      "text": "Verhit ondertussen een koekenpan op hoog vuur en rooster de pompoenpitten, zonder olie, goudbruin. Haal uit de pan en bewaar apart."
+    },
+    {
+      "text": "Verhit de overige roomboter in dezelfde koekenpan en bak de paddenstoelen en bosui 5-6 minuten op middelhoog vuur. Voeg de paddenstoelen, bosui en de helft van de kruidenkaas toe aan de orzo en laat al roerende smelten. Breng op smaak met peper en zout."
+    },
+    {
+      "text": "Verdeel de orzo over de borden. Bestrooi met de pompoenpitten en garneer met de overige kruidenkaas en verse basilicum."
+    }
+  ]
+}
