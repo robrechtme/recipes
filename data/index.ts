@@ -20,6 +20,7 @@ import pastitsioRecipe from "./pastitsio/recipe.json";
 import quicheMetPreiZalmEnGeitenkaasRecipe from "./quiche-met-prei-zalm-en-geitenkaas/recipe.json";
 import risottoMetPestoCourgetteEnHalloumiRecipe from "./risotto-met-pesto-courgette-en-halloumi/recipe.json";
 import risottoVanOrzoMetPaddenstoelenEnKruidenkaasRecipe from "./risotto-van-orzo-met-paddenstoelen-en-kruidenkaas/recipe.json";
+import spaghettiMetLinzenbologneseRecipe from "./spaghetti-met-linzenbolognese/recipe.json";
 import zalmSpinazieLasagneRecipe from "./zalm-spinazie-lasagne/recipe.json";
 
 // Import all recipe images
@@ -42,6 +43,7 @@ import pastitsioImage from "./pastitsio/image.webp";
 import quicheMetPreiZalmEnGeitenkaasImage from "./quiche-met-prei-zalm-en-geitenkaas/image.webp";
 import risottoMetPestoCourgetteEnHalloumiImage from "./risotto-met-pesto-courgette-en-halloumi/image.webp";
 import risottoVanOrzoMetPaddenstoelenEnKruidenkaasImage from "./risotto-van-orzo-met-paddenstoelen-en-kruidenkaas/image.webp";
+import spaghettiMetLinzenbologneseImage from "./spaghetti-met-linzenbolognese/image.webp";
 import zalmSpinazieLasagneImage from "./zalm-spinazie-lasagne/image.webp";
 
 // Export recipes array
@@ -65,6 +67,7 @@ export const recipes: Recipe[] = [
   quicheMetPreiZalmEnGeitenkaasRecipe as Recipe,
   risottoMetPestoCourgetteEnHalloumiRecipe as Recipe,
   risottoVanOrzoMetPaddenstoelenEnKruidenkaasRecipe as Recipe,
+  spaghettiMetLinzenbologneseRecipe as Recipe,
   zalmSpinazieLasagneRecipe as Recipe,
 ].sort((a, b) => a.name.localeCompare(b.name)); // Sort alphabetically
 
@@ -89,5 +92,6 @@ export const images = {
   "quiche-met-prei-zalm-en-geitenkaas": quicheMetPreiZalmEnGeitenkaasImage,
   "risotto-met-pesto-courgette-en-halloumi": risottoMetPestoCourgetteEnHalloumiImage,
   "risotto-van-orzo-met-paddenstoelen-en-kruidenkaas": risottoVanOrzoMetPaddenstoelenEnKruidenkaasImage,
+  "spaghetti-met-linzenbolognese": spaghettiMetLinzenbologneseImage,
   "zalm-spinazie-lasagne": zalmSpinazieLasagneImage,
 } as const;
