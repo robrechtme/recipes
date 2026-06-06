@@ -1,7 +1,7 @@
 {
   "name": "Spaghetti met linzenbolognese",
   "slug": "spaghetti-met-linzenbolognese",
-  "description": "Een vegan spaghetti met een hartige bolognese van zwarte linzen, wortel en passata, op smaak gebracht met rozemarijn en groene olijven met basilicum.",
+  "description": "Een vegan spaghetti met een hartige bolognese van zwarte linzen, wortel, paprika en passata, op smaak gebracht met rozemarijn.",
   "recipeCategory": "Hoofdgerecht",
   "recipeCuisine": "Italiaans",
   "keywords": "vegan, vegetarisch, pasta, linzen, bolognese",
@@ -24,9 +24,8 @@
       "unit": "takjes"
     },
     {
-      "name": "ontpitte groene olijven met basilicum",
-      "amount": 150,
-      "unit": "g"
+      "name": "paprika",
+      "amount": 3
     },
     {
       "name": "spaghetti",
@@ -56,21 +55,23 @@
   ],
   "recipeInstructions": [
     {
-      "text": "Snipper de ui fijn en snij de wortelen in kleine blokjes van 1 cm. Snij de olijven in 4."
+      "text": "Snipper de ui fijn en snij de wortelen en de paprika's in kleine blokjes van 1 cm."
     },
     {
-      "text": "Verhit een scheutje olijfolie in een grote kookpot en stoof de ui en de wortelblokjes 3 à 4 min. Voeg de linzen en de passata toe. Kruid met de spaghettikruiden, de takjes rozemarijn, het selderijzout, peper en zout. Laat 20 min. sudderen op een zacht vuur."
+      "text": "Verhit een scheutje olijfolie in een grote kookpot en stoof de ui, de wortel- en de paprikablokjes 3 à 4 min. Voeg de linzen en de passata toe. Kruid met de spaghettikruiden, de takjes rozemarijn, het selderijzout, peper en zout. Laat 20 min. sudderen op een zacht vuur."
     },
     {
       "text": "Kook intussen de spaghetti gaar in lichtgezouten water (kooktijd: zie verpakking). Giet af."
     },
     {
-      "text": "Roer op het einde de olijven onder de saus. Verwijder de takjes rozemarijn en serveer de spaghetti met de linzenbolognese."
+      "text": "Verwijder op het einde de takjes rozemarijn en serveer de spaghetti met de linzenbolognese."
     }
   ],
   "adaptations": [
     "Harissa weggelaten.",
     "Laurier weggelaten.",
-    "Verse selder vervangen door selderijzout."
+    "Verse selder vervangen door selderijzout.",
+    "Olijven weggelaten.",
+    "3 paprika's toegevoegd."
   ]
 }
