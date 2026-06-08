@@ -162,7 +162,7 @@ const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
             <section className="bg-white shadow-lg shadow-primary-600 rounded-lg sticky top-8 p-8">
               <h2 className="sr-only">Ingrediënten</h2>
               <div
-                className="flex items-center justify-between mb-6 p-1.5 rounded-full bg-neutral-100"
+                className="flex items-center justify-between mb-6 -mx-1.5 p-1.5 rounded-full bg-neutral-100"
                 role="group"
                 aria-label="Aantal personen aanpassen"
               >
