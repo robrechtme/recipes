@@ -162,26 +162,31 @@ const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
             <section className="bg-white shadow-lg shadow-primary-600 rounded-lg sticky top-8 p-8">
               <h2 className="sr-only">Ingrediënten</h2>
               <div
-                className="flex items-center justify-center mb-6"
+                className="flex items-center justify-between mb-6 p-2 rounded-full bg-neutral-100"
                 role="group"
                 aria-label="Aantal personen aanpassen"
               >
                 <button
                   onClick={() => adjustServings(-1)}
-                  className="px-3 py-1 bg-neutral-100 rounded-full"
+                  className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white border border-neutral-200 text-secondary-900 transition-colors hover:bg-neutral-50 focus-visible:outline-2 focus-visible:outline-secondary-900 disabled:opacity-40 disabled:cursor-not-allowed"
                   aria-label="Verlaag aantal personen"
+                  disabled={servings <= 1}
                 >
-                  -
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                    <path d="M3 9h12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                  </svg>
                 </button>
-                <output className="px-4 py-1 tabular-nums" aria-live="polite">
+                <output className="px-4 tabular-nums text-lg text-secondary-900" aria-live="polite">
                   {servings} {servings > 1 ? "personen" : "persoon"}
                 </output>
                 <button
                   onClick={() => adjustServings(1)}
-                  className="px-3 py-1 bg-neutral-100 rounded-full"
+                  className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white border border-neutral-200 text-secondary-900 transition-colors hover:bg-neutral-50 focus-visible:outline-2 focus-visible:outline-secondary-900"
                   aria-label="Verhoog aantal personen"
                 >
-                  +
+                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                    <path d="M9 3v12M3 9h12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                  </svg>
                 </button>
               </div>
               <ul className="divide-y divide-neutral-200" aria-label="Ingrediënten lijst">
