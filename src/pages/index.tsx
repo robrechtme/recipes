@@ -39,11 +39,11 @@ const Home: NextPage<Props> = ({ recipes }) => {
       <main className="container mx-auto my-16">
         <header className="text-center mb-8">
           <h1 className="text-ink font-extrabold text-4xl mb-2">Tweede kookboek van Robrecht</h1>
-          <div className="inline-block text-left">
+          <div className="inline-block max-w-full px-4 text-left">
             <p className="text-lg text-muted">
               Een compilatie van lekkere recepten, niet van mezelf
             </p>
-            <p className="mt-1 translate-x-20 -rotate-2 text-right font-handwritten text-2xl text-accent">
+            <p className="mt-1 -rotate-2 text-right font-handwritten text-xl text-accent md:translate-x-20 md:text-2xl">
               maar soms aangepast naar smaak!
             </p>
           </div>
