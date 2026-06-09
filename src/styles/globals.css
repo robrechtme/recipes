@@ -3,14 +3,17 @@
 @theme {
   --font-*: initial;
   --font-sans: Montserrat, sans-serif;
+  --font-handwritten: Caveat, cursive;
 
-  --color-primary-500: #fbd791;
-  --color-primary-600: #e8c580;
-  --color-primary-800: #77674d;
-
-  --color-secondary-100: #f8fafb;
-  --color-secondary-500: #6f717e;
-  --color-secondary-900: #041339;
+  --color-accent: #1c6b47;
+  --color-accent-dark: #14543a;
+  --color-accent-tint: #e7f0ea;
+  --color-bg: #faf7f2;
+  --color-surface: #ffffff;
+  --color-ink: #2a2724;
+  --color-muted: #8b847a;
+  --color-line: #ece6dc;
+  --color-photo: #e8dfd0;
 }
 
 @utility container {

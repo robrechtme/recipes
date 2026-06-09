@@ -59,22 +59,19 @@ The target shape matches `src/core/types.ts`. Optional fields are truly optional
     { "text": "Instruction step 1." },
     { "text": "Instruction step 2." }
   ],
-  "adaptations": [
-    "Geschaald van 4 naar 2 personen.",
-    "Kip vervangen door tofu."
-  ]
+  "notes": "Kip vervangen door tofu en geschaald van 4 naar 2 personen."
 }
 ```
 
-#### Adaptations
+#### Notes (adaptations)
 
-`adaptations` is an optional string array that records *true* adaptations vs the original source recipe — changes to what the cook actually does or eats. Omit the field entirely when there are none.
+`notes` is an optional **single string** that records *true* adaptations vs the original source recipe — changes to what the cook actually does or eats. Omit the field entirely when there are none. It renders on the recipe page as a handwritten-style note, so write it as one friendly, display-ready Dutch sentence; combine multiple changes into that one sentence.
 
 **Include:**
 - Servings scaling ("Geschaald van 4 naar 2 personen.")
 - Ingredient swaps ("Rundergehakt vervangen door linzen.")
 - Dietary adaptations ("Vegetarisch gemaakt door X.")
-- Format/cookware changes ("Eén grote quiche in plaats van meerdere kleine vormpjes.")
+- Format/cookware changes ("Eén grote quiche in plaats van meerdere kleine vormpjes!")
 
 **Exclude** (these are data-quality fixes, not adaptations):
 - Fixing typos, wrong units, mislabeled fields
@@ -82,7 +79,7 @@ The target shape matches `src/core/types.ts`. Optional fields are truly optional
 - Adding metadata (recipeCategory, times)
 - Clarifying an ambiguous step
 
-Write each adaptation as one short Dutch sentence. Stay factual ("Geschaald van 4 naar 2 personen.") — no reasoning ("Omdat de gebruiker vegetarisch wilde…").
+Keep it factual and readable — no reasoning ("Omdat de gebruiker vegetarisch wilde…"). When there are several changes, join them naturally into one sentence ("Zonder harissa, laurier en olijven, met selderijzout in plaats van verse selder en 3 extra paprika's.").
 
 #### Ingredient parsing
 

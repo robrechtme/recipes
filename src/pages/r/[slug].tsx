@@ -26,6 +26,23 @@ export const getStaticProps: GetStaticProps<{ recipe: Recipe }> = async ({ param
   return { props: { recipe } };
 };
 
+const ArrowLeftIcon = ({ className }: { className: string }) => (
+  <svg
+    className={className}
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M19 12H5m0 0l6 6m-6-6l6-6"
+    />
+  </svg>
+);
+
 const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({ recipe }) => {
   const [servings, setServings] = useState(recipe.recipeYield);
   const [selectedStep, setSelectedStep] = useState<number | null>(null);
@@ -55,8 +72,18 @@ const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
     setServings((prev) => Math.max(1, prev + change)); // Prevent servings < 1
   };
 
+  const tags = [recipe.recipeCategory, recipe.recipeCuisine, ...(recipe.keywords?.split(",") ?? [])]
+    .map((tag) => tag?.trim())
+    .filter((tag): tag is string => Boolean(tag));
+
+  const times = [
+    { label: "Totaal", time: recipe.totalTime },
+    { label: "Voorbereiding", time: recipe.prepTime },
+    { label: "Koken", time: recipe.cookTime },
+  ].filter((entry): entry is { label: string; time: string } => Boolean(entry.time));
+
   return (
-    <main className="container mx-auto my-16 text-secondary-900">
+    <main className="mx-auto max-w-[1080px] px-7 pt-8 pb-24 text-ink">
       <Head>
         <title>{`${recipe.name} - Tweede kookboek van Robrecht`}</title>
         <meta
@@ -83,92 +110,99 @@ const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
         )}
       </Head>
 
-      <article className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 lg:gap-8">
-        <figure className="mb-8 md:mb-0">
+      <a
+        href="/"
+        className="mb-7 inline-flex items-center gap-1.5 text-sm font-medium text-muted transition-colors hover:text-accent"
+      >
+        <ArrowLeftIcon className="h-4 w-4" />
+        Alle recepten
+      </a>
+
+      {/* Hero */}
+      <div className="mb-12 grid grid-cols-1 items-start gap-10 md:grid-cols-[0.92fr_1.08fr]">
+        <figure className="relative m-0">
           <RecipeImage
             slug={recipe.slug}
-            className="aspect-video object-cover bg-neutral-200 w-full rounded-lg"
+            className="aspect-[4/3] w-full rounded-2xl bg-photo object-cover"
             priority
-            sizes="(max-width: 768px) 100vw, 33vw"
+            sizes="(max-width: 768px) 100vw, 40vw"
           />
         </figure>
 
-        <header className="md:mx-12">
-          <h1 className="text-4xl font-extrabold mb-4 mt-2 text-pretty max-w-2xl">{recipe.name}</h1>
+        <div>
+          <h1 className="mt-1 text-3xl font-extrabold leading-tight tracking-tight text-pretty md:text-4xl">
+            {recipe.name}
+          </h1>
 
-          <div
-            className="flex flex-wrap gap-2 justify-start mb-6"
-            role="list"
-            aria-label="Categorieën en tags"
-          >
-            {recipe.recipeCategory && (
-              <span
-                className="px-3 py-1 bg-neutral-100 text-neutral-800 rounded-full text-sm"
-                role="listitem"
-              >
-                {recipe.recipeCategory}
-              </span>
-            )}
-            {recipe.recipeCuisine && (
-              <span
-                className="px-3 py-1 bg-neutral-100 text-neutral-800 rounded-full text-sm"
-                role="listitem"
-              >
-                {recipe.recipeCuisine}
-              </span>
-            )}
-            {recipe.keywords?.split(",").map((keyword, index) => (
-              <span
-                key={index}
-                className="px-3 py-1 bg-neutral-100 text-neutral-800 rounded-full text-sm"
-                role="listitem"
-              >
-                {keyword.trim()}
-              </span>
-            ))}
-          </div>
+          {recipe.author?.name && (
+            <p className="mt-5 text-[15px] text-muted">
+              via{" "}
+              {recipe.source ? (
+                <a
+                  href={recipe.source}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-accent hover:underline"
+                >
+                  {recipe.author.name}
+                </a>
+              ) : (
+                <span className="font-semibold text-accent">{recipe.author.name}</span>
+              )}
+            </p>
+          )}
 
-          <dl className="flex flex-wrap gap-6 justify-start mb-8">
-            {recipe.totalTime && (
-              <div className="text-sm text-neutral800">
-                <dt className="inline">Totaal </dt>
-                <dd className="inline font-bold text-secondary-900">
-                  <time dateTime={recipe.totalTime}>{translateTime(recipe.totalTime)}</time>
-                </dd>
-              </div>
-            )}
-            {recipe.prepTime && (
-              <div className="text-sm text-neutral800">
-                <dt className="inline">Voorbereiding </dt>
-                <dd className="inline font-bold text-secondary-900">
-                  <time dateTime={recipe.prepTime}>{translateTime(recipe.prepTime)}</time>
-                </dd>
-              </div>
-            )}
-            {recipe.cookTime && (
-              <div className="text-sm text-neutral800">
-                <dt className="inline">Koken </dt>
-                <dd className="inline font-bold text-secondary-900">
-                  <time dateTime={recipe.cookTime}>{translateTime(recipe.cookTime)}</time>
-                </dd>
-              </div>
-            )}
-          </dl>
+          {tags.length > 0 && (
+            <div className="mt-4 flex flex-wrap gap-2" role="list" aria-label="Categorieën en tags">
+              {tags.map((tag, index) => (
+                <span
+                  key={index}
+                  className="rounded-full bg-accent-tint px-3 py-1 text-[13px] font-medium text-accent-dark"
+                  role="listitem"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
 
-          <p className="text-lg text-gray-600 mb-6 max-w-prose text-pretty">{recipe.description}</p>
-        </header>
-        <aside>
-          {recipe.recipeIngredient.length ? (
-            <section className="bg-white shadow-lg shadow-primary-600 rounded-lg sticky top-8 p-8">
-              <h2 className="sr-only">Ingrediënten</h2>
+          {times.length > 0 && (
+            <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-4 border-y border-line py-4">
+              {times.map((entry) => (
+                <div key={entry.label}>
+                  <dt className="text-xs font-semibold uppercase tracking-wider text-muted">
+                    {entry.label}
+                  </dt>
+                  <dd className="mt-0.5 text-xl font-bold">
+                    <time dateTime={entry.time}>{translateTime(entry.time)}</time>
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          )}
+
+          {recipe.description && (
+            <p className="mt-5 max-w-prose text-sm italic text-[#5f574c] text-pretty">
+              {recipe.description}
+            </p>
+          )}
+        </div>
+      </div>
+
+      {/* Body */}
+      <div className="grid grid-cols-1 items-start gap-10 md:grid-cols-[0.82fr_1.18fr]">
+        {recipe.recipeIngredient.length ? (
+          <aside className="md:sticky md:top-6">
+            <section className="rounded-2xl border border-line bg-surface p-6">
+              <h2 className="text-xl font-bold">Ingrediënten</h2>
               <div
-                className="flex items-center justify-between mb-6 -mx-1.5 p-1.5 rounded-full bg-neutral-100"
+                className="my-4 flex items-center justify-between rounded-full bg-bg p-1.5"
                 role="group"
                 aria-label="Aantal personen aanpassen"
               >
                 <button
                   onClick={() => adjustServings(-1)}
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white border border-neutral-200 text-secondary-900 transition-colors hover:bg-neutral-50 focus-visible:outline-2 focus-visible:outline-secondary-900 disabled:opacity-40 disabled:cursor-not-allowed"
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-line bg-surface text-accent transition-colors hover:border-accent hover:bg-accent hover:text-white focus-visible:outline-2 focus-visible:outline-accent disabled:cursor-not-allowed disabled:opacity-40"
                   aria-label="Verlaag aantal personen"
                   disabled={servings <= 1}
                 >
@@ -176,25 +210,41 @@ const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
                     <path d="M3 9h12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                   </svg>
                 </button>
-                <output className="px-4 tabular-nums text-secondary-900" aria-live="polite">
+                <output className="px-4 font-medium tabular-nums" aria-live="polite">
                   {servings} {servings > 1 ? "personen" : "persoon"}
                 </output>
                 <button
                   onClick={() => adjustServings(1)}
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white border border-neutral-200 text-secondary-900 transition-colors hover:bg-neutral-50 focus-visible:outline-2 focus-visible:outline-secondary-900"
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-line bg-surface text-accent transition-colors hover:border-accent hover:bg-accent hover:text-white focus-visible:outline-2 focus-visible:outline-accent"
                   aria-label="Verhoog aantal personen"
                 >
                   <svg width="14" height="14" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-                    <path d="M9 3v12M3 9h12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                    <path
+                      d="M9 3v12M3 9h12"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                    />
                   </svg>
                 </button>
               </div>
-              <ul className="divide-y divide-neutral-200" aria-label="Ingrediënten lijst">
+              <ul aria-label="Ingrediënten lijst">
                 {recipe.recipeIngredient.map((ingredient, index) => (
-                  <li key={index} className="flex justify-between py-1 gap-4">
-                    <span className="flex-1 break-all">{ingredient.name}</span>
+                  <li
+                    key={index}
+                    className="flex justify-between gap-3 border-b border-line py-2.5 text-[15px] last:border-b-0"
+                  >
+                    <span className="flex-1">
+                      {ingredient.name}
+                      {ingredient.note && (
+                        <span className="block text-[13px] text-muted">{ingredient.note}</span>
+                      )}
+                    </span>
                     {ingredient.amount !== undefined ? (
-                      <data className="text-end shrink-0" value={ingredient.amount}>
+                      <data
+                        className="shrink-0 text-end font-semibold text-accent-dark"
+                        value={ingredient.amount}
+                      >
                         {((ingredient.amount / recipe.recipeYield) * servings).toLocaleString(
                           "nl-BE",
                         )}{" "}
@@ -204,58 +254,46 @@ const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
                   </li>
                 ))}
               </ul>
-            </section>
-          ) : null}
-        </aside>
 
-        <section className="bg-white shadow-lg shadow-primary-600 rounded-lg px-8 py-4">
-          <h2 className="sr-only">Bereidingswijze</h2>
+              {recipe.notes ? (
+                <p className="mt-5 -rotate-2 font-handwritten text-[21px] leading-tight text-accent">
+                  {recipe.notes}
+                </p>
+              ) : null}
+            </section>
+          </aside>
+        ) : null}
+
+        <section>
+          <h2 className="mb-2 text-xl font-bold">Bereiding</h2>
           {recipe.recipeInstructions.length ? (
-            <ol className="divide-y divide-neutral-200" aria-label="Bereidingsstappen">
+            <ol aria-label="Bereidingsstappen">
               {recipe.recipeInstructions.map((step, index) => (
-                <li key={index}>
+                <li key={index} className="border-b border-line last:border-b-0">
                   <button
                     onClick={() => setSelectedStep(selectedStep === index ? null : index)}
-                    className="flex py-8 px-4 gap-4 items-baseline text-start cursor-auto w-full"
+                    className="flex w-full cursor-pointer items-start gap-4 py-5 text-start"
                     aria-expanded={selectedStep === index}
                     aria-label={`Stap ${index + 1}: ${step.text.substring(0, 50)}...`}
                   >
                     <span
-                      className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
-                        selectedStep === index ? "bg-primary-800 text-neutral-50" : "bg-neutral-100"
+                      className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-full font-bold transition-colors ${
+                        selectedStep === index
+                          ? "bg-accent text-white"
+                          : "bg-accent-tint text-accent"
                       }`}
                       aria-hidden="true"
                     >
                       {index + 1}
                     </span>
-                    <span className="text-left">{step.text}</span>
+                    <span className="mt-1 text-base">{step.text}</span>
                   </button>
                 </li>
               ))}
             </ol>
           ) : null}
         </section>
-      </article>
-
-      <footer className="text-center text-sm text-gray-600 mb-8 mt-16">
-        {recipe.author?.name && (
-          <p className="font-medium">
-            Recept door <cite>{recipe.author.name}</cite>
-          </p>
-        )}
-        {recipe.source && (
-          <p>
-            <a
-              href={recipe.source}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:underline"
-            >
-              Bron: {recipe.source}
-            </a>
-          </p>
-        )}
-      </footer>
+      </div>
     </main>
   );
 };

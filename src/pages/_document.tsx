@@ -26,11 +26,11 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
       </Head>
-      <body className="bg-primary-500 min-h-screen min-w-full">
+      <body className="bg-bg text-ink min-h-screen min-w-full">
         <Main />
         <NextScript />
       </body>
