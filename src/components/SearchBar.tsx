@@ -13,9 +13,9 @@ export const SearchBar = ({ searchQuery, onSearchQueryChange }: Props) => (
         placeholder="Zoek recepten..."
         value={searchQuery}
         onChange={(e) => onSearchQueryChange(e.target.value)}
-        className="w-full px-4 py-3 pl-12 text-secondary-900 bg-white rounded-full shadow-lg shadow-primary-600 focus:outline-none transition-colors"
+        className="w-full px-4 py-3 pl-12 text-ink bg-white rounded-full shadow-lg shadow-accent/15 focus:outline-none focus:ring-2 focus:ring-accent transition-all"
       />
-      <SearchIcon className="absolute left-4 top-1/2 transform -translate-y-1/2 text-neutral-400 w-5 h-5" />
+      <SearchIcon className="absolute left-4 top-1/2 transform -translate-y-1/2 text-muted w-5 h-5" />
     </div>
   </div>
 );

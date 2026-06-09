@@ -38,12 +38,15 @@ const Home: NextPage<Props> = ({ recipes }) => {
       </Head>
       <main className="container mx-auto my-16">
         <header className="text-center mb-8">
-          <h1 className="text-secondary-900 font-extrabold text-4xl mb-2">
-            Tweede kookboek van Robrecht
-          </h1>
-          <p className="text-lg text-gray-600">
-            Een compilatie van lekkere recepten, niet van mezelf maar soms aangepast naar smaak.
-          </p>
+          <h1 className="text-ink font-extrabold text-4xl mb-2">Tweede kookboek van Robrecht</h1>
+          <div className="inline-block text-left">
+            <p className="text-lg text-muted">
+              Een compilatie van lekkere recepten, niet van mezelf
+            </p>
+            <p className="mt-1 translate-x-20 -rotate-2 text-right font-handwritten text-2xl text-accent">
+              maar soms aangepast naar smaak!
+            </p>
+          </div>
         </header>
 
         <SearchBar searchQuery={searchQuery} onSearchQueryChange={setSearchQuery} />
@@ -51,10 +54,7 @@ const Home: NextPage<Props> = ({ recipes }) => {
         {filteredRecipes.length === 0 && searchQuery.trim() && <SearchEmptyState />}
 
         {/* Recipe Grid */}
-        <section
-          className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8"
-          role="list"
-        >
+        <section className="grid gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8" role="list">
           {filteredRecipes.map((recipe) => (
             <RecipeCard key={recipe.slug} recipe={recipe} />
           ))}

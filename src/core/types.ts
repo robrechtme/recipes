@@ -15,7 +15,7 @@ export interface Recipe {
   totalTime?: string;
   recipeIngredient: RecipeIngredient[]; // Structured ingredient list
   recipeInstructions: RecipeInstruction[];
-  adaptations?: string[]; // Changes made vs the original source recipe
+  notes?: string; // Display-friendly note of changes made vs the original source recipe
 }
 
 export interface RecipeIngredient {
