@@ -55,6 +55,9 @@
       "name": "selderijzout",
       "amount": 1,
       "unit": "tl"
+    },
+    {
+      "name": "geraspte kaas"
     }
   ],
   "recipeInstructions": [
@@ -69,6 +72,9 @@
     },
     {
       "text": "Verwijder op het einde de takjes rozemarijn en serveer de spaghetti met de linzenbolognese."
+    },
+    {
+      "text": "Serveer met geraspte kaas."
     }
   ],
   "notes": "Zonder harissa, laurier en olijven, met selderijzout in plaats van verse selder en 3 extra paprika's."
