@@ -1,0 +1,109 @@
+{
+  "name": "Vegetarische groentelasagne",
+  "slug": "vegetarische-groentelasagne",
+  "source": "https://www.leukerecepten.nl/recepten/vegetarische-groentelasagne/",
+  "description": "Een hartige vegetarische lasagne met gegrilde courgette, gegrilde paprika, champignons en mozzarella in een kruidige tomatensaus.",
+  "author": {
+    "name": "Leuke Recepten"
+  },
+  "datePublished": "2025-06-23",
+  "recipeCategory": "Hoofdgerecht",
+  "recipeCuisine": "Italiaans",
+  "keywords": "hoofdgerecht, vegetarisch, lasagne, groenten",
+  "recipeYield": 4,
+  "prepTime": "PT40M",
+  "cookTime": "PT45M",
+  "totalTime": "PT1H25M",
+  "recipeIngredient": [
+    {
+      "name": "lasagnevellen",
+      "amount": 12
+    },
+    {
+      "name": "mozzarella",
+      "amount": 2,
+      "unit": "bol"
+    },
+    {
+      "name": "kleine courgette",
+      "amount": 2
+    },
+    {
+      "name": "gegrilde paprika",
+      "amount": 1,
+      "unit": "pot",
+      "note": "ca. 295 g"
+    },
+    {
+      "name": "champignons",
+      "amount": 250,
+      "unit": "g"
+    },
+    {
+      "name": "tomatensaus",
+      "amount": 500,
+      "unit": "ml"
+    },
+    {
+      "name": "ui",
+      "amount": 1
+    },
+    {
+      "name": "knoflook",
+      "amount": 2,
+      "unit": "teentje"
+    },
+    {
+      "name": "tomatenpuree",
+      "amount": 1,
+      "unit": "blikje"
+    },
+    {
+      "name": "suiker",
+      "amount": 1,
+      "unit": "tl"
+    },
+    {
+      "name": "italiaanse kruiden",
+      "amount": 1,
+      "unit": "tl"
+    },
+    {
+      "name": "geraspte kaas",
+      "amount": 1,
+      "unit": "handvol"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Snijd de courgette in plakken en de champignons ook."
+    },
+    {
+      "text": "Grill de courgette in een grillpan met een beetje olie tot er mooie grillstrepen te zien zijn. Bestrooi ze tijdens het bakken met een snufje peper en zout."
+    },
+    {
+      "text": "Bak ook de champignons in een pan met een beetje olie of boter."
+    },
+    {
+      "text": "Verwarm de oven voor op 190 °C."
+    },
+    {
+      "text": "Snipper de ui en knoflook fijn. Fruit deze aan in een grote (wok)pan."
+    },
+    {
+      "text": "Voeg de tomatenpuree toe en bak 2 minuutjes mee."
+    },
+    {
+      "text": "Giet de tomatensaus erbij en breng op smaak met Italiaanse kruiden, peper, zout en suiker."
+    },
+    {
+      "text": "Doe een beetje tomatensaus in de ingevette ovenschaal en verdeel hier wat champignons over. Dek af met lasagnebladen."
+    },
+    {
+      "text": "Verdeel hier wat plakken gegrilde courgette en reepjes gegrilde paprika over en een paar plakken mozzarella. Dek af met lasagnevellen en herhaal deze lagen met saus en groenten nog een paar keer. Eindig met wat saus en wat overgebleven groenten."
+    },
+    {
+      "text": "Bestrooi met kaas en zet de lasagne 45 minuten in de oven."
+    }
+  ]
+}
