@@ -16,7 +16,6 @@ import ovenschotelMetVeggieGehaktEnBroccoliRecipe from "./ovenschotel-met-veggie
 import parelcouscousMetKerstomaatjesEnHalloumiRecipe from "./parelcouscous-met-kerstomaatjes-en-halloumi/recipe.json";
 import pastaMetScampiInTomatenroomsausRecipe from "./pasta-met-scampi-in-tomatenroomsaus/recipe.json";
 import pastagratinMetBoontjesEnBroccolisausRecipe from "./pastagratin-met-boontjes-en-broccolisaus/recipe.json";
-import pastitsioRecipe from "./pastitsio/recipe.json";
 import quicheMetPreiZalmEnGeitenkaasRecipe from "./quiche-met-prei-zalm-en-geitenkaas/recipe.json";
 import risottoMetPestoCourgetteEnHalloumiRecipe from "./risotto-met-pesto-courgette-en-halloumi/recipe.json";
 import risottoVanOrzoMetPaddenstoelenEnKruidenkaasRecipe from "./risotto-van-orzo-met-paddenstoelen-en-kruidenkaas/recipe.json";
@@ -40,7 +39,6 @@ import ovenschotelMetVeggieGehaktEnBroccoliImage from "./ovenschotel-met-veggie-
 import parelcouscousMetKerstomaatjesEnHalloumiImage from "./parelcouscous-met-kerstomaatjes-en-halloumi/image.webp";
 import pastaMetScampiInTomatenroomsausImage from "./pasta-met-scampi-in-tomatenroomsaus/image.webp";
 import pastagratinMetBoontjesEnBroccolisausImage from "./pastagratin-met-boontjes-en-broccolisaus/image.webp";
-import pastitsioImage from "./pastitsio/image.webp";
 import quicheMetPreiZalmEnGeitenkaasImage from "./quiche-met-prei-zalm-en-geitenkaas/image.webp";
 import risottoMetPestoCourgetteEnHalloumiImage from "./risotto-met-pesto-courgette-en-halloumi/image.webp";
 import risottoVanOrzoMetPaddenstoelenEnKruidenkaasImage from "./risotto-van-orzo-met-paddenstoelen-en-kruidenkaas/image.webp";
@@ -65,7 +63,6 @@ export const recipes: Recipe[] = [
   parelcouscousMetKerstomaatjesEnHalloumiRecipe as Recipe,
   pastaMetScampiInTomatenroomsausRecipe as Recipe,
   pastagratinMetBoontjesEnBroccolisausRecipe as Recipe,
-  pastitsioRecipe as Recipe,
   quicheMetPreiZalmEnGeitenkaasRecipe as Recipe,
   risottoMetPestoCourgetteEnHalloumiRecipe as Recipe,
   risottoVanOrzoMetPaddenstoelenEnKruidenkaasRecipe as Recipe,
@@ -91,7 +88,6 @@ export const images = {
   "parelcouscous-met-kerstomaatjes-en-halloumi": parelcouscousMetKerstomaatjesEnHalloumiImage,
   "pasta-met-scampi-in-tomatenroomsaus": pastaMetScampiInTomatenroomsausImage,
   "pastagratin-met-boontjes-en-broccolisaus": pastagratinMetBoontjesEnBroccolisausImage,
-  "pastitsio": pastitsioImage,
   "quiche-met-prei-zalm-en-geitenkaas": quicheMetPreiZalmEnGeitenkaasImage,
   "risotto-met-pesto-courgette-en-halloumi": risottoMetPestoCourgetteEnHalloumiImage,
   "risotto-van-orzo-met-paddenstoelen-en-kruidenkaas": risottoVanOrzoMetPaddenstoelenEnKruidenkaasImage,
