@@ -4,6 +4,7 @@ import { Recipe } from "@core/types";
 import aardappelOvenschotelMetLinzenEnKikkererwtenRecipe from "./aardappel-ovenschotel-met-linzen-en-kikkererwten/recipe.json";
 import chiliSinCarneRecipe from "./chili-sin-carne/recipe.json";
 import creamyPastaMetKerstomatensausEnRicottaRecipe from "./creamy-pasta-met-kerstomatensaus-en-ricotta/recipe.json";
+import gevuldeCourgettenMetGehaktRecipe from "./gevulde-courgetten-met-gehakt/recipe.json";
 import gnocchiInRomigeTomatensausRecipe from "./gnocchi-in-romige-tomatensaus/recipe.json";
 import gnocchiMetBloemkoolEnPaprikasausUitDeOvenRecipe from "./gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven/recipe.json";
 import gnocchiMetPaprikaCourgetteEnMascarponeRecipe from "./gnocchi-met-paprika-courgette-en-mascarpone/recipe.json";
@@ -27,6 +28,7 @@ import zalmSpinazieLasagneRecipe from "./zalm-spinazie-lasagne/recipe.json";
 import aardappelOvenschotelMetLinzenEnKikkererwtenImage from "./aardappel-ovenschotel-met-linzen-en-kikkererwten/image.webp";
 import chiliSinCarneImage from "./chili-sin-carne/image.webp";
 import creamyPastaMetKerstomatensausEnRicottaImage from "./creamy-pasta-met-kerstomatensaus-en-ricotta/image.webp";
+import gevuldeCourgettenMetGehaktImage from "./gevulde-courgetten-met-gehakt/image.webp";
 import gnocchiInRomigeTomatensausImage from "./gnocchi-in-romige-tomatensaus/image.webp";
 import gnocchiMetBloemkoolEnPaprikasausUitDeOvenImage from "./gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven/image.webp";
 import gnocchiMetPaprikaCourgetteEnMascarponeImage from "./gnocchi-met-paprika-courgette-en-mascarpone/image.webp";
@@ -51,6 +53,7 @@ export const recipes: Recipe[] = [
   aardappelOvenschotelMetLinzenEnKikkererwtenRecipe as Recipe,
   chiliSinCarneRecipe as Recipe,
   creamyPastaMetKerstomatensausEnRicottaRecipe as Recipe,
+  gevuldeCourgettenMetGehaktRecipe as Recipe,
   gnocchiInRomigeTomatensausRecipe as Recipe,
   gnocchiMetBloemkoolEnPaprikasausUitDeOvenRecipe as Recipe,
   gnocchiMetPaprikaCourgetteEnMascarponeRecipe as Recipe,
@@ -76,6 +79,7 @@ export const images = {
   "aardappel-ovenschotel-met-linzen-en-kikkererwten": aardappelOvenschotelMetLinzenEnKikkererwtenImage,
   "chili-sin-carne": chiliSinCarneImage,
   "creamy-pasta-met-kerstomatensaus-en-ricotta": creamyPastaMetKerstomatensausEnRicottaImage,
+  "gevulde-courgetten-met-gehakt": gevuldeCourgettenMetGehaktImage,
   "gnocchi-in-romige-tomatensaus": gnocchiInRomigeTomatensausImage,
   "gnocchi-met-bloemkool-en-paprikasaus-uit-de-oven": gnocchiMetBloemkoolEnPaprikasausUitDeOvenImage,
   "gnocchi-met-paprika-courgette-en-mascarpone": gnocchiMetPaprikaCourgetteEnMascarponeImage,

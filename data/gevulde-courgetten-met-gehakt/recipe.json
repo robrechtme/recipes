@@ -1,0 +1,89 @@
+{
+  "name": "Gevulde courgetten met gehakt",
+  "slug": "gevulde-courgetten-met-gehakt",
+  "description": "Halve courgetten gevuld met een hartige gehaktsaus van passata, ui en knoflook, gegratineerd met mozzarella.",
+  "author": {
+    "name": "Niels"
+  },
+  "datePublished": "2026-06-12",
+  "recipeCategory": "Hoofdgerecht",
+  "recipeCuisine": "Italiaans",
+  "keywords": "courgette, gehakt, ovenschotel, gevuld, mozzarella",
+  "recipeYield": 4,
+  "prepTime": "PT20M",
+  "cookTime": "PT40M",
+  "totalTime": "PT60M",
+  "recipeIngredient": [
+    {
+      "name": "courgetten",
+      "amount": 5
+    },
+    {
+      "name": "gehakt",
+      "amount": 500,
+      "unit": "g"
+    },
+    {
+      "name": "passata met basilicum",
+      "amount": 690,
+      "unit": "g"
+    },
+    {
+      "name": "tomatenpuree",
+      "amount": 70,
+      "unit": "g"
+    },
+    {
+      "name": "geraspte mozzarella",
+      "amount": 200,
+      "unit": "g"
+    },
+    {
+      "name": "grote ui",
+      "amount": 1
+    },
+    {
+      "name": "knoflook",
+      "amount": 4,
+      "unit": "teentjes"
+    },
+    {
+      "name": "oregano"
+    },
+    {
+      "name": "paprikapoeder"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Verwarm de oven voor op 180 °C. Snijd de toppen van de courgetten, was ze en halveer ze in de lengte."
+    },
+    {
+      "text": "Lepel het vruchtvlees uit de courgetten en hou het apart in een pot."
+    },
+    {
+      "text": "Wrijf een ovenschaal in met olijfolie. Leg de uitgeholde courgetten erin, wrijf de binnenkant in met olijfolie en kruid met peper en zout."
+    },
+    {
+      "text": "Bak de courgetten 20 minuten in de oven op 180 °C."
+    },
+    {
+      "text": "Versnijd ondertussen het uitgelepelde courgettevruchtvlees. Pel de ui en snijd in brokjes, pel de knoflook en snijd fijn."
+    },
+    {
+      "text": "Doe een scheutje olijfolie in een pan en laat warm worden. Bak het gehakt rul, hou het fijn zodat er geen brokken ontstaan."
+    },
+    {
+      "text": "Wanneer er geen rood vlees meer te zien is, voeg de tomatenpuree toe en roer. Voeg dan de knoflook en ui toe."
+    },
+    {
+      "text": "Voeg vrij snel het versneden courgettevruchtvlees toe en giet er de passata bij. Kruid met peper, zout en oregano (en eventueel extra basilicum, paprikapoeder, ...). Laat 10 minuten sudderen."
+    },
+    {
+      "text": "Vul de gebakken courgetten met het gehaktmengsel en bestrooi met de geraspte mozzarella."
+    },
+    {
+      "text": "Zet nog 10 minuten in de oven tot de kaas gesmolten is."
+    }
+  ]
+}
