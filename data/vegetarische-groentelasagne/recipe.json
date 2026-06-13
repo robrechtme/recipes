@@ -29,10 +29,8 @@
       "amount": 2
     },
     {
-      "name": "gegrilde paprika",
-      "amount": 1,
-      "unit": "pot",
-      "note": "ca. 295 g"
+      "name": "paprika",
+      "amount": 2
     },
     {
       "name": "champignons",
@@ -59,11 +57,6 @@
       "unit": "blikje"
     },
     {
-      "name": "suiker",
-      "amount": 1,
-      "unit": "tl"
-    },
-    {
       "name": "italiaanse kruiden",
       "amount": 1,
       "unit": "tl"
@@ -76,10 +69,13 @@
   ],
   "recipeInstructions": [
     {
-      "text": "Snijd de courgette in plakken en de champignons ook."
+      "text": "Snijd de courgette in plakken en de champignons ook. Snijd de paprika's in kleine stukjes."
     },
     {
       "text": "Grill de courgette in een grillpan met een beetje olie tot er mooie grillstrepen te zien zijn. Bestrooi ze tijdens het bakken met een snufje peper en zout."
+    },
+    {
+      "text": "Grill ook de stukjes paprika in de grillpan met een beetje olie tot ze zacht zijn en lichtbruin kleuren."
     },
     {
       "text": "Bak ook de champignons in een pan met een beetje olie of boter."
@@ -94,13 +90,13 @@
       "text": "Voeg de tomatenpuree toe en bak 2 minuutjes mee."
     },
     {
-      "text": "Giet de tomatensaus erbij en breng op smaak met Italiaanse kruiden, peper, zout en suiker."
+      "text": "Giet de tomatensaus erbij en breng op smaak met Italiaanse kruiden, peper en zout."
     },
     {
       "text": "Doe een beetje tomatensaus in de ingevette ovenschaal en verdeel hier wat champignons over. Dek af met lasagnebladen."
     },
     {
-      "text": "Verdeel hier wat plakken gegrilde courgette en reepjes gegrilde paprika over en een paar plakken mozzarella. Dek af met lasagnevellen en herhaal deze lagen met saus en groenten nog een paar keer. Eindig met wat saus en wat overgebleven groenten."
+      "text": "Verdeel hier wat plakken gegrilde courgette en stukjes gegrilde paprika over en een paar plakken mozzarella. Dek af met lasagnevellen en herhaal deze lagen met saus en groenten nog een paar keer. Eindig met wat saus en wat overgebleven groenten."
     },
     {
       "text": "Bestrooi met kaas en zet de lasagne 45 minuten in de oven."
