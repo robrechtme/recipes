@@ -143,11 +143,13 @@ Write the JSON pretty-printed (2-space indent) to `data/{slug}/recipe.json`.
 
 ### 6. Download image and regenerate index
 
-The download script reads `image` from every recipe.json, fetches it, converts to WebP, and rewrites `data/index.ts`. One command does both:
+The download script reads `image` from every recipe.json, fetches it, normalizes it to the canonical 1536x1024 (3:2) WebP, and rewrites `data/index.ts`. One command does both:
 
 ```bash
 pnpm run scripts:download-images
 ```
+
+Afterwards, view the resulting `data/{slug}/image.webp` to verify the auto-crop didn't cut off the dish (portrait sources are cropped hard). If it did, re-crop manually with sharp from the original URL.
 
 ### 7. Verify
 

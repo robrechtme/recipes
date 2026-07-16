@@ -6,6 +6,17 @@ import sharp from "sharp";
 const DATA_DIR = "./data";
 const INDEX_TS_PATH = "./data/index.ts";
 
+// Every committed image is normalized to exactly this size (3:2), a compromise
+// between the two UI crops: 16:9 cards and 4:3 detail pages.
+const TARGET_WIDTH = 1536;
+const TARGET_HEIGHT = 1024;
+
+function normalize(input: Buffer) {
+  return sharp(input)
+    .resize(TARGET_WIDTH, TARGET_HEIGHT, { fit: "cover", position: "attention" })
+    .webp();
+}
+
 async function downloadAndConvert(imageUrl: string, slug: string): Promise<boolean> {
   try {
     const response = await fetch(imageUrl);
@@ -18,13 +29,31 @@ async function downloadAndConvert(imageUrl: string, slug: string): Promise<boole
     const recipeImagePath = path.join(recipeDir, "image.webp");
 
     // Convert and save
-    await sharp(Buffer.from(buffer)).webp().toFile(recipeImagePath);
+    await normalize(Buffer.from(buffer)).toFile(recipeImagePath);
 
     console.log(`✅ Downloaded: ${slug}`);
     console.log(`   → ${recipeImagePath}`);
     return true;
   } catch (error) {
     console.error(`❌ Failed to process ${slug} (${imageUrl}):`, error);
+    return false;
+  }
+}
+
+async function normalizeExisting(recipeImagePath: string, slug: string): Promise<boolean> {
+  try {
+    const metadata = await sharp(recipeImagePath).metadata();
+    if (metadata.width === TARGET_WIDTH && metadata.height === TARGET_HEIGHT) {
+      return false;
+    }
+
+    const input = fs.readFileSync(recipeImagePath);
+    await normalize(input).toFile(recipeImagePath);
+
+    console.log(`🔧 Normalized: ${slug} (was ${metadata.width}x${metadata.height})`);
+    return true;
+  } catch (error) {
+    console.error(`❌ Failed to normalize ${slug} (${recipeImagePath}):`, error);
     return false;
   }
 }
@@ -132,20 +161,26 @@ async function processImages() {
     console.log(`📊 Found ${recipes.length} recipes`);
 
     let successCount = 0;
+    let normalizedCount = 0;
     let skipCount = 0;
 
     for (const recipe of recipes) {
-      if (!recipe.imageUrl) {
-        console.log(`⚠️  Skipping ${recipe.slug}: No image URL`);
-        skipCount++;
+      const recipeImagePath = path.join(DATA_DIR, recipe.slug, "image.webp");
+
+      // Existing images only need their dimensions checked
+      if (fs.existsSync(recipeImagePath)) {
+        const changed = await normalizeExisting(recipeImagePath, recipe.slug);
+        if (changed) {
+          normalizedCount++;
+        } else {
+          console.log(`⏭️  Skipping ${recipe.slug}: Image already normalized`);
+          skipCount++;
+        }
         continue;
       }
 
-      // Check if image already exists
-      const recipeImagePath = path.join(DATA_DIR, recipe.slug, "image.webp");
-
-      if (fs.existsSync(recipeImagePath)) {
-        console.log(`⏭️  Skipping ${recipe.slug}: Image already exists`);
+      if (!recipe.imageUrl) {
+        console.log(`⚠️  Skipping ${recipe.slug}: No image URL`);
         skipCount++;
         continue;
       }
@@ -156,8 +191,11 @@ async function processImages() {
 
     console.log("\n📋 Processing Summary:");
     console.log(`✅ Downloaded: ${successCount} images`);
+    console.log(`🔧 Normalized: ${normalizedCount} images`);
     console.log(`⏭️  Skipped: ${skipCount} images`);
-    console.log(`📁 Images saved to: ${DATA_DIR}/[slug]/image.webp`);
+    console.log(
+      `📁 Images saved to: ${DATA_DIR}/[slug]/image.webp (${TARGET_WIDTH}x${TARGET_HEIGHT})`,
+    );
 
     // Generate data/index.ts file
     generateDataIndex(recipes.map((r) => r.slug));
