@@ -2,8 +2,8 @@
 
 @theme {
   --font-*: initial;
-  --font-sans: Montserrat, sans-serif;
-  --font-handwritten: Caveat, cursive;
+  --font-sans: var(--font-montserrat), sans-serif;
+  --font-handwritten: var(--font-caveat), cursive;
 
   --color-accent: #1c6b47;
   --color-accent-dark: #14543a;

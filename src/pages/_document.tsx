@@ -23,12 +23,6 @@ export default function Document() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://kookboek.robrecht.me/og-image.png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Montserrat:wght@400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
       </Head>
       <body className="bg-bg text-ink min-h-screen min-w-full">
         <Main />
