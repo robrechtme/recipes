@@ -202,7 +202,7 @@ const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
               >
                 <button
                   onClick={() => adjustServings(-1)}
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-line bg-surface text-accent transition-colors hover:border-accent hover:bg-accent hover:text-white focus-visible:outline-2 focus-visible:outline-accent disabled:cursor-not-allowed disabled:opacity-40"
+                  className="flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full border border-line bg-surface text-accent transition-colors hover:border-accent hover:bg-accent hover:text-white focus-visible:outline-2 focus-visible:outline-accent disabled:cursor-not-allowed disabled:opacity-40"
                   aria-label="Verlaag aantal personen"
                   disabled={servings <= 1}
                 >
@@ -215,7 +215,7 @@ const RecipeDetail: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (
                 </output>
                 <button
                   onClick={() => adjustServings(1)}
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-line bg-surface text-accent transition-colors hover:border-accent hover:bg-accent hover:text-white focus-visible:outline-2 focus-visible:outline-accent"
+                  className="flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full border border-line bg-surface text-accent transition-colors hover:border-accent hover:bg-accent hover:text-white focus-visible:outline-2 focus-visible:outline-accent"
                   aria-label="Verhoog aantal personen"
                 >
                   <svg width="14" height="14" viewBox="0 0 18 18" fill="none" aria-hidden="true">
