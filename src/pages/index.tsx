@@ -5,7 +5,7 @@ import { getRecipes, searchRecipes } from "@core/recipes";
 import type { Recipe } from "@core/types";
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export const getStaticProps: GetStaticProps = async () => {
   const recipes = await getRecipes();
@@ -20,16 +20,7 @@ interface Props {
 
 const Home: NextPage<Props> = ({ recipes }) => {
   const [searchQuery, setSearchQuery] = useState("");
-  const [filteredRecipes, setFilteredRecipes] = useState<Recipe[]>(recipes);
-
-  useEffect(() => {
-    const timeoutId = setTimeout(() => {
-      const filtered = searchRecipes(recipes, searchQuery);
-      setFilteredRecipes(filtered);
-    }, 300);
-
-    return () => clearTimeout(timeoutId);
-  }, [searchQuery, recipes]);
+  const filteredRecipes = searchRecipes(recipes, searchQuery);
 
   return (
     <>
