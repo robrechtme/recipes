@@ -21,6 +21,8 @@ import kipTikkaMasalaImage from "./kip-tikka-masala/image.webp";
 import kipTikkaMasalaRecipe from "./kip-tikka-masala/recipe.json";
 import lasagneMetGegrildeGroentenImage from "./lasagne-met-gegrilde-groenten/image.webp";
 import lasagneMetGegrildeGroentenRecipe from "./lasagne-met-gegrilde-groenten/recipe.json";
+import melanzaneAllaParmigianaImage from "./melanzane-alla-parmigiana/image.webp";
+import melanzaneAllaParmigianaRecipe from "./melanzane-alla-parmigiana/recipe.json";
 import orzoMetCourgetteTomaatEnSpinazieImage from "./orzo-met-courgette-tomaat-en-spinazie/image.webp";
 import orzoMetCourgetteTomaatEnSpinazieRecipe from "./orzo-met-courgette-tomaat-en-spinazie/recipe.json";
 import ovenschotelMetKipEnItaliaanseGroentenImage from "./ovenschotel-met-kip-en-italiaanse-groenten/image.webp";
@@ -58,6 +60,7 @@ export const recipes: Recipe[] = [
   griekseMoussakaRecipe as Recipe,
   kipTikkaMasalaRecipe as Recipe,
   lasagneMetGegrildeGroentenRecipe as Recipe,
+  melanzaneAllaParmigianaRecipe as Recipe,
   orzoMetCourgetteTomaatEnSpinazieRecipe as Recipe,
   ovenschotelMetKipEnItaliaanseGroentenRecipe as Recipe,
   ovenschotelMetVeggieGehaktEnBroccoliRecipe as Recipe,
@@ -86,6 +89,7 @@ export const images = {
   "griekse-moussaka": griekseMoussakaImage,
   "kip-tikka-masala": kipTikkaMasalaImage,
   "lasagne-met-gegrilde-groenten": lasagneMetGegrildeGroentenImage,
+  "melanzane-alla-parmigiana": melanzaneAllaParmigianaImage,
   "orzo-met-courgette-tomaat-en-spinazie": orzoMetCourgetteTomaatEnSpinazieImage,
   "ovenschotel-met-kip-en-italiaanse-groenten": ovenschotelMetKipEnItaliaanseGroentenImage,
   "ovenschotel-met-veggie-gehakt-en-broccoli": ovenschotelMetVeggieGehaktEnBroccoliImage,
