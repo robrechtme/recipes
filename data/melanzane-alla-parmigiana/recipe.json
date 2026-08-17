@@ -1,0 +1,67 @@
+{
+  "name": "Melanzane alla parmigiana",
+  "slug": "melanzane-alla-parmigiana",
+  "author": {
+    "name": "Leuke Recepten"
+  },
+  "source": "https://www.leukerecepten.nl/recepten/melanzane-parmigiana/",
+  "description": "Italiaanse ovenschotel met laagjes gegrilde aubergine, tomatensaus, mozzarella en Parmezaanse kaas",
+  "recipeCategory": "Hoofdgerecht",
+  "recipeCuisine": "Italiaans",
+  "keywords": "ovenschotel, aubergine, vegetarisch, Italiaans",
+  "datePublished": "2026-05-25",
+  "recipeYield": 2,
+  "prepTime": "PT20M",
+  "cookTime": "PT25M",
+  "totalTime": "PT1H5M",
+  "recipeIngredient": [
+    {
+      "name": "tomatensaus",
+      "amount": 400,
+      "unit": "ml"
+    },
+    {
+      "name": "aubergines",
+      "amount": 2
+    },
+    {
+      "name": "uitje",
+      "amount": 1
+    },
+    {
+      "name": "knoflook",
+      "amount": 1,
+      "unit": "teentje"
+    },
+    {
+      "name": "verse basilicum",
+      "amount": 1,
+      "unit": "handje"
+    },
+    {
+      "name": "mozzarella (in dunne plakjes gesneden)",
+      "amount": 1,
+      "unit": "bol"
+    },
+    {
+      "name": "Parmezaanse kaas (geraspt)",
+      "amount": 75,
+      "unit": "g",
+      "note": "voor een 100% vegetarische versie: oude kaas met vegetarisch stremsel of vegan kaas"
+    }
+  ],
+  "recipeInstructions": [
+    {
+      "text": "Hak de ui en de knoflook fijn. Fruit deze in een beetje olijfolie en voeg daarna de tomatensaus toe. Breng op smaak met een snufje peper en zout. Laat dit ongeveer 20 minuten zachtjes pruttelen."
+    },
+    {
+      "text": "Verwarm de oven op 200 graden. Snijd ondertussen de aubergines in dunne plakken van ca. 0,5 cm. Bestrooi ze met flink wat zout en laat ze 20 minuten liggen. Zo gaat het vocht uit de aubergines. Dep of veeg het vocht en zout daarna van de aubergines af. Je kunt deze stap ook overslaan, maar zo krijgen de aubergines wel meer bite en zijn ze minder zompig."
+    },
+    {
+      "text": "Verhit een flinke scheut olijfolie in een koekenpan of grillpan. Grill of bak de plakken aubergine in een pan (in porties) aan beide kanten."
+    },
+    {
+      "text": "Vet een ovenschaal van ca. 22 x 15 cm in met een beetje olie. Beleg de bodem van de ovenschaal met plakken gegrilde aubergine. Verdeel hier wat tomatensaus, mozzarella en Parmezaanse kaas over. Herhaal dit totdat de ingrediënten op zijn en eindig met de kaas. Zet de schaal ongeveer 25 minuten in de oven. Verdeel voor het serveren nog wat verse basilicumblaadjes over de schotel."
+    }
+  ]
+}
