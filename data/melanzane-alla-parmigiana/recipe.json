@@ -46,8 +46,7 @@
     {
       "name": "Parmezaanse kaas (geraspt)",
       "amount": 75,
-      "unit": "g",
-      "note": "voor een 100% vegetarische versie: oude kaas met vegetarisch stremsel of vegan kaas"
+      "unit": "g"
     }
   ],
   "recipeInstructions": [
