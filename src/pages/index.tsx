@@ -51,6 +51,13 @@ const Home: NextPage<Props> = ({ recipes }) => {
           ))}
         </section>
       </main>
+
+      <footer className="pb-8 text-center text-sm text-muted">
+        Benieuwd naar het eerste kookboek?{" "}
+        <a href="/eerste-kookboek.jpg" className="underline hover:text-ink">
+          Bekijk het hier
+        </a>
+      </footer>
     </>
   );
 };
