@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
-@theme {
+@theme inline {
   --font-*: initial;
   --font-sans: var(--font-montserrat), sans-serif;
   --font-handwritten: var(--font-caveat), cursive;
+}
 
+@theme {
   --color-accent: #1c6b47;
   --color-accent-dark: #14543a;
   --color-accent-tint: #e7f0ea;
