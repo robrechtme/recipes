@@ -16,12 +16,12 @@
     { "name": "gemengd gehakt", "amount": 400, "unit": "g" },
     { "name": "ui", "amount": 1 },
     { "name": "boter", "amount": 50, "unit": "g" },
-    { "name": "melk" },
+    { "name": "room" },
     { "name": "suiker" },
     { "name": "nootmuskaat" }
   ],
   "recipeInstructions": [
-    { "text": "Schil de aardappelen en kook ze gaar. Giet af, stamp fijn en maak de puree aan met een scheutje melk. Breng op smaak met peper, zout en nootmuskaat." },
+    { "text": "Schil de aardappelen en kook ze gaar. Giet af, stamp fijn en maak de puree aan met een scheutje room. Breng op smaak met peper, zout en nootmuskaat." },
     { "text": "Fruit de ui glazig in 25 g boter. Voeg er het gehakt aan toe en bak gul. Kruid met flink wat peper en zout. Laat onder deksel 5 minuten verder garen." },
     { "text": "Hou 2 appels apart voor het garnituur. Schil de rest van de appels, verwijder het klokhuis en snij ze in vrij grote stukken. Doe er 1 of 2 eetlepels water bij en stoof de appels onder deksel tot moes. Voeg er suiker naar smaak aan toe." },
     { "text": "Verwarm de oven voor op 190 °C." },
