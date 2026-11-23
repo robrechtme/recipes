@@ -7,7 +7,7 @@
 
 A collection of my favorite recipes
 <br />
-    <a href="https://kookboek.robrecht.me">» View Live</a>
+<a href="https://kookboek.robrecht.me">» View Live</a>
 
 <br />
     <a href="https://github.com/robrechtme/recipes/issues">Report bug</a>
@@ -18,13 +18,13 @@ A collection of my favorite recipes
 </div>
 
 ## Tech Stack
+
 - [Next.js](https://nextjs.org/) (Pages Router, SSG)
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Biome](https://biomejs.dev/) for linting and formatting
 - [pnpm](https://pnpm.io/) as package manager
-
 
 ## Development
 
@@ -34,4 +34,3 @@ pnpm dev      # start dev server
 pnpm build    # production build
 pnpm check    # lint + format with Biome
 ```
-

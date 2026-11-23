@@ -1,4 +1,5 @@
 ---
+
 name: import-recipe
 description: Import a recipe from a URL into the cookbook. Use whenever the user provides a recipe URL, pastes a link from a recipe site (dagelijksekost, ah.nl, jumbo.com, leukerecepten.nl, etc.), or says things like "add this recipe", "import this", "scrape this dish", "put this in my kookboek", or "voeg dit toe aan mijn kookboek". Optionally applies user changes like servings scaling, ingredient swaps, dietary adaptations (vegetarian, vegan, gluten-free), or cuisine tweaks.
 argument-hint: "[recipe-url] [optional-changes]"
@@ -55,25 +56,24 @@ The target shape matches `src/core/types.ts`. Optional fields are truly optional
     { "name": "Bloem", "amount": 200, "unit": "g" },
     { "name": "Eieren", "amount": 3 }
   ],
-  "recipeInstructions": [
-    { "text": "Instruction step 1." },
-    { "text": "Instruction step 2." }
-  ],
+  "recipeInstructions": [{ "text": "Instruction step 1." }, { "text": "Instruction step 2." }],
   "notes": "Kip vervangen door tofu en geschaald van 4 naar 2 personen."
 }
 ```
 
 #### Notes (adaptations)
 
-`notes` is an optional **single string** that records *true* adaptations vs the original source recipe — changes to what the cook actually does or eats. Omit the field entirely when there are none. It renders on the recipe page as a handwritten-style note, so write it as one friendly, display-ready Dutch sentence; combine multiple changes into that one sentence.
+`notes` is an optional **single string** that records _true_ adaptations vs the original source recipe — changes to what the cook actually does or eats. Omit the field entirely when there are none. It renders on the recipe page as a handwritten-style note, so write it as one friendly, display-ready Dutch sentence; combine multiple changes into that one sentence.
 
 **Include:**
+
 - Servings scaling ("Geschaald van 4 naar 2 personen.")
 - Ingredient swaps ("Rundergehakt vervangen door linzen.")
 - Dietary adaptations ("Vegetarisch gemaakt door X.")
 - Format/cookware changes ("Eén grote quiche in plaats van meerdere kleine vormpjes!")
 
 **Exclude** (these are data-quality fixes, not adaptations):
+
 - Fixing typos, wrong units, mislabeled fields
 - Renaming an ingredient for clarity
 - Adding metadata (recipeCategory, times)
@@ -100,7 +100,7 @@ Skip these even if the source recipe lists them. They're assumed pantry staples,
 
 If the source lists e.g. `"1 el olijfolie"` or `"Peper naar smaak"`, drop it. Leave the mentions in `recipeInstructions` as-is — instructions can still say "bak in een scheutje olijfolie" or "kruid met peper en zout".
 
-Exception: if oil/butter is a *substantive* ingredient (e.g. 30 g boter in a bechamel roux, or 5 el olijfolie that's the bulk of a dressing), keep it.
+Exception: if oil/butter is a _substantive_ ingredient (e.g. 30 g boter in a bechamel roux, or 5 el olijfolie that's the bulk of a dressing), keep it.
 
 Unicode fractions: ½ = 0.5, ⅓ = 0.33, ¼ = 0.25, ¾ = 0.75, ⅔ = 0.67.
 
@@ -124,7 +124,7 @@ Kebab-case from the Dutch name. Keep it concise but recognizable — `kip-tikka-
 
 ### 4. Apply user-requested changes
 
-If the user asked for modifications, apply them to the parsed data *before* writing. The point is to save the recipe in its final intended form, not to record the original and patch it later.
+If the user asked for modifications, apply them to the parsed data _before_ writing. The point is to save the recipe in its final intended form, not to record the original and patch it later.
 
 Examples and what they touch:
 
