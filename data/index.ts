@@ -17,6 +17,8 @@ import gnocchiMetPaprikaCourgetteEnMascarponeImage from "./gnocchi-met-paprika-c
 import gnocchiMetPaprikaCourgetteEnMascarponeRecipe from "./gnocchi-met-paprika-courgette-en-mascarpone/recipe.json";
 import griekseMoussakaImage from "./griekse-moussaka/image.webp";
 import griekseMoussakaRecipe from "./griekse-moussaka/recipe.json";
+import heteBliksemOvenschotelImage from "./hete-bliksem-ovenschotel/image.webp";
+import heteBliksemOvenschotelRecipe from "./hete-bliksem-ovenschotel/recipe.json";
 import kipTikkaMasalaImage from "./kip-tikka-masala/image.webp";
 import kipTikkaMasalaRecipe from "./kip-tikka-masala/recipe.json";
 import lasagneMetGegrildeGroentenImage from "./lasagne-met-gegrilde-groenten/image.webp";
@@ -58,6 +60,7 @@ export const recipes: Recipe[] = [
   gnocchiMetBloemkoolEnPaprikasausUitDeOvenRecipe as Recipe,
   gnocchiMetPaprikaCourgetteEnMascarponeRecipe as Recipe,
   griekseMoussakaRecipe as Recipe,
+  heteBliksemOvenschotelRecipe as Recipe,
   kipTikkaMasalaRecipe as Recipe,
   lasagneMetGegrildeGroentenRecipe as Recipe,
   melanzaneAllaParmigianaRecipe as Recipe,
@@ -87,6 +90,7 @@ export const images = {
     gnocchiMetBloemkoolEnPaprikasausUitDeOvenImage,
   "gnocchi-met-paprika-courgette-en-mascarpone": gnocchiMetPaprikaCourgetteEnMascarponeImage,
   "griekse-moussaka": griekseMoussakaImage,
+  "hete-bliksem-ovenschotel": heteBliksemOvenschotelImage,
   "kip-tikka-masala": kipTikkaMasalaImage,
   "lasagne-met-gegrilde-groenten": lasagneMetGegrildeGroentenImage,
   "melanzane-alla-parmigiana": melanzaneAllaParmigianaImage,
